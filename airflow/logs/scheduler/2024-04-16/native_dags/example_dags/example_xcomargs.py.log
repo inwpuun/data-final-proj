@@ -1,0 +1,480 @@
+[2024-04-16T20:52:18.360+0700] {processor.py:161} INFO - Started process (PID=54081) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:52:18.360+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T20:52:18.361+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:52:18.360+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:52:18.385+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:52:18.554+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:52:18.554+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T20:52:18.559+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:52:18.559+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T20:52:18.561+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:52:18.561+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T20:52:18.571+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.213 seconds
+[2024-04-16T20:54:12.883+0700] {processor.py:161} INFO - Started process (PID=54661) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:54:12.884+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T20:54:12.885+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:12.885+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:54:12.909+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:54:12.973+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:12.973+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T20:54:12.979+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:12.979+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T20:54:12.980+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:12.980+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T20:54:12.991+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.109 seconds
+[2024-04-16T20:55:28.281+0700] {processor.py:161} INFO - Started process (PID=55000) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:55:28.282+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T20:55:28.283+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:55:28.282+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:55:28.315+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:55:28.383+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:55:28.383+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T20:55:28.389+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:55:28.389+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T20:55:28.391+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:55:28.391+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T20:55:28.400+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.122 seconds
+[2024-04-16T20:56:44.077+0700] {processor.py:161} INFO - Started process (PID=55346) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:56:44.079+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T20:56:44.079+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:56:44.079+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:56:44.109+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:56:44.177+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:56:44.176+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T20:56:44.182+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:56:44.182+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T20:56:44.184+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:56:44.184+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T20:56:44.195+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.121 seconds
+[2024-04-16T20:58:01.795+0700] {processor.py:161} INFO - Started process (PID=55696) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:58:01.797+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T20:58:01.797+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:58:01.797+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:58:01.820+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:58:01.883+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:58:01.883+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T20:58:01.888+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:58:01.888+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T20:58:01.890+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:58:01.890+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T20:58:01.900+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.106 seconds
+[2024-04-16T20:59:18.225+0700] {processor.py:161} INFO - Started process (PID=56041) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:59:18.226+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T20:59:18.227+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:59:18.227+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:59:18.251+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T20:59:18.314+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:59:18.314+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T20:59:18.319+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:59:18.319+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T20:59:18.321+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:59:18.321+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T20:59:18.331+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-16T21:00:34.977+0700] {processor.py:161} INFO - Started process (PID=56389) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:00:34.979+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:00:34.979+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:00:34.979+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:00:35.004+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:00:35.071+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:00:35.070+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:00:35.076+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:00:35.076+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:00:35.079+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:00:35.079+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:00:35.088+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.112 seconds
+[2024-04-16T21:01:52.029+0700] {processor.py:161} INFO - Started process (PID=56739) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:01:52.030+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:01:52.030+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:01:52.030+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:01:52.054+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:01:52.117+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:01:52.117+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:01:52.123+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:01:52.122+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:01:52.124+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:01:52.124+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:01:52.134+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.107 seconds
+[2024-04-16T21:03:08.730+0700] {processor.py:161} INFO - Started process (PID=57086) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:03:08.731+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:03:08.732+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:03:08.732+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:03:08.755+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:03:08.818+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:03:08.818+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:03:08.823+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:03:08.823+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:03:08.825+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:03:08.825+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:03:08.835+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.106 seconds
+[2024-04-16T21:04:25.372+0700] {processor.py:161} INFO - Started process (PID=57433) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:04:25.373+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:04:25.373+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:04:25.373+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:04:25.397+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:04:25.460+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:04:25.460+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:04:25.465+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:04:25.465+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:04:25.467+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:04:25.467+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:04:25.478+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-16T21:05:42.186+0700] {processor.py:161} INFO - Started process (PID=57773) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:05:42.187+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:05:42.187+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:05:42.187+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:05:42.214+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:05:42.287+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:05:42.286+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:05:42.293+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:05:42.293+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:05:42.296+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:05:42.296+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:05:42.306+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.122 seconds
+[2024-04-16T21:06:58.519+0700] {processor.py:161} INFO - Started process (PID=58128) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:06:58.520+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:06:58.521+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:06:58.521+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:06:58.545+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:06:58.608+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:06:58.608+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:06:58.613+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:06:58.613+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:06:58.615+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:06:58.615+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:06:58.625+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-16T21:08:15.358+0700] {processor.py:161} INFO - Started process (PID=58480) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:08:15.359+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:08:15.360+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:08:15.359+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:08:15.383+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:08:15.449+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:08:15.449+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:08:15.455+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:08:15.455+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:08:15.457+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:08:15.456+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:08:15.466+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.109 seconds
+[2024-04-16T21:09:33.872+0700] {processor.py:161} INFO - Started process (PID=58835) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:09:33.873+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:09:33.873+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:09:33.873+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:09:33.900+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:09:34.013+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:09:34.013+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:09:34.022+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:09:34.021+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:09:34.027+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:09:34.027+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:09:34.041+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.171 seconds
+[2024-04-16T21:10:52.254+0700] {processor.py:161} INFO - Started process (PID=59195) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:10:52.255+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:10:52.256+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:52.256+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:10:52.280+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:10:52.343+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:52.343+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:10:52.348+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:52.348+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:10:52.350+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:52.350+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:10:52.360+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.107 seconds
+[2024-04-16T21:12:10.013+0700] {processor.py:161} INFO - Started process (PID=59542) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:12:10.015+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:12:10.015+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:10.015+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:12:10.040+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:12:10.102+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:10.102+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:12:10.108+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:10.107+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:12:10.109+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:10.109+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:12:10.119+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-16T21:13:28.766+0700] {processor.py:161} INFO - Started process (PID=59920) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:13:28.766+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:13:28.767+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:13:28.767+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:13:28.792+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:13:28.857+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:13:28.857+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:13:28.863+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:13:28.863+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:13:28.865+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:13:28.864+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:13:28.874+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.111 seconds
+[2024-04-16T21:14:48.598+0700] {processor.py:161} INFO - Started process (PID=60286) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:14:48.599+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:14:48.599+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:14:48.599+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:14:48.623+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:14:48.688+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:14:48.688+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:14:48.693+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:14:48.693+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:14:48.695+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:14:48.695+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:14:48.705+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-16T21:16:07.542+0700] {processor.py:161} INFO - Started process (PID=60642) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:16:07.543+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:16:07.543+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:16:07.543+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:16:07.567+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:16:07.630+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:16:07.630+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:16:07.636+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:16:07.635+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:16:07.637+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:16:07.637+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:16:07.648+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-16T21:17:23.528+0700] {processor.py:161} INFO - Started process (PID=60991) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:17:23.530+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:17:23.530+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:17:23.530+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:17:23.554+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:17:23.617+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:17:23.617+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:17:23.623+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:17:23.622+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:17:23.624+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:17:23.624+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:17:23.634+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-16T21:18:39.949+0700] {processor.py:161} INFO - Started process (PID=61346) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:18:39.950+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:18:39.951+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:18:39.951+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:18:39.977+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:18:40.043+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:18:40.042+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:18:40.048+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:18:40.048+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:18:40.050+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:18:40.050+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:18:40.059+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.112 seconds
+[2024-04-16T21:19:56.397+0700] {processor.py:161} INFO - Started process (PID=61705) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:19:56.398+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:19:56.399+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:19:56.399+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:19:56.423+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:19:56.487+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:19:56.486+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:19:56.492+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:19:56.492+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:19:56.494+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:19:56.494+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:19:56.504+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.108 seconds
+[2024-04-16T21:21:13.475+0700] {processor.py:161} INFO - Started process (PID=62060) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:21:13.476+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:21:13.476+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:21:13.476+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:21:13.501+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:21:13.564+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:21:13.564+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:21:13.570+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:21:13.569+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:21:13.571+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:21:13.571+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:21:13.582+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.110 seconds
+[2024-04-16T21:22:42.080+0700] {processor.py:161} INFO - Started process (PID=62755) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:22:42.081+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:22:42.081+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:22:42.081+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:22:42.124+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:22:42.214+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:22:42.214+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:22:42.222+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:22:42.221+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:22:42.224+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:22:42.224+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:22:42.239+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.163 seconds
+[2024-04-16T21:24:17.456+0700] {processor.py:161} INFO - Started process (PID=63599) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:24:17.457+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:24:17.457+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:17.457+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:24:17.494+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:24:17.577+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:17.577+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:24:17.584+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:17.584+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:24:17.586+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:17.586+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:24:17.599+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.145 seconds
+[2024-04-16T21:25:44.008+0700] {processor.py:161} INFO - Started process (PID=64023) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:25:44.009+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:25:44.010+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:25:44.010+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:25:44.052+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:25:44.165+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:25:44.165+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:25:44.173+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:25:44.173+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:25:44.176+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:25:44.176+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:25:44.191+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.186 seconds
+[2024-04-16T21:27:16.688+0700] {processor.py:161} INFO - Started process (PID=64464) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:27:16.694+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:27:16.694+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:16.694+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:27:16.761+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:27:16.871+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:16.871+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:27:16.877+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:16.877+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:27:16.880+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:16.880+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:27:16.897+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.212 seconds
+[2024-04-16T21:28:38.588+0700] {processor.py:161} INFO - Started process (PID=64872) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:28:38.589+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:28:38.590+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:28:38.589+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:28:38.619+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:28:38.685+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:28:38.685+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:28:38.690+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:28:38.690+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:28:38.692+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:28:38.692+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:28:38.701+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.115 seconds
+[2024-04-16T21:30:02.474+0700] {processor.py:161} INFO - Started process (PID=65256) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:30:02.475+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:30:02.476+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:02.476+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:30:02.506+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:30:02.580+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:02.580+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:30:02.587+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:02.586+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:30:02.589+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:02.589+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:30:02.600+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.127 seconds
+[2024-04-16T21:31:27.466+0700] {processor.py:161} INFO - Started process (PID=65660) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:31:27.467+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:31:27.468+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:31:27.468+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:31:27.497+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:31:27.574+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:31:27.574+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:31:27.580+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:31:27.580+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:31:27.582+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:31:27.582+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:31:27.595+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.130 seconds
+[2024-04-16T21:32:44.595+0700] {processor.py:161} INFO - Started process (PID=66007) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:32:44.595+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:32:44.596+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:32:44.596+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:32:44.619+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:32:44.684+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:32:44.684+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:32:44.689+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:32:44.689+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:32:44.691+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:32:44.691+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:32:44.702+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.109 seconds
+[2024-04-16T21:34:10.008+0700] {processor.py:161} INFO - Started process (PID=66409) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:34:10.009+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:34:10.009+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:34:10.009+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:34:10.038+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:34:10.109+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:34:10.109+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:34:10.115+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:34:10.115+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:34:10.117+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:34:10.117+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:34:10.127+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.121 seconds
+[2024-04-16T21:35:30.132+0700] {processor.py:161} INFO - Started process (PID=66796) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:35:30.133+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:35:30.134+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:35:30.133+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:35:30.160+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:35:30.229+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:35:30.229+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:35:30.234+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:35:30.234+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:35:30.236+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:35:30.236+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:35:30.246+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.116 seconds
+[2024-04-16T21:36:50.421+0700] {processor.py:161} INFO - Started process (PID=67200) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:36:50.421+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:36:50.422+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:36:50.422+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:36:50.446+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:36:50.509+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:36:50.508+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:36:50.514+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:36:50.514+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:36:50.516+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:36:50.516+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:36:50.526+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.107 seconds
+[2024-04-16T21:38:10.800+0700] {processor.py:161} INFO - Started process (PID=67714) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:38:10.803+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:38:10.804+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:10.804+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:38:10.872+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:38:10.945+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:10.944+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:38:10.950+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:10.950+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:38:10.952+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:10.952+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:38:10.962+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.165 seconds
+[2024-04-16T21:39:40.993+0700] {processor.py:161} INFO - Started process (PID=68143) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:39:40.993+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:39:40.994+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:39:40.994+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:39:41.018+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:39:41.081+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:39:41.081+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:39:41.086+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:39:41.086+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:39:41.088+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:39:41.088+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:39:41.097+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.107 seconds
+[2024-04-16T21:41:18.081+0700] {processor.py:161} INFO - Started process (PID=68599) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:41:18.082+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:41:18.082+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:18.082+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:41:18.112+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:41:18.178+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:18.178+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:41:18.184+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:18.184+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:41:18.186+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:18.186+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:41:18.199+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.122 seconds
+[2024-04-16T21:43:06.246+0700] {processor.py:161} INFO - Started process (PID=69099) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:43:06.247+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:43:06.247+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:06.247+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:43:06.274+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:43:06.357+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:06.357+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:43:06.363+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:06.363+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:43:06.365+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:06.365+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:43:06.377+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.134 seconds
+[2024-04-16T21:44:41.449+0700] {processor.py:161} INFO - Started process (PID=69524) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:44:41.450+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:44:41.450+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:44:41.450+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:44:41.476+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:44:41.541+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:44:41.540+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:44:41.546+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:44:41.546+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:44:41.548+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:44:41.548+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:44:41.560+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.114 seconds
+[2024-04-16T21:46:06.568+0700] {processor.py:161} INFO - Started process (PID=69908) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:46:06.569+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:46:06.569+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:46:06.569+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:46:06.594+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:46:06.666+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:46:06.666+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:46:06.672+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:46:06.672+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:46:06.675+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:46:06.674+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:46:06.686+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.122 seconds
+[2024-04-16T21:48:00.874+0700] {processor.py:161} INFO - Started process (PID=70430) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:48:00.875+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:48:00.876+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:48:00.876+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:48:00.912+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:48:01.012+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:48:01.011+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:48:01.022+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:48:01.022+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:48:01.025+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:48:01.025+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:48:01.044+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.173 seconds
+[2024-04-16T21:50:06.371+0700] {processor.py:161} INFO - Started process (PID=71036) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:50:06.372+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:50:06.372+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:06.372+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:50:06.399+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:50:06.467+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:06.467+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:50:06.473+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:06.473+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:50:06.475+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:06.475+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:50:06.487+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.118 seconds
+[2024-04-16T21:52:16.252+0700] {processor.py:161} INFO - Started process (PID=71799) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:52:16.255+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:52:16.256+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:52:16.256+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:52:16.444+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:52:16.780+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:52:16.779+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:52:16.830+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:52:16.829+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:52:16.843+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:52:16.842+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:52:16.972+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.732 seconds
+[2024-04-16T21:54:31.414+0700] {processor.py:161} INFO - Started process (PID=72622) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:54:31.415+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:54:31.416+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:54:31.416+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:54:31.441+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:54:31.505+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:54:31.505+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:54:31.510+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:54:31.510+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:54:31.512+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:54:31.512+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:54:31.523+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.111 seconds
+[2024-04-16T21:56:13.560+0700] {processor.py:161} INFO - Started process (PID=73103) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:56:13.561+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:56:13.561+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:56:13.561+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:56:13.589+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:56:13.665+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:56:13.664+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:56:13.671+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:56:13.671+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:56:13.674+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:56:13.674+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:56:13.686+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.129 seconds
+[2024-04-16T21:57:43.158+0700] {processor.py:161} INFO - Started process (PID=73584) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:57:43.158+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:57:43.159+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:57:43.159+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:57:43.183+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:57:43.248+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:57:43.248+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:57:43.253+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:57:43.253+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:57:43.256+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:57:43.255+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:57:43.266+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.110 seconds
+[2024-04-16T21:59:11.022+0700] {processor.py:161} INFO - Started process (PID=74344) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:59:11.023+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T21:59:11.024+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:59:11.024+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:59:11.095+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T21:59:11.297+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:59:11.297+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T21:59:11.310+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:59:11.309+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T21:59:11.315+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:59:11.315+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T21:59:11.337+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.321 seconds
+[2024-04-16T22:00:38.965+0700] {processor.py:161} INFO - Started process (PID=74818) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:00:38.966+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:00:38.967+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:00:38.966+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:00:38.991+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:00:39.058+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:00:39.058+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:00:39.064+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:00:39.064+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:00:39.066+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:00:39.066+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:00:39.077+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.113 seconds
+[2024-04-16T22:02:01.799+0700] {processor.py:161} INFO - Started process (PID=75269) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:02:01.801+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:02:01.801+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:02:01.801+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:02:01.824+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:02:01.889+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:02:01.889+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:02:01.894+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:02:01.894+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:02:01.896+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:02:01.896+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:02:01.907+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.110 seconds
+[2024-04-16T22:03:29.125+0700] {processor.py:161} INFO - Started process (PID=75772) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:03:29.126+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:03:29.127+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:03:29.127+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:03:29.171+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:03:29.252+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:03:29.252+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:03:29.259+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:03:29.259+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:03:29.261+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:03:29.261+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:03:29.272+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.151 seconds
+[2024-04-16T22:04:53.187+0700] {processor.py:161} INFO - Started process (PID=76182) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:04:53.188+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:04:53.188+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:53.188+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:04:53.216+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:04:53.289+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:53.289+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:04:53.295+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:53.295+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:04:53.298+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:53.298+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:04:53.311+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.127 seconds
+[2024-04-16T22:06:28.524+0700] {processor.py:161} INFO - Started process (PID=76798) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:06:28.525+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:06:28.526+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:06:28.526+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:06:28.558+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:06:28.636+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:06:28.636+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:06:28.643+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:06:28.643+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:06:28.645+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:06:28.645+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:06:28.657+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.135 seconds
+[2024-04-16T22:08:19.363+0700] {processor.py:161} INFO - Started process (PID=77444) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:08:19.364+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:08:19.364+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:08:19.364+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:08:19.397+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:08:19.469+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:08:19.469+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:08:19.475+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:08:19.475+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:08:19.477+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:08:19.477+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:08:19.487+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.127 seconds
+[2024-04-16T22:09:56.167+0700] {processor.py:161} INFO - Started process (PID=78036) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:09:56.168+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:09:56.169+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:09:56.169+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:09:56.212+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:09:56.329+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:09:56.328+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:09:56.337+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:09:56.336+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:09:56.340+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:09:56.340+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:09:56.355+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.191 seconds
+[2024-04-16T22:11:37.645+0700] {processor.py:161} INFO - Started process (PID=78562) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:11:37.648+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:11:37.649+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:11:37.649+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:11:37.780+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:11:38.020+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:11:38.016+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:11:38.031+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:11:38.030+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:11:38.035+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:11:38.035+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:11:38.056+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.418 seconds
+[2024-04-16T22:13:11.361+0700] {processor.py:161} INFO - Started process (PID=79104) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:13:11.368+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:13:11.369+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:13:11.368+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:13:11.419+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:13:11.577+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:13:11.576+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:13:11.600+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:13:11.599+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:13:11.604+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:13:11.603+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:13:11.637+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.277 seconds
+[2024-04-16T22:14:46.414+0700] {processor.py:161} INFO - Started process (PID=79553) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:14:46.416+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:14:46.416+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:14:46.416+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:14:46.464+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:14:46.616+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:14:46.615+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:14:46.629+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:14:46.629+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:14:46.633+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:14:46.633+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:14:46.656+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.246 seconds
+[2024-04-16T22:18:13.677+0700] {processor.py:161} INFO - Started process (PID=80537) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:18:13.679+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:18:13.680+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:18:13.680+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:18:13.759+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:18:13.966+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:18:13.966+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:18:13.981+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:18:13.981+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:18:13.987+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:18:13.987+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:18:14.010+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.337 seconds
+[2024-04-16T22:22:08.831+0700] {processor.py:161} INFO - Started process (PID=81637) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:22:08.832+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:22:08.832+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:22:08.832+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:22:08.873+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:22:08.982+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:22:08.982+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:22:09.008+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:22:09.005+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:22:09.014+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:22:09.014+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:22:09.049+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.221 seconds
+[2024-04-16T22:26:32.533+0700] {processor.py:161} INFO - Started process (PID=82916) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:26:32.537+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-04-16T22:26:32.539+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:26:32.538+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:26:32.748+0700] {processor.py:840} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-04-16T22:26:32.947+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:26:32.947+0700] {dag.py:3096} INFO - Sync 2 DAGs
+[2024-04-16T22:26:32.959+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:26:32.959+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-04-16T22:26:32.963+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:26:32.963+0700] {dag.py:3954} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-04-16T22:26:33.023+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.509 seconds

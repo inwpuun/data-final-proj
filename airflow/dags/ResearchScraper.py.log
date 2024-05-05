@@ -1,0 +1,7 @@
+[2024-04-16T20:48:56.993+0700] {processor.py:161} INFO - Started process (PID=52316) to work on /Users/inwpuun/airflow/dags/ResearchScraper.py
+[2024-04-16T20:48:56.994+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-04-16T20:48:56.994+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:48:56.994+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/airflow/dags/ResearchScraper.py
+[2024-04-16T20:48:57.020+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/airflow/dags/ResearchScraper.py
+[2024-04-16T20:48:57.169+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:48:57.169+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:48:57.178+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:48:57.178+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-15 00:00:00+00:00, run_after=2024-04-22 00:00:00+00:00
+[2024-04-16T20:48:57.189+0700] {processor.py:183} INFO - Processing /Users/inwpuun/airflow/dags/ResearchScraper.py took 0.199 seconds

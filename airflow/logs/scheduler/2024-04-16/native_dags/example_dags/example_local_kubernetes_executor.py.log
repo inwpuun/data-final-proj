@@ -1,0 +1,341 @@
+[2024-04-16T20:53:06.236+0700] {processor.py:161} INFO - Started process (PID=54325) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:53:06.237+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T20:53:06.237+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:53:06.237+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:53:06.259+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:53:06.259+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T20:53:06.259+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:53:06.259+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T20:53:06.259+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:53:06.304+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.069 seconds
+[2024-04-16T20:54:55.876+0700] {processor.py:161} INFO - Started process (PID=54855) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:54:55.877+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T20:54:55.877+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:55.877+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:54:55.898+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:55.898+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T20:54:55.898+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:55.898+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T20:54:55.898+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:54:55.943+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.069 seconds
+[2024-04-16T20:57:28.641+0700] {processor.py:161} INFO - Started process (PID=55549) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:57:28.642+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T20:57:28.642+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:57:28.642+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:57:28.669+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:57:28.669+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T20:57:28.670+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:57:28.670+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T20:57:28.670+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T20:57:28.719+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.080 seconds
+[2024-04-16T21:00:01.233+0700] {processor.py:161} INFO - Started process (PID=56236) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:00:01.233+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:00:01.234+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:00:01.234+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:00:01.255+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:00:01.255+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:00:01.255+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:00:01.255+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:00:01.255+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:00:01.300+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.070 seconds
+[2024-04-16T21:02:34.871+0700] {processor.py:161} INFO - Started process (PID=56931) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:02:34.872+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:02:34.873+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:02:34.873+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:02:34.895+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:02:34.895+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:02:34.895+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:02:34.895+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:02:34.895+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:02:34.940+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.070 seconds
+[2024-04-16T21:05:08.267+0700] {processor.py:161} INFO - Started process (PID=57628) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:05:08.268+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:05:08.269+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:05:08.268+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:05:08.296+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:05:08.295+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:05:08.296+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:05:08.296+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:05:08.296+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:05:08.345+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.080 seconds
+[2024-04-16T21:07:41.389+0700] {processor.py:161} INFO - Started process (PID=58323) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:07:41.389+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:07:41.390+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:07:41.390+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:07:41.413+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:07:41.412+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:07:41.413+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:07:41.413+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:07:41.413+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:07:41.458+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.071 seconds
+[2024-04-16T21:10:18.683+0700] {processor.py:161} INFO - Started process (PID=59038) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:10:18.684+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:10:18.685+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:18.685+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:10:18.706+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:18.706+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:10:18.706+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:18.706+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:10:18.706+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:10:18.751+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.070 seconds
+[2024-04-16T21:12:54.402+0700] {processor.py:161} INFO - Started process (PID=59755) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:12:54.405+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:12:54.406+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:54.406+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:12:54.433+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:54.432+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:12:54.433+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:54.433+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:12:54.433+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:12:54.489+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.089 seconds
+[2024-04-16T21:15:31.924+0700] {processor.py:161} INFO - Started process (PID=60486) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:15:31.925+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:15:31.925+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:15:31.925+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:15:31.947+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:15:31.947+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:15:31.948+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:15:31.947+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:15:31.948+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:15:31.993+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.071 seconds
+[2024-04-16T21:18:06.626+0700] {processor.py:161} INFO - Started process (PID=61193) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:18:06.627+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:18:06.627+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:18:06.627+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:18:06.651+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:18:06.651+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:18:06.651+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:18:06.651+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:18:06.651+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:18:06.697+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.072 seconds
+[2024-04-16T21:20:38.357+0700] {processor.py:161} INFO - Started process (PID=61894) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:20:38.358+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:20:38.358+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:20:38.358+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:20:38.381+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:20:38.380+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:20:38.381+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:20:38.381+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:20:38.381+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:20:38.427+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.072 seconds
+[2024-04-16T21:23:33.041+0700] {processor.py:161} INFO - Started process (PID=63351) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:23:33.042+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:23:33.042+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:23:33.042+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:23:33.064+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:23:33.064+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:23:33.064+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:23:33.064+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:23:33.065+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:23:33.110+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.071 seconds
+[2024-04-16T21:26:27.730+0700] {processor.py:161} INFO - Started process (PID=64231) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:26:27.731+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:26:27.731+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:26:27.731+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:26:27.778+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:26:27.778+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:26:27.779+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:26:27.779+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:26:27.779+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:26:27.837+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.110 seconds
+[2024-04-16T21:29:20.642+0700] {processor.py:161} INFO - Started process (PID=65064) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:29:20.642+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:29:20.643+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:29:20.643+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:29:20.665+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:29:20.665+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:29:20.665+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:29:20.665+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:29:20.665+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:29:20.708+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.068 seconds
+[2024-04-16T21:32:06.512+0700] {processor.py:161} INFO - Started process (PID=65836) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:32:06.512+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:32:06.513+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:32:06.513+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:32:06.535+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:32:06.534+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:32:06.535+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:32:06.535+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:32:06.535+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:32:06.581+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.071 seconds
+[2024-04-16T21:34:51.102+0700] {processor.py:161} INFO - Started process (PID=66607) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:34:51.102+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:34:51.103+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:34:51.103+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:34:51.125+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:34:51.125+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:34:51.126+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:34:51.126+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:34:51.126+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:34:51.172+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.074 seconds
+[2024-04-16T21:37:29.668+0700] {processor.py:161} INFO - Started process (PID=67422) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:37:29.668+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:37:29.669+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:37:29.669+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:37:29.691+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:37:29.690+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:37:29.691+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:37:29.691+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:37:29.691+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:37:29.737+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.071 seconds
+[2024-04-16T21:40:25.911+0700] {processor.py:161} INFO - Started process (PID=68351) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:40:25.912+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:40:25.912+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:40:25.912+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:40:25.934+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:40:25.934+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:40:25.935+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:40:25.935+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:40:25.935+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:40:25.979+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.071 seconds
+[2024-04-16T21:43:53.620+0700] {processor.py:161} INFO - Started process (PID=69316) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:43:53.621+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:43:53.621+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:53.621+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:43:53.644+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:53.644+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:43:53.644+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:53.644+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:43:53.645+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:43:53.693+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.077 seconds
+[2024-04-16T21:47:00.443+0700] {processor.py:161} INFO - Started process (PID=70145) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:47:00.446+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:47:00.447+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:47:00.447+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:47:00.472+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:47:00.471+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:47:00.472+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:47:00.472+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:47:00.472+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:47:00.519+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.080 seconds
+[2024-04-16T21:50:58.026+0700] {processor.py:161} INFO - Started process (PID=71316) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:50:58.027+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:50:58.027+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:58.027+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:50:58.056+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:58.055+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:50:58.056+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:58.056+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:50:58.056+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:50:58.118+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.094 seconds
+[2024-04-16T21:55:24.516+0700] {processor.py:161} INFO - Started process (PID=72874) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:55:24.519+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:55:24.519+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:24.519+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:55:24.549+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:24.549+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:55:24.549+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:24.549+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:55:24.549+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:55:24.596+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.083 seconds
+[2024-04-16T21:58:20.451+0700] {processor.py:161} INFO - Started process (PID=73853) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:58:20.452+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T21:58:20.453+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:58:20.452+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:58:20.479+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:58:20.479+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T21:58:20.480+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:58:20.480+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T21:58:20.480+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T21:58:20.535+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.087 seconds
+[2024-04-16T22:01:13.593+0700] {processor.py:161} INFO - Started process (PID=74984) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:01:13.594+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T22:01:13.594+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:01:13.594+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:01:13.618+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:01:13.617+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T22:01:13.618+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:01:13.618+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T22:01:13.618+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:01:13.663+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.071 seconds
+[2024-04-16T22:04:06.846+0700] {processor.py:161} INFO - Started process (PID=75974) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:04:06.847+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T22:04:06.849+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:06.848+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:04:06.878+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:06.878+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T22:04:06.878+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:06.878+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T22:04:06.878+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:04:06.940+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.097 seconds
+[2024-04-16T22:07:22.806+0700] {processor.py:161} INFO - Started process (PID=77114) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:07:22.808+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T22:07:22.809+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:22.809+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:07:22.853+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:22.852+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T22:07:22.853+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:22.853+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T22:07:22.854+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:07:22.988+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.185 seconds
+[2024-04-16T22:10:36.459+0700] {processor.py:161} INFO - Started process (PID=78239) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:10:36.460+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T22:10:36.461+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:10:36.460+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:10:36.488+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:10:36.488+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T22:10:36.488+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:10:36.488+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T22:10:36.489+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:10:36.539+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.082 seconds
+[2024-04-16T22:13:47.909+0700] {processor.py:161} INFO - Started process (PID=79274) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:13:47.910+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T22:13:47.911+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:13:47.911+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:13:47.934+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:13:47.934+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T22:13:47.934+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:13:47.934+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T22:13:47.935+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:13:47.984+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.076 seconds
+[2024-04-16T22:20:29.990+0700] {processor.py:161} INFO - Started process (PID=81159) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:20:29.999+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T22:20:30.003+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:20:30.002+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:20:30.194+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:20:30.192+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T22:20:30.195+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:20:30.194+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T22:20:30.195+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:20:30.476+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.491 seconds
+[2024-04-16T22:24:48.889+0700] {processor.py:161} INFO - Started process (PID=82409) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:24:48.893+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-16T22:24:48.894+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:24:48.894+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:24:49.037+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:24:49.036+0700] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-16T22:24:49.038+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:24:49.038+0700] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-16T22:24:49.039+0700] {processor.py:842} WARNING - No viable dags retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-16T22:24:49.234+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.350 seconds

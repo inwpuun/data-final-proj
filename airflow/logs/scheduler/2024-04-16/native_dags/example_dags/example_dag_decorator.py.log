@@ -1,0 +1,210 @@
+[2024-04-16T20:53:25.820+0700] {processor.py:161} INFO - Started process (PID=54430) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:53:25.821+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T20:53:25.821+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:53:25.821+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:53:25.942+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:53:26.086+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:53:26.085+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:53:26.090+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:53:26.090+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T20:53:26.101+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.283 seconds
+[2024-04-16T20:55:59.416+0700] {processor.py:161} INFO - Started process (PID=55146) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:55:59.416+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T20:55:59.417+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:55:59.417+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:55:59.543+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:55:59.702+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:55:59.702+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:55:59.707+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:55:59.707+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T20:55:59.718+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.304 seconds
+[2024-04-16T20:58:34.097+0700] {processor.py:161} INFO - Started process (PID=55840) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:58:34.098+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T20:58:34.098+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:58:34.098+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:58:34.223+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T20:58:34.380+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:58:34.379+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:58:34.385+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:58:34.384+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T20:58:34.395+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.300 seconds
+[2024-04-16T21:01:08.103+0700] {processor.py:161} INFO - Started process (PID=56535) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:01:08.104+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:01:08.104+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:01:08.104+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:01:08.232+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:01:08.395+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:01:08.395+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:01:08.401+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:01:08.400+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:01:08.415+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.314 seconds
+[2024-04-16T21:03:40.718+0700] {processor.py:161} INFO - Started process (PID=57231) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:03:40.719+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:03:40.719+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:03:40.719+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:03:40.844+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:03:41.003+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:03:41.002+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:03:41.008+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:03:41.007+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:03:41.019+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.302 seconds
+[2024-04-16T21:06:14.549+0700] {processor.py:161} INFO - Started process (PID=57919) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:06:14.549+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:06:14.550+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:06:14.550+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:06:14.673+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:06:14.835+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:06:14.834+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:06:14.840+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:06:14.839+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:06:14.851+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.304 seconds
+[2024-04-16T21:08:46.860+0700] {processor.py:161} INFO - Started process (PID=58626) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:08:46.861+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:08:46.862+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:08:46.862+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:08:46.986+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:08:47.150+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:08:47.150+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:08:47.155+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:08:47.155+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:08:47.167+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.308 seconds
+[2024-04-16T21:11:25.583+0700] {processor.py:161} INFO - Started process (PID=59339) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:11:25.584+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:11:25.584+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:11:25.584+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:11:25.711+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:11:25.872+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:11:25.871+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:11:25.877+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:11:25.876+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:11:25.887+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.306 seconds
+[2024-04-16T21:14:02.359+0700] {processor.py:161} INFO - Started process (PID=60066) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:14:02.368+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:14:02.373+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:14:02.372+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:14:02.615+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:14:02.854+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:14:02.854+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:14:02.860+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:14:02.860+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:14:02.875+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.518 seconds
+[2024-04-16T21:16:40.008+0700] {processor.py:161} INFO - Started process (PID=60786) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:16:40.010+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:16:40.010+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:16:40.010+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:16:40.137+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:16:40.295+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:16:40.294+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:16:40.299+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:16:40.299+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:16:40.310+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.304 seconds
+[2024-04-16T21:19:11.785+0700] {processor.py:161} INFO - Started process (PID=61496) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:19:11.786+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:19:11.786+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:19:11.786+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:19:11.919+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:19:12.085+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:19:12.085+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:19:12.090+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:19:12.090+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:19:12.101+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.318 seconds
+[2024-04-16T21:21:49.517+0700] {processor.py:161} INFO - Started process (PID=62229) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:21:49.518+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:21:49.518+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:21:49.518+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:21:49.661+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:21:49.854+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:21:49.853+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:21:49.860+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:21:49.860+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:21:49.919+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.407 seconds
+[2024-04-16T21:24:57.728+0700] {processor.py:161} INFO - Started process (PID=63800) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:24:57.729+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:24:57.730+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:57.729+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:24:57.858+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:24:58.021+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:58.021+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:24:58.026+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:58.026+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:24:58.038+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.311 seconds
+[2024-04-16T21:27:51.130+0700] {processor.py:161} INFO - Started process (PID=64647) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:27:51.131+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:27:51.131+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:51.131+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:27:51.275+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:27:51.442+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:51.442+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:27:51.447+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:51.447+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:27:51.459+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.331 seconds
+[2024-04-16T21:30:42.476+0700] {processor.py:161} INFO - Started process (PID=65451) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:30:42.477+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:30:42.477+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:42.477+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:30:42.608+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:30:42.772+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:42.772+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:30:42.777+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:42.777+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:30:42.791+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.316 seconds
+[2024-04-16T21:33:21.556+0700] {processor.py:161} INFO - Started process (PID=66186) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:33:21.557+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:33:21.558+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:33:21.557+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:33:21.715+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:33:21.875+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:33:21.874+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:33:21.880+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:33:21.879+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:33:21.891+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.338 seconds
+[2024-04-16T21:36:04.453+0700] {processor.py:161} INFO - Started process (PID=66995) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:36:04.454+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:36:04.454+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:36:04.454+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:36:04.579+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:36:04.741+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:36:04.740+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:36:04.752+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:36:04.752+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:36:04.773+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.322 seconds
+[2024-04-16T21:38:45.560+0700] {processor.py:161} INFO - Started process (PID=67888) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:38:45.561+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:38:45.562+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:45.562+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:38:46.078+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:38:46.534+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:46.534+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:38:46.562+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:46.562+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:38:46.578+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 1.021 seconds
+[2024-04-16T21:41:53.608+0700] {processor.py:161} INFO - Started process (PID=68755) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:41:53.620+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:41:53.622+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:53.622+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:41:55.313+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:41:56.474+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:56.474+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:41:56.489+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:56.489+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:41:56.520+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 2.959 seconds
+[2024-04-16T21:44:12.030+0700] {processor.py:161} INFO - Started process (PID=69399) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:44:12.031+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:44:12.032+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:44:12.032+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:44:12.166+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:44:12.347+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:44:12.347+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:44:12.352+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:44:12.352+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:44:12.363+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.335 seconds
+[2024-04-16T21:47:23.838+0700] {processor.py:161} INFO - Started process (PID=70258) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:47:23.844+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:47:23.844+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:47:23.844+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:47:24.348+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:47:24.576+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:47:24.576+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:47:24.581+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:47:24.581+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:47:24.592+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.756 seconds
+[2024-04-16T21:51:21.752+0700] {processor.py:161} INFO - Started process (PID=71418) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:51:21.754+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:51:21.755+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:51:21.755+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:51:22.142+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:51:22.488+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:51:22.487+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:51:22.497+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:51:22.496+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:51:22.514+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.766 seconds
+[2024-04-16T21:55:43.692+0700] {processor.py:161} INFO - Started process (PID=72966) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:55:43.693+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:55:43.694+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:43.694+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:55:43.831+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:55:43.992+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:43.992+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:55:43.998+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:43.997+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:55:44.008+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.319 seconds
+[2024-04-16T21:58:38.903+0700] {processor.py:161} INFO - Started process (PID=74098) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:58:38.904+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T21:58:38.905+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:58:38.904+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:58:39.033+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T21:58:39.204+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:58:39.203+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:58:39.210+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:58:39.210+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T21:58:39.222+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.321 seconds
+[2024-04-16T22:01:33.138+0700] {processor.py:161} INFO - Started process (PID=75113) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:01:33.139+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T22:01:33.139+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:01:33.139+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:01:33.275+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:01:33.440+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:01:33.440+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:01:33.445+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:01:33.445+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T22:01:33.456+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.320 seconds
+[2024-04-16T22:04:26.521+0700] {processor.py:161} INFO - Started process (PID=76064) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:04:26.522+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T22:04:26.522+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:26.522+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:04:26.660+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:04:26.828+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:26.828+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:04:26.833+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:04:26.833+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T22:04:26.846+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.327 seconds
+[2024-04-16T22:07:46.435+0700] {processor.py:161} INFO - Started process (PID=77280) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:07:46.436+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T22:07:46.436+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:46.436+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:07:46.574+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:07:46.747+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:46.747+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:07:46.753+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:46.753+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T22:07:46.766+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.333 seconds
+[2024-04-16T22:10:59.643+0700] {processor.py:161} INFO - Started process (PID=78361) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:10:59.644+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T22:10:59.645+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:10:59.645+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:10:59.830+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:11:00.027+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:11:00.027+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:11:00.033+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:11:00.032+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T22:11:00.046+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.405 seconds
+[2024-04-16T22:14:09.012+0700] {processor.py:161} INFO - Started process (PID=79391) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:14:09.013+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T22:14:09.013+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:14:09.013+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:14:09.144+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:14:09.315+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:14:09.315+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:14:09.320+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:14:09.320+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T22:14:09.334+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.324 seconds
+[2024-04-16T22:21:26.219+0700] {processor.py:161} INFO - Started process (PID=81441) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:21:26.221+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-04-16T22:21:26.222+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:21:26.222+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:21:26.653+0700] {processor.py:840} INFO - DAG(s) 'example_dag_decorator' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-04-16T22:21:26.854+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:21:26.854+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:21:26.860+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:21:26.860+0700] {dag.py:3954} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-04-16T22:21:26.875+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_dag_decorator.py took 0.688 seconds

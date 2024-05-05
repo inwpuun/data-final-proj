@@ -1,0 +1,266 @@
+[2024-04-16T20:52:49.692+0700] {processor.py:161} INFO - Started process (PID=54223) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:52:49.692+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T20:52:49.693+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:52:49.692+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:52:49.702+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:52:49.829+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:52:49.829+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:52:49.834+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:52:49.834+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T20:52:49.883+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.193 seconds
+[2024-04-16T20:54:40.746+0700] {processor.py:161} INFO - Started process (PID=54789) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:54:40.748+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T20:54:40.748+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:40.748+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:54:40.759+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:54:40.832+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:40.832+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:54:40.838+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:54:40.838+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T20:54:40.849+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2024-04-16T20:57:11.272+0700] {processor.py:161} INFO - Started process (PID=55469) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:57:11.273+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T20:57:11.274+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:57:11.274+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:57:11.284+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:57:11.358+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:57:11.357+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:57:11.363+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:57:11.363+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T20:57:11.375+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2024-04-16T20:59:44.486+0700] {processor.py:161} INFO - Started process (PID=56161) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:59:44.487+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T20:59:44.487+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:59:44.487+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:59:44.499+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T20:59:44.573+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:59:44.573+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T20:59:44.579+0700] {logging_mixin.py:188} INFO - [2024-04-16T20:59:44.579+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T20:59:44.590+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2024-04-16T21:02:19.328+0700] {processor.py:161} INFO - Started process (PID=56859) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:02:19.329+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:02:19.330+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:02:19.330+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:02:19.341+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:02:19.415+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:02:19.415+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:02:19.420+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:02:19.420+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:02:19.432+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2024-04-16T21:04:51.108+0700] {processor.py:161} INFO - Started process (PID=57546) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:04:51.109+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:04:51.109+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:04:51.109+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:04:51.122+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:04:51.198+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:04:51.198+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:04:51.203+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:04:51.203+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:04:51.215+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2024-04-16T21:07:25.114+0700] {processor.py:161} INFO - Started process (PID=58251) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:07:25.115+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:07:25.115+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:07:25.115+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:07:25.126+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:07:25.201+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:07:25.201+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:07:25.206+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:07:25.206+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:07:25.217+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2024-04-16T21:10:02.626+0700] {processor.py:161} INFO - Started process (PID=58966) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:10:02.627+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:10:02.628+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:02.627+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:10:02.640+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:10:02.721+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:02.721+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:10:02.727+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:10:02.727+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:10:02.739+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.115 seconds
+[2024-04-16T21:12:38.836+0700] {processor.py:161} INFO - Started process (PID=59678) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:12:38.837+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:12:38.838+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:38.838+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:12:38.848+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:12:38.923+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:38.923+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:12:38.928+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:12:38.928+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:12:38.939+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2024-04-16T21:15:16.433+0700] {processor.py:161} INFO - Started process (PID=60414) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:15:16.434+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:15:16.435+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:15:16.435+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:15:16.445+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:15:16.518+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:15:16.518+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:15:16.523+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:15:16.523+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:15:16.535+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.103 seconds
+[2024-04-16T21:17:49.979+0700] {processor.py:161} INFO - Started process (PID=61111) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:17:49.980+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:17:49.980+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:17:49.980+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:17:49.990+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:17:50.067+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:17:50.067+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:17:50.073+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:17:50.073+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:17:50.085+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2024-04-16T21:20:22.012+0700] {processor.py:161} INFO - Started process (PID=61822) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:20:22.013+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:20:22.014+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:20:22.013+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:20:22.024+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:20:22.100+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:20:22.100+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:20:22.105+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:20:22.105+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:20:22.117+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.106 seconds
+[2024-04-16T21:23:14.459+0700] {processor.py:161} INFO - Started process (PID=62933) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:23:14.459+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:23:14.460+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:23:14.460+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:23:14.471+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:23:14.549+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:23:14.549+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:23:14.555+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:23:14.555+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:23:14.567+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.110 seconds
+[2024-04-16T21:24:49.080+0700] {processor.py:161} INFO - Started process (PID=63749) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:24:49.083+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:24:49.084+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:49.084+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:24:49.107+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:24:49.184+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:49.184+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:24:49.189+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:24:49.189+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:24:49.203+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.125 seconds
+[2024-04-16T21:27:43.384+0700] {processor.py:161} INFO - Started process (PID=64610) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:27:43.385+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:27:43.385+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:43.385+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:27:43.398+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:27:43.487+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:43.487+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:27:43.493+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:27:43.493+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:27:43.506+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.124 seconds
+[2024-04-16T21:30:34.047+0700] {processor.py:161} INFO - Started process (PID=65414) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:30:34.048+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:30:34.048+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:34.048+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:30:34.058+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:30:34.132+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:34.132+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:30:34.138+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:30:34.138+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:30:34.149+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2024-04-16T21:33:12.792+0700] {processor.py:161} INFO - Started process (PID=66147) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:33:12.799+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:33:12.799+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:33:12.799+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:33:12.842+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:33:12.944+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:33:12.944+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:33:12.951+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:33:12.951+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:33:12.967+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.179 seconds
+[2024-04-16T21:35:55.756+0700] {processor.py:161} INFO - Started process (PID=66936) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:35:55.757+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:35:55.757+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:35:55.757+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:35:55.767+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:35:55.841+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:35:55.841+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:35:55.846+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:35:55.846+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:35:55.858+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds
+[2024-04-16T21:38:36.065+0700] {processor.py:161} INFO - Started process (PID=67842) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:38:36.065+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:38:36.066+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:36.066+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:38:36.076+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:38:36.149+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:36.149+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:38:36.154+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:38:36.154+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:38:36.165+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.102 seconds
+[2024-04-16T21:40:09.141+0700] {processor.py:161} INFO - Started process (PID=68272) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:40:09.142+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:40:09.143+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:40:09.142+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:40:09.153+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:40:09.225+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:40:09.225+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:40:09.230+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:40:09.230+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:40:09.241+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.102 seconds
+[2024-04-16T21:41:47.276+0700] {processor.py:161} INFO - Started process (PID=68733) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:41:47.277+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:41:47.278+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:47.278+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:41:47.289+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:41:47.373+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:47.372+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:41:47.378+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:41:47.378+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:41:47.390+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2024-04-16T21:43:36.787+0700] {processor.py:161} INFO - Started process (PID=69236) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:43:36.787+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:43:36.788+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:36.788+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:43:36.801+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:43:36.938+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:36.938+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:43:36.945+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:43:36.945+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:43:36.964+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.180 seconds
+[2024-04-16T21:45:11.653+0700] {processor.py:161} INFO - Started process (PID=69661) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:45:11.654+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:45:11.655+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:45:11.655+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:45:11.666+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:45:11.740+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:45:11.739+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:45:11.745+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:45:11.745+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:45:11.756+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2024-04-16T21:48:44.184+0700] {processor.py:161} INFO - Started process (PID=70606) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:48:44.185+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:48:44.186+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:48:44.185+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:48:44.199+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:48:44.286+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:48:44.286+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:48:44.292+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:48:44.292+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:48:44.311+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.130 seconds
+[2024-04-16T21:50:38.670+0700] {processor.py:161} INFO - Started process (PID=71194) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:50:38.674+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:50:38.675+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:38.674+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:50:38.692+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:50:38.876+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:38.876+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:50:38.937+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:50:38.936+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:50:39.142+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.477 seconds
+[2024-04-16T21:53:06.834+0700] {processor.py:161} INFO - Started process (PID=72166) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:53:06.835+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:53:06.836+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:53:06.835+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:53:06.860+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:53:07.380+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:53:07.378+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:53:07.404+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:53:07.403+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:53:07.439+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.611 seconds
+[2024-04-16T21:55:07.790+0700] {processor.py:161} INFO - Started process (PID=72803) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:55:07.792+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:55:07.792+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:07.792+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:55:07.803+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:55:07.877+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:07.877+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:55:07.883+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:55:07.882+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:55:07.894+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2024-04-16T21:56:48.144+0700] {processor.py:161} INFO - Started process (PID=73253) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:56:48.145+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:56:48.147+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:56:48.146+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:56:48.178+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:56:48.361+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:56:48.361+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:56:48.372+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:56:48.372+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:56:48.392+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.253 seconds
+[2024-04-16T21:59:40.209+0700] {processor.py:161} INFO - Started process (PID=74521) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:59:40.211+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T21:59:40.213+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:59:40.212+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:59:40.248+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T21:59:40.442+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:59:40.442+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T21:59:40.455+0700] {logging_mixin.py:188} INFO - [2024-04-16T21:59:40.455+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T21:59:40.481+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.279 seconds
+[2024-04-16T22:02:31.502+0700] {processor.py:161} INFO - Started process (PID=75444) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:02:31.503+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:02:31.503+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:02:31.503+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:02:31.515+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:02:31.590+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:02:31.589+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:02:31.595+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:02:31.595+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:02:31.607+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2024-04-16T22:05:27.494+0700] {processor.py:161} INFO - Started process (PID=76347) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:05:27.495+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:05:27.495+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:05:27.495+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:05:27.507+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:05:27.583+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:05:27.583+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:05:27.589+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:05:27.589+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:05:27.600+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.108 seconds
+[2024-04-16T22:07:07.282+0700] {processor.py:161} INFO - Started process (PID=77023) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:07:07.283+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:07:07.284+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:07.284+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:07:07.305+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:07:07.514+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:07.514+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:07:07.526+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:07:07.526+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:07:07.549+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.271 seconds
+[2024-04-16T22:08:51.257+0700] {processor.py:161} INFO - Started process (PID=77597) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:08:51.258+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:08:51.258+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:08:51.258+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:08:51.275+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:08:51.379+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:08:51.378+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:08:51.384+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:08:51.384+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:08:51.396+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.141 seconds
+[2024-04-16T22:10:27.361+0700] {processor.py:161} INFO - Started process (PID=78196) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:10:27.362+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:10:27.363+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:10:27.362+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:10:27.376+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:10:27.462+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:10:27.462+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:10:27.468+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:10:27.468+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:10:27.482+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2024-04-16T22:12:10.367+0700] {processor.py:161} INFO - Started process (PID=78741) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:12:10.369+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:12:10.370+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:12:10.370+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:12:10.399+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:12:10.550+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:12:10.550+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:12:10.560+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:12:10.560+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:12:10.577+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.216 seconds
+[2024-04-16T22:15:36.557+0700] {processor.py:161} INFO - Started process (PID=79793) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:15:36.559+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:15:36.561+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:15:36.561+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:15:36.576+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:15:36.670+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:15:36.669+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:15:36.676+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:15:36.676+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:15:36.690+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.136 seconds
+[2024-04-16T22:19:41.995+0700] {processor.py:161} INFO - Started process (PID=80928) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:19:41.998+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:19:41.999+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:19:41.999+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:19:42.053+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:19:42.389+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:19:42.388+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:19:42.407+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:19:42.406+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:19:42.459+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.469 seconds
+[2024-04-16T22:23:51.552+0700] {processor.py:161} INFO - Started process (PID=82085) to work on /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:23:51.556+0700] {processor.py:830} INFO - Processing file /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-04-16T22:23:51.560+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:23:51.559+0700] {dagbag.py:540} INFO - Filling up the DagBag from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:23:51.604+0700] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py
+[2024-04-16T22:23:52.022+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:23:52.021+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-16T22:23:52.050+0700] {logging_mixin.py:188} INFO - [2024-04-16T22:23:52.050+0700] {dag.py:3954} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-04-16T22:23:52.101+0700] {processor.py:183} INFO - Processing /opt/homebrew/Caskroom/miniconda/base/lib/python3.11/site-packages/airflow/example_dags/example_sensors.py took 0.571 seconds
