@@ -1,0 +1,1302 @@
+[2024-05-05T20:29:36.411+0700] {processor.py:161} INFO - Started process (PID=77387) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:29:36.412+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:29:36.412+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:29:36.412+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:29:36.436+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:29:36.471+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:29:36.471+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:29:36.613+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:29:36.613+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-15 00:00:00+00:00, run_after=2024-04-22 00:00:00+00:00
+[2024-05-05T20:29:36.628+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.220 seconds
+[2024-05-05T20:31:47.375+0700] {processor.py:161} INFO - Started process (PID=78766) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:31:47.376+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:31:47.377+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:31:47.376+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:31:47.401+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:31:47.648+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:31:47.647+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:31:47.658+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:31:47.658+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:31:47.670+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.297 seconds
+[2024-05-05T20:33:28.223+0700] {processor.py:161} INFO - Started process (PID=79868) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:33:28.224+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:33:28.224+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:33:28.224+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:33:28.254+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:33:28.383+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:33:28.383+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:33:28.398+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:33:28.398+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:33:28.415+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.194 seconds
+[2024-05-05T20:34:10.369+0700] {processor.py:161} INFO - Started process (PID=80241) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:34:10.370+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:34:10.371+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:34:10.371+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:34:10.408+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:34:10.435+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:34:10.435+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:34:10.634+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:34:10.633+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:34:10.653+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.288 seconds
+[2024-05-05T20:35:07.221+0700] {processor.py:161} INFO - Started process (PID=80877) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:35:07.222+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:35:07.224+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:35:07.223+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:35:07.269+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:35:07.427+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:35:07.426+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:35:07.436+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:35:07.435+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:35:07.446+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.227 seconds
+[2024-05-05T20:36:08.959+0700] {processor.py:161} INFO - Started process (PID=81496) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:36:08.960+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:36:08.961+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:36:08.960+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:36:08.977+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:36:09.075+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:36:09.075+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:36:09.086+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:36:09.086+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:36:09.098+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.140 seconds
+[2024-05-05T20:36:31.510+0700] {processor.py:161} INFO - Started process (PID=81719) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:36:31.510+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:36:31.511+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:36:31.511+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:36:31.527+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:36:31.623+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:36:31.623+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:36:31.634+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:36:31.634+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:36:31.647+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.139 seconds
+[2024-05-05T20:37:28.380+0700] {processor.py:161} INFO - Started process (PID=82299) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:37:28.381+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:37:28.382+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:37:28.382+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:37:28.398+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:37:28.495+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:37:28.494+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:37:28.504+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:37:28.504+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:37:28.515+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.137 seconds
+[2024-05-05T20:37:49.723+0700] {processor.py:161} INFO - Started process (PID=82509) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:37:49.724+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:37:49.724+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:37:49.724+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:37:49.740+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:37:49.837+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:37:49.837+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:37:49.848+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:37:49.848+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:37:49.859+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.138 seconds
+[2024-05-05T20:38:44.782+0700] {processor.py:161} INFO - Started process (PID=83001) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:38:44.783+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:38:44.783+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:38:44.783+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:38:44.801+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:38:44.895+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:38:44.894+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:38:44.905+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:38:44.905+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:38:44.916+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.136 seconds
+[2024-05-05T20:39:08.270+0700] {processor.py:161} INFO - Started process (PID=83223) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:39:08.271+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:39:08.271+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:39:08.271+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:39:08.287+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:39:08.381+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:39:08.380+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:39:08.391+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:39:08.391+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:39:08.401+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.133 seconds
+[2024-05-05T20:40:00.796+0700] {processor.py:161} INFO - Started process (PID=83712) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:40:00.797+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:40:00.797+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:40:00.797+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:40:00.813+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:40:00.909+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:40:00.908+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:40:00.918+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:40:00.918+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:40:00.929+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.135 seconds
+[2024-05-05T20:40:35.938+0700] {processor.py:161} INFO - Started process (PID=84047) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:40:35.939+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:40:35.939+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:40:35.939+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:40:35.956+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:40:36.066+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:40:36.066+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:40:36.076+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:40:36.076+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:40:36.090+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.154 seconds
+[2024-05-05T20:41:34.173+0700] {processor.py:161} INFO - Started process (PID=84578) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:41:34.175+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:41:34.175+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:41:34.175+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:41:34.191+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:41:34.284+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:41:34.283+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:41:34.293+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:41:34.293+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:41:34.303+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.132 seconds
+[2024-05-05T20:42:05.663+0700] {processor.py:161} INFO - Started process (PID=84868) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:42:05.664+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:42:05.665+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:42:05.665+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:42:05.680+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:42:05.773+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:42:05.773+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:42:05.783+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:42:05.783+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:42:05.793+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.132 seconds
+[2024-05-05T20:42:51.450+0700] {processor.py:161} INFO - Started process (PID=85294) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:42:51.451+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:42:51.452+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:42:51.452+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:42:51.472+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:42:51.566+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:42:51.566+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:42:51.576+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:42:51.576+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:42:51.587+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.140 seconds
+[2024-05-05T20:43:22.469+0700] {processor.py:161} INFO - Started process (PID=85573) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:43:22.470+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:43:22.470+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:43:22.470+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:43:22.486+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:43:22.584+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:43:22.583+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:43:22.594+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:43:22.594+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:43:22.604+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.137 seconds
+[2024-05-05T20:44:10.160+0700] {processor.py:161} INFO - Started process (PID=86010) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:44:10.161+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:44:10.161+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:44:10.161+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:44:10.179+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:44:10.273+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:44:10.273+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:44:10.283+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:44:10.283+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:44:10.293+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.135 seconds
+[2024-05-05T20:44:40.680+0700] {processor.py:161} INFO - Started process (PID=86287) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:44:40.680+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:44:40.681+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:44:40.681+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:44:40.697+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:44:40.793+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:44:40.793+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:44:40.803+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:44:40.803+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:44:40.820+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.143 seconds
+[2024-05-05T20:45:27.033+0700] {processor.py:161} INFO - Started process (PID=86724) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:45:27.033+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:45:27.034+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:45:27.034+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:45:27.050+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:45:27.147+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:45:27.147+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:45:27.157+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:45:27.157+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:45:27.168+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.137 seconds
+[2024-05-05T20:46:42.602+0700] {processor.py:161} INFO - Started process (PID=87090) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:46:42.604+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:46:42.604+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:46:42.604+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:46:42.620+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:46:42.725+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:46:42.725+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:46:42.736+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:46:42.736+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:46:42.746+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.146 seconds
+[2024-05-05T20:47:34.180+0700] {processor.py:161} INFO - Started process (PID=87550) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:47:34.181+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:47:34.182+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:47:34.182+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:47:34.207+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:47:34.333+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:47:34.333+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:47:34.345+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:47:34.345+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:47:34.357+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.180 seconds
+[2024-05-05T20:48:29.702+0700] {processor.py:161} INFO - Started process (PID=88051) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:48:29.703+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:48:29.704+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:48:29.704+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:48:29.720+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:48:29.814+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:48:29.813+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:48:29.824+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:48:29.824+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:48:29.837+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.136 seconds
+[2024-05-05T20:48:56.424+0700] {processor.py:161} INFO - Started process (PID=88292) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:48:56.425+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:48:56.425+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:48:56.425+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:48:56.441+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:48:56.533+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:48:56.532+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:48:56.542+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:48:56.542+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:48:56.552+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.130 seconds
+[2024-05-05T20:49:45.311+0700] {processor.py:161} INFO - Started process (PID=88731) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:49:45.312+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:49:45.313+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:49:45.312+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:49:45.329+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:49:45.430+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:49:45.429+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:49:45.441+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:49:45.441+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:49:45.452+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.143 seconds
+[2024-05-05T20:50:13.542+0700] {processor.py:161} INFO - Started process (PID=88987) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:50:13.543+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:50:13.544+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:50:13.544+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:50:13.559+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:50:13.653+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:50:13.653+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:50:13.665+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:50:13.665+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:50:13.675+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.135 seconds
+[2024-05-05T20:51:05.638+0700] {processor.py:161} INFO - Started process (PID=89492) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:51:05.639+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:51:05.640+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:51:05.640+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:51:05.659+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:51:05.785+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:51:05.785+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:51:05.796+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:51:05.796+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:51:05.807+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.171 seconds
+[2024-05-05T20:51:34.223+0700] {processor.py:161} INFO - Started process (PID=90102) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:51:34.223+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:51:34.224+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:51:34.224+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:51:34.239+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:51:34.334+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:51:34.333+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:51:34.344+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:51:34.344+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:51:34.355+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.134 seconds
+[2024-05-05T20:52:27.781+0700] {processor.py:161} INFO - Started process (PID=90605) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:52:27.781+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:52:27.782+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:52:27.782+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:52:27.798+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:52:27.895+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:52:27.895+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:52:27.905+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:52:27.905+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:52:27.917+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.138 seconds
+[2024-05-05T20:52:51.473+0700] {processor.py:161} INFO - Started process (PID=90821) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:52:51.474+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:52:51.474+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:52:51.474+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:52:51.490+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:52:51.585+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:52:51.585+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:52:51.596+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:52:51.596+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:52:51.607+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.135 seconds
+[2024-05-05T20:53:47.169+0700] {processor.py:161} INFO - Started process (PID=91364) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:53:47.170+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:53:47.170+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:53:47.170+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:53:47.187+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:53:47.283+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:53:47.283+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:53:47.293+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:53:47.293+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:53:47.303+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.136 seconds
+[2024-05-05T20:56:51.015+0700] {processor.py:161} INFO - Started process (PID=91633) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:56:51.017+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:56:51.018+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:56:51.018+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:56:51.053+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:56:51.177+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:56:51.177+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:56:51.188+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:56:51.188+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:56:51.199+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.188 seconds
+[2024-05-05T20:57:50.764+0700] {processor.py:161} INFO - Started process (PID=92189) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:57:50.765+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:57:50.765+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:57:50.765+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:57:50.781+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:57:50.880+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:57:50.879+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:57:50.889+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:57:50.889+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:57:50.900+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.138 seconds
+[2024-05-05T20:58:26.280+0700] {processor.py:161} INFO - Started process (PID=92505) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:58:26.281+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:58:26.282+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:58:26.281+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:58:26.297+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:58:26.393+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:58:26.393+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:58:26.403+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:58:26.403+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:58:26.414+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.136 seconds
+[2024-05-05T20:59:10.713+0700] {processor.py:161} INFO - Started process (PID=92906) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:59:10.714+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T20:59:10.714+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:59:10.714+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:59:10.732+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T20:59:10.835+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:59:10.835+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T20:59:10.845+0700] {logging_mixin.py:188} INFO - [2024-05-05T20:59:10.845+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T20:59:10.860+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.149 seconds
+[2024-05-05T21:00:40.047+0700] {processor.py:161} INFO - Started process (PID=93264) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:00:40.048+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:00:40.049+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:00:40.048+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:00:40.064+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:00:40.158+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:00:40.158+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:00:40.168+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:00:40.168+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:00:40.178+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.134 seconds
+[2024-05-05T21:01:26.087+0700] {processor.py:161} INFO - Started process (PID=93683) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:01:26.088+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:01:26.088+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:01:26.088+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:01:26.104+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:01:26.203+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:01:26.203+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:01:26.214+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:01:26.214+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:01:26.228+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.142 seconds
+[2024-05-05T21:02:09.939+0700] {processor.py:161} INFO - Started process (PID=94081) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:02:09.940+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:02:09.941+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:02:09.941+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:02:09.959+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:02:10.055+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:02:10.055+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:02:10.066+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:02:10.066+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:02:10.077+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.139 seconds
+[2024-05-05T21:02:42.781+0700] {processor.py:161} INFO - Started process (PID=94374) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:02:42.783+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:02:42.783+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:02:42.783+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:02:42.798+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:02:42.892+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:02:42.892+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:02:42.902+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:02:42.902+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:02:42.912+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.133 seconds
+[2024-05-05T21:03:26.781+0700] {processor.py:161} INFO - Started process (PID=94776) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:03:26.782+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:03:26.783+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:03:26.783+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:03:26.799+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:03:26.894+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:03:26.894+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:03:26.905+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:03:26.904+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:03:26.916+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.137 seconds
+[2024-05-05T21:03:59.349+0700] {processor.py:161} INFO - Started process (PID=95068) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:03:59.350+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:03:59.350+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:03:59.350+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:03:59.366+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:03:59.460+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:03:59.459+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:03:59.469+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:03:59.469+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:03:59.480+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.133 seconds
+[2024-05-05T21:04:42.821+0700] {processor.py:161} INFO - Started process (PID=95467) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:04:42.822+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:04:42.823+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:04:42.823+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:04:42.838+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:04:42.931+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:04:42.930+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:04:42.940+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:04:42.940+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:04:42.952+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.133 seconds
+[2024-05-05T21:05:16.984+0700] {processor.py:161} INFO - Started process (PID=95773) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:05:16.985+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:05:16.985+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:05:16.985+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:05:17.007+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:05:17.104+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:05:17.104+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:05:17.114+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:05:17.114+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:05:17.124+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.142 seconds
+[2024-05-05T21:20:09.459+0700] {processor.py:161} INFO - Started process (PID=96299) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:20:09.460+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:20:09.460+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:20:09.460+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:20:09.478+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:20:09.576+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:20:09.575+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:20:09.585+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:20:09.585+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:20:09.595+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.138 seconds
+[2024-05-05T21:20:50.432+0700] {processor.py:161} INFO - Started process (PID=96675) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:20:50.433+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:20:50.434+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:20:50.433+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:20:50.457+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:20:50.592+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:20:50.591+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:20:50.610+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:20:50.610+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:20:50.623+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.193 seconds
+[2024-05-05T21:22:11.616+0700] {processor.py:161} INFO - Started process (PID=97444) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:22:11.618+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T21:22:11.618+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:22:11.618+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:22:11.634+0700] {processor.py:840} INFO - DAG(s) 'research_scraper' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T21:22:11.731+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:22:11.731+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-05T21:22:11.741+0700] {logging_mixin.py:188} INFO - [2024-05-05T21:22:11.741+0700] {dag.py:3954} INFO - Setting next_dagrun for research_scraper to 2024-04-29 00:00:00+00:00, run_after=2024-05-06 00:00:00+00:00
+[2024-05-05T21:22:11.752+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.137 seconds
+[2024-05-05T22:56:12.528+0700] {processor.py:161} INFO - Started process (PID=38377) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:56:12.529+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T22:56:12.529+0700] {logging_mixin.py:188} INFO - [2024-05-05T22:56:12.529+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:56:12.550+0700] {logging_mixin.py:188} INFO - [2024-05-05T22:56:12.549+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T22:56:12.551+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:56:12.665+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.140 seconds
+[2024-05-05T22:58:02.021+0700] {processor.py:161} INFO - Started process (PID=38878) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:58:02.022+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T22:58:02.023+0700] {logging_mixin.py:188} INFO - [2024-05-05T22:58:02.023+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:58:02.051+0700] {logging_mixin.py:188} INFO - [2024-05-05T22:58:02.050+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T22:58:02.052+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:58:02.164+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.147 seconds
+[2024-05-05T22:59:26.905+0700] {processor.py:161} INFO - Started process (PID=39375) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:59:26.906+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T22:59:26.907+0700] {logging_mixin.py:188} INFO - [2024-05-05T22:59:26.906+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:59:26.921+0700] {logging_mixin.py:188} INFO - [2024-05-05T22:59:26.920+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T22:59:26.921+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T22:59:27.008+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.104 seconds
+[2024-05-05T23:00:50.930+0700] {processor.py:161} INFO - Started process (PID=39759) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:00:50.931+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:00:50.931+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:00:50.931+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:00:50.946+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:00:50.945+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:00:50.946+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:00:51.027+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.099 seconds
+[2024-05-05T23:02:05.552+0700] {processor.py:161} INFO - Started process (PID=40169) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:02:05.553+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:02:05.553+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:02:05.553+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:02:05.571+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:02:05.570+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:02:05.571+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:02:05.670+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.120 seconds
+[2024-05-05T23:04:55.641+0700] {processor.py:161} INFO - Started process (PID=41053) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:04:55.643+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:04:55.643+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:04:55.643+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:04:55.664+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:04:55.664+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:04:55.665+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:04:55.766+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.127 seconds
+[2024-05-05T23:05:52.553+0700] {processor.py:161} INFO - Started process (PID=43840) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:05:52.555+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:05:52.555+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:05:52.555+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:05:52.578+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:05:52.578+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:05:52.579+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:05:52.667+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.117 seconds
+[2024-05-05T23:07:48.682+0700] {processor.py:161} INFO - Started process (PID=44700) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:07:48.683+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:07:48.684+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:07:48.684+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:07:48.699+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:07:48.698+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:07:48.699+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:07:48.802+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.122 seconds
+[2024-05-05T23:09:01.881+0700] {processor.py:161} INFO - Started process (PID=45122) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:09:01.884+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:09:01.884+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:09:01.884+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:09:01.908+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:09:01.905+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:09:01.908+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:09:02.001+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.121 seconds
+[2024-05-05T23:11:01.740+0700] {processor.py:161} INFO - Started process (PID=45725) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:11:01.741+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:11:01.742+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:11:01.741+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:11:01.755+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:11:01.754+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:11:01.755+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:11:01.837+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.098 seconds
+[2024-05-05T23:12:28.589+0700] {processor.py:161} INFO - Started process (PID=46153) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:12:28.590+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:12:28.590+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:12:28.590+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:12:28.608+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:12:28.608+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:12:28.609+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:12:28.716+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.129 seconds
+[2024-05-05T23:13:59.301+0700] {processor.py:161} INFO - Started process (PID=46589) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:13:59.303+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:13:59.303+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:13:59.303+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:13:59.318+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:13:59.317+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:13:59.318+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:13:59.403+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.104 seconds
+[2024-05-05T23:15:28.731+0700] {processor.py:161} INFO - Started process (PID=47064) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:15:28.732+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:15:28.732+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:15:28.732+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:15:28.749+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:15:28.748+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:15:28.749+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:15:28.835+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.106 seconds
+[2024-05-05T23:17:02.920+0700] {processor.py:161} INFO - Started process (PID=47534) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:17:02.920+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:17:02.921+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:17:02.921+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:17:02.935+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:17:02.934+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:17:02.935+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:17:03.020+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.102 seconds
+[2024-05-05T23:18:25.285+0700] {processor.py:161} INFO - Started process (PID=47933) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:18:25.285+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:18:25.286+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:18:25.286+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:18:25.336+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:18:25.332+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:18:25.337+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:18:25.568+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.286 seconds
+[2024-05-05T23:19:50.802+0700] {processor.py:161} INFO - Started process (PID=48362) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:19:50.803+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:19:50.804+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:19:50.804+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:19:50.819+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:19:50.818+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:19:50.819+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:19:50.901+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.101 seconds
+[2024-05-05T23:21:16.192+0700] {processor.py:161} INFO - Started process (PID=48761) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:21:16.193+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:21:16.194+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:21:16.193+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:21:16.210+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:21:16.209+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:21:16.210+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:21:16.299+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.119 seconds
+[2024-05-05T23:22:41.144+0700] {processor.py:161} INFO - Started process (PID=49172) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:22:41.144+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:22:41.145+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:22:41.145+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:22:41.159+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:22:41.158+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:22:41.160+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:22:41.243+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.101 seconds
+[2024-05-05T23:24:01.541+0700] {processor.py:161} INFO - Started process (PID=49537) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:24:01.543+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:24:01.543+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:24:01.543+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:24:01.558+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:24:01.557+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:24:01.558+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:24:01.641+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.102 seconds
+[2024-05-05T23:25:18.114+0700] {processor.py:161} INFO - Started process (PID=49895) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:25:18.115+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:25:18.116+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:25:18.115+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:25:18.133+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:25:18.132+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:25:18.133+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:25:18.215+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.103 seconds
+[2024-05-05T23:26:36.286+0700] {processor.py:161} INFO - Started process (PID=50247) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:26:36.287+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:26:36.287+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:26:36.287+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:26:36.303+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:26:36.302+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:26:36.303+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:26:36.388+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.105 seconds
+[2024-05-05T23:27:53.427+0700] {processor.py:161} INFO - Started process (PID=50606) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:27:53.428+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:27:53.428+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:27:53.428+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:27:53.443+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:27:53.442+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:27:53.443+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:27:53.525+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.099 seconds
+[2024-05-05T23:29:16.417+0700] {processor.py:161} INFO - Started process (PID=51003) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:29:16.418+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:29:16.418+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:29:16.418+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:29:16.434+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:29:16.433+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:29:16.435+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:29:16.518+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.103 seconds
+[2024-05-05T23:30:35.598+0700] {processor.py:161} INFO - Started process (PID=51364) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:30:35.598+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:30:35.599+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:30:35.599+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:30:35.612+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:30:35.611+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:30:35.612+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:30:35.693+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.097 seconds
+[2024-05-05T23:31:52.931+0700] {processor.py:161} INFO - Started process (PID=51713) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:31:52.932+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:31:52.932+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:31:52.932+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:31:52.949+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:31:52.948+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:31:52.949+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:31:53.044+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.115 seconds
+[2024-05-05T23:33:13.345+0700] {processor.py:161} INFO - Started process (PID=52105) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:33:13.346+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:33:13.347+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:33:13.347+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:33:13.364+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:33:13.363+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:33:13.364+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:33:13.456+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.113 seconds
+[2024-05-05T23:34:37.512+0700] {processor.py:161} INFO - Started process (PID=52562) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:34:37.512+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:34:37.513+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:34:37.513+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:34:37.527+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:34:37.526+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:34:37.527+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:34:37.609+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.099 seconds
+[2024-05-05T23:36:01.559+0700] {processor.py:161} INFO - Started process (PID=52938) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:36:01.560+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:36:01.561+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:36:01.561+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:36:01.575+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:36:01.574+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:36:01.575+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:36:01.657+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.099 seconds
+[2024-05-05T23:37:15.752+0700] {processor.py:161} INFO - Started process (PID=53283) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:37:15.753+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:37:15.754+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:37:15.754+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:37:15.769+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:37:15.768+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:37:15.769+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:37:15.856+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.108 seconds
+[2024-05-05T23:38:34.131+0700] {processor.py:161} INFO - Started process (PID=53642) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:38:34.132+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:38:34.132+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:38:34.132+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:38:34.147+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:38:34.146+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:38:34.147+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:38:34.232+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.103 seconds
+[2024-05-05T23:39:55.540+0700] {processor.py:161} INFO - Started process (PID=54019) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:39:55.541+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:39:55.542+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:39:55.542+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:39:55.561+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:39:55.560+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:39:55.561+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:39:55.648+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.110 seconds
+[2024-05-05T23:41:19.717+0700] {processor.py:161} INFO - Started process (PID=54402) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:41:19.718+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:41:19.719+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:41:19.718+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:41:19.732+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:41:19.731+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:41:19.732+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:41:19.813+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.097 seconds
+[2024-05-05T23:42:42.271+0700] {processor.py:161} INFO - Started process (PID=54783) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:42:42.272+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:42:42.273+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:42:42.273+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:42:42.286+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:42:42.286+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:42:42.287+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:42:42.368+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.099 seconds
+[2024-05-05T23:44:03.117+0700] {processor.py:161} INFO - Started process (PID=55164) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:44:03.118+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:44:03.118+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:44:03.118+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:44:03.133+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:44:03.132+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:44:03.133+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:44:03.228+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.114 seconds
+[2024-05-05T23:45:24.910+0700] {processor.py:161} INFO - Started process (PID=55600) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:45:24.911+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:45:24.911+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:45:24.911+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:45:24.930+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:45:24.929+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:45:24.930+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:45:25.029+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.122 seconds
+[2024-05-05T23:46:45.120+0700] {processor.py:161} INFO - Started process (PID=55980) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:46:45.121+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:46:45.121+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:46:45.121+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:46:45.136+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:46:45.135+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:46:45.136+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:46:45.220+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.102 seconds
+[2024-05-05T23:48:04.924+0700] {processor.py:161} INFO - Started process (PID=56437) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:48:04.925+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:48:04.926+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:48:04.926+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:48:04.939+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:48:04.938+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:48:04.939+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:48:05.019+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.097 seconds
+[2024-05-05T23:49:21.367+0700] {processor.py:161} INFO - Started process (PID=56783) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:49:21.368+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:49:21.368+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:49:21.368+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:49:21.382+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:49:21.382+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:49:21.383+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:49:21.462+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.097 seconds
+[2024-05-05T23:50:37.626+0700] {processor.py:161} INFO - Started process (PID=57128) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:50:37.628+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:50:37.629+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:50:37.628+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:50:37.643+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:50:37.642+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:50:37.643+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:50:37.726+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.101 seconds
+[2024-05-05T23:51:54.993+0700] {processor.py:161} INFO - Started process (PID=57499) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:51:54.994+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:51:54.994+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:51:54.994+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:51:55.011+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:51:55.010+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:51:55.012+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:51:55.102+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.112 seconds
+[2024-05-05T23:53:15.103+0700] {processor.py:161} INFO - Started process (PID=57893) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:53:15.104+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:53:15.104+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:53:15.104+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:53:15.119+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:53:15.118+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:53:15.119+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:53:15.200+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.099 seconds
+[2024-05-05T23:54:32.376+0700] {processor.py:161} INFO - Started process (PID=58257) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:54:32.377+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:54:32.377+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:54:32.377+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:54:32.391+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:54:32.390+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:54:32.391+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:54:32.481+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.109 seconds
+[2024-05-05T23:55:50.681+0700] {processor.py:161} INFO - Started process (PID=58606) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:55:50.683+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:55:50.683+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:55:50.683+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:55:50.697+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:55:50.696+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:55:50.698+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:55:50.778+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.098 seconds
+[2024-05-05T23:57:04.656+0700] {processor.py:161} INFO - Started process (PID=58955) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:57:04.657+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:57:04.657+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:57:04.657+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:57:04.671+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:57:04.670+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:57:04.671+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:57:04.754+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.100 seconds
+[2024-05-05T23:58:27.929+0700] {processor.py:161} INFO - Started process (PID=59618) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:58:27.930+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:58:27.931+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:58:27.930+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:58:27.953+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:58:27.952+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:58:27.953+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:58:28.115+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.189 seconds
+[2024-05-05T23:59:53.784+0700] {processor.py:161} INFO - Started process (PID=60143) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:59:53.786+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-05T23:59:53.786+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:59:53.786+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:59:53.800+0700] {logging_mixin.py:188} INFO - [2024-05-05T23:59:53.799+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-05T23:59:53.800+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-05T23:59:53.884+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.102 seconds
+[2024-05-06T00:01:15.455+0700] {processor.py:161} INFO - Started process (PID=60597) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:01:15.456+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:01:15.457+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:01:15.456+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:01:15.473+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:01:15.472+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:01:15.473+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:01:15.560+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.107 seconds
+[2024-05-06T00:02:35.482+0700] {processor.py:161} INFO - Started process (PID=60963) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:02:35.483+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:02:35.484+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:02:35.484+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:02:35.498+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:02:35.497+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:02:35.498+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:02:35.578+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.097 seconds
+[2024-05-06T00:03:55.303+0700] {processor.py:161} INFO - Started process (PID=61340) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:03:55.304+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:03:55.304+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:03:55.304+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:03:55.321+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:03:55.320+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:03:55.321+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:03:55.409+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.108 seconds
+[2024-05-06T00:05:12.410+0700] {processor.py:161} INFO - Started process (PID=61704) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:05:12.411+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:05:12.411+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:05:12.411+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:05:12.426+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:05:12.425+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:05:12.426+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:05:12.508+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.100 seconds
+[2024-05-06T00:06:29.333+0700] {processor.py:161} INFO - Started process (PID=64244) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:06:29.334+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:06:29.335+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:06:29.335+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:06:29.349+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:06:29.348+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:06:29.349+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:06:29.430+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.098 seconds
+[2024-05-06T00:07:46.125+0700] {processor.py:161} INFO - Started process (PID=64584) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:07:46.125+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:07:46.126+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:07:46.126+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:07:46.141+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:07:46.140+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:07:46.142+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:07:46.231+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.108 seconds
+[2024-05-06T00:09:04.932+0700] {processor.py:161} INFO - Started process (PID=64948) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:09:04.933+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:09:04.934+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:09:04.934+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:09:04.948+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:09:04.947+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:09:04.948+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:09:05.029+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.098 seconds
+[2024-05-06T00:10:22.704+0700] {processor.py:161} INFO - Started process (PID=65314) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:10:22.705+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:10:22.705+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:10:22.705+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:10:22.719+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:10:22.718+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:10:22.719+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:10:22.800+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.098 seconds
+[2024-05-06T00:11:39.977+0700] {processor.py:161} INFO - Started process (PID=65661) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:11:39.978+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:11:39.979+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:11:39.979+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:11:39.993+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:11:39.992+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:11:39.993+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:11:40.085+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.110 seconds
+[2024-05-06T00:12:59.400+0700] {processor.py:161} INFO - Started process (PID=66026) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:12:59.401+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:12:59.401+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:12:59.401+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:12:59.416+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:12:59.416+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:12:59.417+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:12:59.508+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.110 seconds
+[2024-05-06T00:14:18.540+0700] {processor.py:161} INFO - Started process (PID=66385) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:14:18.542+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:14:18.542+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:14:18.542+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:14:18.556+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:14:18.555+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:14:18.557+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:14:18.638+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.099 seconds
+[2024-05-06T00:15:36.504+0700] {processor.py:161} INFO - Started process (PID=66741) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:15:36.505+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:15:36.505+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:15:36.505+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:15:36.519+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:15:36.518+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:15:36.519+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:15:36.600+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.098 seconds
+[2024-05-06T00:16:58.216+0700] {processor.py:161} INFO - Started process (PID=67108) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:16:58.216+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:16:58.217+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:16:58.217+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:16:58.231+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:16:58.230+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:16:58.231+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:16:58.313+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.099 seconds
+[2024-05-06T00:18:18.441+0700] {processor.py:161} INFO - Started process (PID=67480) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:18:18.442+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:18:18.442+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:18:18.442+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:18:18.457+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:18:18.457+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:18:18.458+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:18:18.546+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.107 seconds
+[2024-05-06T00:19:36.992+0700] {processor.py:161} INFO - Started process (PID=67846) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:19:36.993+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:19:36.993+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:19:36.993+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:19:37.009+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:19:37.008+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:19:37.009+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:19:37.096+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.106 seconds
+[2024-05-06T00:20:56.476+0700] {processor.py:161} INFO - Started process (PID=68209) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:20:56.477+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:20:56.477+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:20:56.477+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:20:56.493+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:20:56.492+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:20:56.493+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:20:56.585+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.112 seconds
+[2024-05-06T00:22:17.263+0700] {processor.py:161} INFO - Started process (PID=68583) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:22:17.264+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:22:17.264+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:22:17.264+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:22:17.281+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:22:17.280+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:22:17.281+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:22:17.372+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.111 seconds
+[2024-05-06T00:23:36.984+0700] {processor.py:161} INFO - Started process (PID=68940) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:23:36.985+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:23:36.986+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:23:36.986+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:23:37.001+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:23:37.000+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:23:37.001+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:23:37.092+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.110 seconds
+[2024-05-06T00:24:54.610+0700] {processor.py:161} INFO - Started process (PID=69287) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:24:54.611+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:24:54.612+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:24:54.611+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:24:54.626+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:24:54.625+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:24:54.626+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:24:54.710+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.102 seconds
+[2024-05-06T00:26:12.144+0700] {processor.py:161} INFO - Started process (PID=69644) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:26:12.145+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:26:12.145+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:26:12.145+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:26:12.161+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:26:12.160+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:26:12.161+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:26:12.248+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.106 seconds
+[2024-05-06T00:27:30.026+0700] {processor.py:161} INFO - Started process (PID=69991) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:27:30.027+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:27:30.027+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:27:30.027+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:27:30.043+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:27:30.042+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:27:30.043+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:27:30.130+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.106 seconds
+[2024-05-06T00:28:47.326+0700] {processor.py:161} INFO - Started process (PID=70351) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:28:47.328+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:28:47.328+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:28:47.328+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:28:47.343+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:28:47.342+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:28:47.343+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:28:47.431+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.107 seconds
+[2024-05-06T00:30:06.498+0700] {processor.py:161} INFO - Started process (PID=71054) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:30:06.499+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T00:30:06.500+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:30:06.500+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:30:06.517+0700] {logging_mixin.py:188} INFO - [2024-05-06T00:30:06.516+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T00:30:06.517+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T00:30:06.609+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.115 seconds
+[2024-05-06T05:33:35.011+0700] {processor.py:161} INFO - Started process (PID=72067) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T05:33:35.012+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-06T05:33:35.013+0700] {logging_mixin.py:188} INFO - [2024-05-06T05:33:35.012+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T05:33:35.026+0700] {logging_mixin.py:188} INFO - [2024-05-06T05:33:35.025+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    import scopus
+ModuleNotFoundError: No module named 'scopus'
+[2024-05-06T05:33:35.026+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-06T05:33:35.107+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.097 seconds

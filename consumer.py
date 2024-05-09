@@ -1,5 +1,7 @@
 from kafka import KafkaConsumer
-import pandas as pd
+import csv
+import json
+
 
 kafka_broker = 'localhost:9092'
 
@@ -11,5 +13,14 @@ consumer = KafkaConsumer(
 
 print('Running Consumer')
 
-for message in consumer:
-    print(message)
+csv_file_path = 'output.csv'
+field_names = ["Title", "Affiliation", "Subject", "Year", "Source_Id", "Citedby_Count"]
+
+with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=field_names, delimiter=';')
+    writer.writeheader()
+    for message in consumer:
+        print(message.offset)
+        writer.writerow(json.loads(message.value))
+    
+consumer.close()

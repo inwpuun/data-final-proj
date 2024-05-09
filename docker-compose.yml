@@ -1,6 +1,57 @@
 version: '3'
 
 services:
+  consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./out:/app/out
+  airflow-webserver:
+    image: apache/airflow:2.3.0
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+    command: webserver
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  airflow-scheduler:
+    image: apache/airflow:2.3.0
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+    command: scheduler
+    depends_on:
+      - airflow-webserver
+
+  postgres:
+    image: postgres:13
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U your_postgres_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
   zookeeper:
     image: wurstmeister/zookeeper
     container_name: zookeeper
@@ -12,7 +63,7 @@ services:
     ports:
       - "9092:9092"
     environment:
-      KAFKA_ADVERTISED_HOST_NAME: localhost
+      KAFKA_ADVERTISED_HOST_NAME: kafka
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_CREATE_TOPICS: "sample:1:1,sample2:2:1,avro:1:1,data:1:1,notification:1:1,transaction:1:1,submit:1:1,result:1:1"
       KAFKA_LOG_RETENTION_HOURS: 1
@@ -22,3 +73,5 @@ services:
       KAFKA_LOG_SEGMENT_DELETE_DELAY_MS: 1000
     depends_on:
       - "zookeeper"
+volumes:
+  postgres_data:

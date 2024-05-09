@@ -2,12 +2,13 @@ from airflow import DAG
 from airflow.operators.dummy_operator import DummyOperator
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
+from scopus import get_scopus_data
 
 # Define the default arguments for the DAG
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2024, 3, 16),  # Start date of the DAG
+    'start_date': datetime(2024, 5, 6),  # Start date of the DAG
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
@@ -25,13 +26,14 @@ dag = DAG(
 # Define tasks
 start_task = DummyOperator(task_id='start', dag=dag)
 
-def my_python_function():
-    # Write your Python code here
+def call_scopus():
+    get_scopus_data()
     print("Executing my weekly task")
+
 
 research_scraper = PythonOperator(
     task_id='research_scraper',
-    python_callable=my_python_function,
+    python_callable=call_scopus,
     dag=dag,
 )
 
