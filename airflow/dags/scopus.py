@@ -1,25 +1,18 @@
 import requests
 import pandas as pd
-from kafka import KafkaProducer, KafkaConsumer
+from kafka import KafkaProducer
 import json
 import csv
 import os
 
-SCOPUSPOINTER = "scopusStartPointer.csv"
+SCOPUSPOINTER = "scopusPointer1.csv"
 
 def start_kafka_producer():
     producer = KafkaProducer(bootstrap_servers='kafka:9092')
     return producer
 
-def start_kafka_consumer():
-    consumer = KafkaConsumer(
-    'scopus',
-    bootstrap_servers='kafka:9092',
-    enable_auto_commit=True,
-    value_deserializer=lambda x: x.decode('utf-8'))
-    return consumer
-
 def read_start_pointer() :
+    print("isExist", os.path.exists(SCOPUSPOINTER))
     if not os.path.exists(SCOPUSPOINTER):
         subjects = ["GENE","AGRI","ARTS","BIOC","BUSI","CENG","CHEM","COMP","DECI","EART","ECON","ENER","ENGI","ENVI","IMMU","MATE","MATH","MEDI","NEUR","NURS","PHAR","PHYS","PSYC","SOCI","VETE","DENT","HEAL"] #27 subjects
         years = ['2018','2019','2020','2021','2022','2023']
@@ -27,13 +20,11 @@ def read_start_pointer() :
             for a in years :
                 for b in subjects :
                     file.write(f'{a}, {b}, 0\n')
-
     result = {}
     with open(SCOPUSPOINTER, newline='') as file:
-        csv_reader = csv.reader(file)
+        csv_reader = list(csv.reader(file, delimiter=","))
         for row in csv_reader:
-            print(row)
-            result[f'{row[0].strip()}{row[1].strip()}']= int(row[2].strip())
+            result[f'{row[0].strip()}{row[1].strip()}'] = int(row[2].strip())
     return result
 
 def write_start_pointer(result) :
@@ -60,7 +51,6 @@ def get_scopus_data():
     years = ['2018','2019','2020','2021','2022','2023']
     
     producer = start_kafka_producer()
-    # consume/r = start_kafka_consumer()
     start_pointer = read_start_pointer()
     for year in years :
         for subj in subjects :

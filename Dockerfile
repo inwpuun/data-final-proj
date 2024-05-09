@@ -8,7 +8,7 @@ RUN pip install kafka-python
 RUN pip install pandas 
 
 
-# Copy consumer script
+# # Copy consumer script
 COPY consumer2.py .
 
 # Run consumer script

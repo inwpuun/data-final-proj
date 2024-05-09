@@ -1,0 +1,1489 @@
+[2024-05-09T14:30:33.834+0700] {processor.py:161} INFO - Started process (PID=69356) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:30:33.835+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:30:33.835+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:30:33.835+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:30:34.299+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:30:34.298+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:30:34.299+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:30:34.353+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.522 seconds
+[2024-05-09T14:32:33.616+0700] {processor.py:161} INFO - Started process (PID=70035) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:32:33.617+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:32:33.617+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:32:33.617+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:32:34.315+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:32:34.314+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:32:34.315+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:32:34.372+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.758 seconds
+[2024-05-09T14:33:08.550+0700] {processor.py:161} INFO - Started process (PID=70270) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:33:08.551+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:33:08.551+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:33:08.551+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:33:09.075+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:33:09.074+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:33:09.076+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:33:09.127+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.583 seconds
+[2024-05-09T14:34:19.850+0700] {processor.py:161} INFO - Started process (PID=70682) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:34:19.851+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:34:19.851+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:34:19.851+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:34:20.647+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:34:20.644+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:34:20.647+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:34:20.716+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.867 seconds
+[2024-05-09T14:36:04.606+0700] {processor.py:161} INFO - Started process (PID=71301) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:36:04.607+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:36:04.607+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:36:04.607+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:36:05.343+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:36:05.341+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:36:05.343+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:36:05.412+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.809 seconds
+[2024-05-09T14:37:31.950+0700] {processor.py:161} INFO - Started process (PID=71864) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:37:31.951+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:37:31.951+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:37:31.951+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:37:32.705+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:37:32.704+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:37:32.706+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:37:32.758+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.812 seconds
+[2024-05-09T14:39:14.800+0700] {processor.py:161} INFO - Started process (PID=72744) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:39:14.801+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:39:14.801+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:39:14.801+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:39:15.531+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:39:15.529+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:39:15.531+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:39:15.585+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.787 seconds
+[2024-05-09 07:39:58,870] {processor.py:153} INFO - Started process (PID=173) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:39:58,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:39:58,873] {logging_mixin.py:115} INFO - [2024-05-09 07:39:58,873] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:40:01,019] {logging_mixin.py:115} INFO - [2024-05-09 07:40:01,002] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/opt/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-05-09 07:40:01,022] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:40:01,240] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.380 seconds
+[2024-05-09T14:41:17.667+0700] {processor.py:161} INFO - Started process (PID=76106) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:41:17.668+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:41:17.668+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:41:17.668+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:41:18.294+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:41:18.292+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:41:18.294+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:41:18.345+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.680 seconds
+[2024-05-09T14:42:48.321+0700] {processor.py:161} INFO - Started process (PID=76825) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:42:48.322+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:42:48.322+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:42:48.322+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:42:48.797+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:42:48.795+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:42:48.797+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:42:48.852+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.532 seconds
+[2024-05-09T14:43:17.701+0700] {processor.py:161} INFO - Started process (PID=77077) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:43:17.702+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:43:17.702+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:17.702+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:43:18.287+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:18.285+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:43:18.287+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:43:18.345+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.655 seconds
+[2024-05-09T14:43:24.607+0700] {processor.py:161} INFO - Started process (PID=77120) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:43:24.610+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:43:24.615+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:24.614+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:43:25.515+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:25.513+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:43:25.516+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:43:25.614+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.010 seconds
+[2024-05-09 07:44:18,669] {processor.py:153} INFO - Started process (PID=172) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:44:18,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:44:18,675] {logging_mixin.py:115} INFO - [2024-05-09 07:44:18,675] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:44:21,444] {logging_mixin.py:115} INFO - [2024-05-09 07:44:21,432] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/opt/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-05-09 07:44:21,447] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:44:21,585] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.942 seconds
+[2024-05-09 07:44:52,363] {processor.py:153} INFO - Started process (PID=196) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:44:52,364] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:44:52,365] {logging_mixin.py:115} INFO - [2024-05-09 07:44:52,365] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:44:53,501] {logging_mixin.py:115} INFO - [2024-05-09 07:44:53,498] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/opt/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-05-09 07:44:53,502] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:44:53,554] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.205 seconds
+[2024-05-09T14:45:16.617+0700] {processor.py:161} INFO - Started process (PID=77841) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:45:16.618+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:45:16.619+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:45:16.618+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:45:17.326+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:45:17.324+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:45:17.326+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:45:17.379+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.764 seconds
+[2024-05-09 07:45:24,082] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:45:24,083] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:45:24,084] {logging_mixin.py:115} INFO - [2024-05-09 07:45:24,084] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:45:25,350] {logging_mixin.py:115} INFO - [2024-05-09 07:45:25,346] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/opt/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-05-09 07:45:25,351] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:45:25,425] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.349 seconds
+[2024-05-09 07:45:55,830] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:45:55,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:45:55,834] {logging_mixin.py:115} INFO - [2024-05-09 07:45:55,834] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:45:57,816] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:45:58,159] {logging_mixin.py:115} INFO - [2024-05-09 07:45:58,158] {manager.py:508} INFO - Created Permission View: can edit on DAG:research_scraper
+[2024-05-09 07:45:58,169] {logging_mixin.py:115} INFO - [2024-05-09 07:45:58,169] {manager.py:508} INFO - Created Permission View: can read on DAG:research_scraper
+[2024-05-09 07:45:58,176] {logging_mixin.py:115} INFO - [2024-05-09 07:45:58,176] {manager.py:508} INFO - Created Permission View: can delete on DAG:research_scraper
+[2024-05-09 07:45:58,178] {logging_mixin.py:115} INFO - [2024-05-09 07:45:58,177] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:45:58,190] {logging_mixin.py:115} INFO - [2024-05-09 07:45:58,189] {dag.py:2390} INFO - Creating ORM DAG for research_scraper
+[2024-05-09 07:45:58,204] {logging_mixin.py:115} INFO - [2024-05-09 07:45:58,204] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:45:58,220] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.401 seconds
+[2024-05-09 07:46:28,777] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:46:28,778] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:46:28,779] {logging_mixin.py:115} INFO - [2024-05-09 07:46:28,779] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:46:30,990] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:46:31,233] {logging_mixin.py:115} INFO - [2024-05-09 07:46:31,211] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:46:31,373] {logging_mixin.py:115} INFO - [2024-05-09 07:46:31,372] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:46:31,446] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.684 seconds
+[2024-05-09 07:47:02,064] {processor.py:153} INFO - Started process (PID=272) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:47:02,066] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:47:02,067] {logging_mixin.py:115} INFO - [2024-05-09 07:47:02,067] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:47:03,584] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:47:03,673] {logging_mixin.py:115} INFO - [2024-05-09 07:47:03,670] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:47:03,711] {logging_mixin.py:115} INFO - [2024-05-09 07:47:03,710] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:47:03,730] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.677 seconds
+[2024-05-09T14:47:05.498+0700] {processor.py:161} INFO - Started process (PID=78506) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:47:05.499+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:47:05.499+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:47:05.499+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:47:06.405+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:47:06.403+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:47:06.405+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:47:06.460+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.964 seconds
+[2024-05-09 07:47:34,271] {processor.py:153} INFO - Started process (PID=288) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:47:34,278] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:47:34,288] {logging_mixin.py:115} INFO - [2024-05-09 07:47:34,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:47:39,180] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:47:39,548] {logging_mixin.py:115} INFO - [2024-05-09 07:47:39,543] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:47:39,742] {logging_mixin.py:115} INFO - [2024-05-09 07:47:39,740] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:47:39,862] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 5.637 seconds
+[2024-05-09 07:48:10,706] {processor.py:153} INFO - Started process (PID=304) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:48:10,712] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:48:10,714] {logging_mixin.py:115} INFO - [2024-05-09 07:48:10,714] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:48:13,385] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:48:13,450] {logging_mixin.py:115} INFO - [2024-05-09 07:48:13,448] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:48:13,482] {logging_mixin.py:115} INFO - [2024-05-09 07:48:13,482] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:48:13,497] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.813 seconds
+[2024-05-09 07:48:43,936] {processor.py:153} INFO - Started process (PID=320) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:48:43,937] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:48:43,939] {logging_mixin.py:115} INFO - [2024-05-09 07:48:43,939] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:48:45,046] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:48:45,106] {logging_mixin.py:115} INFO - [2024-05-09 07:48:45,105] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:48:45,129] {logging_mixin.py:115} INFO - [2024-05-09 07:48:45,129] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:48:45,144] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.216 seconds
+[2024-05-09T14:48:58.276+0700] {processor.py:161} INFO - Started process (PID=79123) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:48:58.277+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:48:58.278+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:48:58.277+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:48:59.153+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:48:59.152+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:48:59.154+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:48:59.205+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.932 seconds
+[2024-05-09 07:49:15,439] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:49:15,441] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:49:15,442] {logging_mixin.py:115} INFO - [2024-05-09 07:49:15,442] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:49:16,235] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:49:16,280] {logging_mixin.py:115} INFO - [2024-05-09 07:49:16,278] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:49:16,309] {logging_mixin.py:115} INFO - [2024-05-09 07:49:16,308] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:49:16,319] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 0.893 seconds
+[2024-05-09 07:49:47,211] {processor.py:153} INFO - Started process (PID=352) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:49:47,216] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:49:47,221] {logging_mixin.py:115} INFO - [2024-05-09 07:49:47,220] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:49:48,483] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:49:48,525] {logging_mixin.py:115} INFO - [2024-05-09 07:49:48,524] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:49:48,545] {logging_mixin.py:115} INFO - [2024-05-09 07:49:48,545] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:49:48,555] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.392 seconds
+[2024-05-09 07:50:19,550] {processor.py:153} INFO - Started process (PID=368) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:50:19,551] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:50:19,554] {logging_mixin.py:115} INFO - [2024-05-09 07:50:19,554] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:50:20,581] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:50:20,622] {logging_mixin.py:115} INFO - [2024-05-09 07:50:20,620] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:50:20,645] {logging_mixin.py:115} INFO - [2024-05-09 07:50:20,645] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:50:20,654] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.113 seconds
+[2024-05-09T14:50:36.582+0700] {processor.py:161} INFO - Started process (PID=79663) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:50:36.583+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:50:36.583+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:50:36.583+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:50:37.880+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:50:37.878+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:50:37.881+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:50:37.937+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.357 seconds
+[2024-05-09 07:50:51,581] {processor.py:153} INFO - Started process (PID=384) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:50:51,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:50:51,584] {logging_mixin.py:115} INFO - [2024-05-09 07:50:51,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:50:52,701] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:50:52,768] {logging_mixin.py:115} INFO - [2024-05-09 07:50:52,765] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:50:52,790] {logging_mixin.py:115} INFO - [2024-05-09 07:50:52,789] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:50:52,800] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.238 seconds
+[2024-05-09T14:51:07.696+0700] {processor.py:161} INFO - Started process (PID=79869) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:51:07.697+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:51:07.698+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:51:07.697+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:51:08.403+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:51:08.401+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:51:08.403+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:51:08.464+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.771 seconds
+[2024-05-09 07:51:23,634] {processor.py:153} INFO - Started process (PID=400) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:51:23,638] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:51:23,642] {logging_mixin.py:115} INFO - [2024-05-09 07:51:23,641] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:51:27,878] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:51:28,143] {logging_mixin.py:115} INFO - [2024-05-09 07:51:28,139] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:51:28,253] {logging_mixin.py:115} INFO - [2024-05-09 07:51:28,253] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:51:28,300] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.697 seconds
+[2024-05-09 07:51:58,721] {processor.py:153} INFO - Started process (PID=417) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:51:58,723] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 07:51:58,724] {logging_mixin.py:115} INFO - [2024-05-09 07:51:58,724] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:51:59,600] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 07:51:59,649] {logging_mixin.py:115} INFO - [2024-05-09 07:51:59,648] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:51:59,675] {logging_mixin.py:115} INFO - [2024-05-09 07:51:59,675] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 07:51:59,685] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 0.979 seconds
+[2024-05-09T14:52:45.402+0700] {processor.py:161} INFO - Started process (PID=80514) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:52:45.403+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:52:45.403+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:45.403+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:52:45.891+0700] {processor.py:161} INFO - Started process (PID=80515) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:52:45.892+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:52:45.893+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:45.893+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:52:46.440+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:46.438+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:52:46.440+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:52:46.536+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.136 seconds
+[2024-05-09T14:52:46.818+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:46.816+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:52:46.818+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:52:46.906+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.021 seconds
+[2024-05-09T14:54:23.158+0700] {processor.py:161} INFO - Started process (PID=81102) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:54:23.160+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:54:23.160+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:54:23.160+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:54:23.721+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:54:23.719+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:54:23.721+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:54:23.779+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.625 seconds
+[2024-05-09T14:55:47.832+0700] {processor.py:161} INFO - Started process (PID=81631) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:55:47.833+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:55:47.833+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:55:47.833+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:55:48.292+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:55:48.291+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:55:48.293+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:55:48.343+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.512 seconds
+[2024-05-09T14:56:36.424+0700] {processor.py:161} INFO - Started process (PID=82032) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:56:36.425+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:56:36.425+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:56:36.425+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:56:36.841+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:56:36.839+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:56:36.841+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:56:36.892+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.470 seconds
+[2024-05-09T14:57:22.145+0700] {processor.py:161} INFO - Started process (PID=82358) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:57:22.146+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:57:22.146+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:57:22.146+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:57:22.995+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:57:22.993+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:57:22.995+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:57:23.076+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.935 seconds
+[2024-05-09T14:58:46.128+0700] {processor.py:161} INFO - Started process (PID=82852) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:58:46.129+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T14:58:46.129+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:58:46.129+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:58:46.571+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:58:46.570+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T14:58:46.572+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T14:58:46.622+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.495 seconds
+[2024-05-09T15:00:22.228+0700] {processor.py:161} INFO - Started process (PID=83353) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:00:22.229+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:00:22.229+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:00:22.229+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:00:22.877+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:00:22.876+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:00:22.878+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:00:22.928+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.702 seconds
+[2024-05-09T15:01:56.224+0700] {processor.py:161} INFO - Started process (PID=83876) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:01:56.224+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:01:56.225+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:01:56.225+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:01:56.758+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:01:56.757+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:01:56.759+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:01:56.819+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.597 seconds
+[2024-05-09T15:03:31.741+0700] {processor.py:161} INFO - Started process (PID=84461) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:03:31.741+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:03:31.742+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:03:31.742+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:03:32.575+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:03:32.573+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:03:32.576+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:03:32.638+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.899 seconds
+[2024-05-09T15:05:09.237+0700] {processor.py:161} INFO - Started process (PID=85146) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:05:09.239+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:05:09.239+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:05:09.239+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:05:10.155+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:05:10.154+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:05:10.156+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:05:10.206+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.971 seconds
+[2024-05-09T15:09:01.232+0700] {processor.py:161} INFO - Started process (PID=86225) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:09:01.233+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:09:01.234+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:09:01.234+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:09:02.498+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:09:02.493+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:09:02.499+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:09:02.688+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.457 seconds
+[2024-05-09T15:09:03.599+0700] {processor.py:161} INFO - Started process (PID=86239) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:09:03.600+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:09:03.600+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:09:03.600+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:09:04.542+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:09:04.540+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:09:04.543+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:09:04.701+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.106 seconds
+[2024-05-09T15:11:40.661+0700] {processor.py:161} INFO - Started process (PID=87438) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:11:40.662+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:11:40.663+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:11:40.663+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:11:41.658+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:11:41.656+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:11:41.658+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:11:41.711+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.063 seconds
+[2024-05-09T15:13:38.549+0700] {processor.py:161} INFO - Started process (PID=88273) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:13:38.550+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:13:38.550+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:13:38.550+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:13:39.322+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:13:39.319+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:13:39.322+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:13:39.416+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.869 seconds
+[2024-05-09T15:15:17.808+0700] {processor.py:161} INFO - Started process (PID=88907) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:15:17.809+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:15:17.810+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:15:17.809+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:15:18.521+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:15:18.519+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:15:18.521+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:15:18.575+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.769 seconds
+[2024-05-09T15:16:52.982+0700] {processor.py:161} INFO - Started process (PID=89989) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:16:52.983+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:16:52.983+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:16:52.983+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:16:53.676+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:16:53.675+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:16:53.677+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:16:53.728+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.747 seconds
+[2024-05-09T15:18:22.887+0700] {processor.py:161} INFO - Started process (PID=90548) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:18:22.891+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:18:22.891+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:18:22.891+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:18:23.395+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:18:23.393+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:18:23.395+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:18:23.449+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.567 seconds
+[2024-05-09T15:20:02.573+0700] {processor.py:161} INFO - Started process (PID=91231) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:20:02.574+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:20:02.575+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:20:02.575+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:20:03.525+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:20:03.519+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:20:03.525+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:20:03.582+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.011 seconds
+[2024-05-09T15:21:44.072+0700] {processor.py:161} INFO - Started process (PID=92052) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:21:44.073+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:21:44.073+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:21:44.073+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:21:45.087+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:21:45.086+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:21:45.088+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:21:45.140+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.074 seconds
+[2024-05-09T15:23:15.641+0700] {processor.py:161} INFO - Started process (PID=94324) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:23:15.642+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:23:15.643+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:23:15.643+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:23:16.354+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:23:16.352+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:23:16.354+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:23:16.404+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.766 seconds
+[2024-05-09T15:25:10.897+0700] {processor.py:161} INFO - Started process (PID=95005) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:25:10.901+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:25:10.901+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:25:10.901+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:25:11.740+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:25:11.738+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:25:11.740+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:25:11.793+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.898 seconds
+[2024-05-09T15:26:50.107+0700] {processor.py:161} INFO - Started process (PID=95659) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:26:50.109+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:26:50.109+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:26:50.109+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:26:51.157+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:26:51.153+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:26:51.158+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:26:51.230+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.125 seconds
+[2024-05-09T15:28:18.184+0700] {processor.py:161} INFO - Started process (PID=96171) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:28:18.185+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:28:18.186+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:28:18.185+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:28:18.886+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:28:18.884+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:28:18.886+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:28:18.937+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.769 seconds
+[2024-05-09T15:29:57.796+0700] {processor.py:161} INFO - Started process (PID=96797) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:29:57.797+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:29:57.799+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:29:57.798+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:29:59.372+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:29:59.369+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:29:59.373+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:29:59.534+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.761 seconds
+[2024-05-09T15:32:45.741+0700] {processor.py:161} INFO - Started process (PID=97765) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:32:45.746+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:32:45.748+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:32:45.748+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:32:49.077+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:32:49.066+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:32:49.079+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:32:49.350+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 3.628 seconds
+[2024-05-09T15:35:03.470+0700] {processor.py:161} INFO - Started process (PID=98545) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:35:03.477+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:35:03.478+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:35:03.478+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:35:04.498+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:35:04.496+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:35:04.498+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:35:04.577+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 1.117 seconds
+[2024-05-09T15:58:49.486+0700] {processor.py:161} INFO - Started process (PID=8426) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:58:49.487+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09T15:58:49.487+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:58:49.487+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:58:50.271+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:58:50.269+0700] {dagbag.py:350} ERROR - Failed to import: /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/Users/inwpuun/project/final_data_proj/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/__init__.py", line 23, in <module>
+    from kafka.producer import KafkaProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/__init__.py", line 4, in <module>
+    from .simple import SimpleProducer
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/kafka/producer/simple.py", line 54
+    return '<SimpleProducer batch=%s>' % self.async
+                                              ^^^^^
+SyntaxError: invalid syntax
+[2024-05-09T15:58:50.272+0700] {processor.py:842} WARNING - No viable dags retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py
+[2024-05-09T15:58:50.382+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/ResearchScraper.py took 0.898 seconds
+[2024-05-09 09:16:42,190] {processor.py:153} INFO - Started process (PID=171) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:16:42,193] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:16:42,197] {logging_mixin.py:115} INFO - [2024-05-09 09:16:42,197] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:16:45,328] {logging_mixin.py:115} INFO - [2024-05-09 09:16:45,318] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/opt/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-05-09 09:16:45,329] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:16:45,444] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 3.275 seconds
+[2024-05-09 09:17:16,030] {processor.py:153} INFO - Started process (PID=195) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:17:16,033] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:17:16,035] {logging_mixin.py:115} INFO - [2024-05-09 09:17:16,034] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:17:17,736] {logging_mixin.py:115} INFO - [2024-05-09 09:17:17,732] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/opt/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-05-09 09:17:17,737] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:17:17,764] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.789 seconds
+[2024-05-09 09:17:48,347] {processor.py:153} INFO - Started process (PID=211) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:17:48,348] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:17:48,350] {logging_mixin.py:115} INFO - [2024-05-09 09:17:48,350] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:17:49,619] {logging_mixin.py:115} INFO - [2024-05-09 09:17:49,613] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/ResearchScraper.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/ResearchScraper.py", line 5, in <module>
+    from scopus import get_scopus_data
+  File "/opt/airflow/dags/scopus.py", line 3, in <module>
+    from kafka import KafkaProducer
+ModuleNotFoundError: No module named 'kafka'
+[2024-05-09 09:17:49,620] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:17:49,707] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.371 seconds
+[2024-05-09 09:18:20,068] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:18:20,069] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:18:20,071] {logging_mixin.py:115} INFO - [2024-05-09 09:18:20,070] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:18:20,703] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:18:20,787] {logging_mixin.py:115} INFO - [2024-05-09 09:18:20,787] {manager.py:508} INFO - Created Permission View: can read on DAG:research_scraper
+[2024-05-09 09:18:20,793] {logging_mixin.py:115} INFO - [2024-05-09 09:18:20,792] {manager.py:508} INFO - Created Permission View: can delete on DAG:research_scraper
+[2024-05-09 09:18:20,797] {logging_mixin.py:115} INFO - [2024-05-09 09:18:20,796] {manager.py:508} INFO - Created Permission View: can edit on DAG:research_scraper
+[2024-05-09 09:18:20,797] {logging_mixin.py:115} INFO - [2024-05-09 09:18:20,797] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:18:20,804] {logging_mixin.py:115} INFO - [2024-05-09 09:18:20,804] {dag.py:2390} INFO - Creating ORM DAG for research_scraper
+[2024-05-09 09:18:20,816] {logging_mixin.py:115} INFO - [2024-05-09 09:18:20,815] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:18:20,825] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 0.765 seconds
+[2024-05-09 09:18:51,425] {processor.py:153} INFO - Started process (PID=254) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:18:51,429] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:18:51,431] {logging_mixin.py:115} INFO - [2024-05-09 09:18:51,431] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:18:53,587] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:18:53,659] {logging_mixin.py:115} INFO - [2024-05-09 09:18:53,658] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:18:53,693] {logging_mixin.py:115} INFO - [2024-05-09 09:18:53,692] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:18:53,719] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.350 seconds
+[2024-05-09 09:19:24,300] {processor.py:153} INFO - Started process (PID=274) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:19:24,304] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:19:24,311] {logging_mixin.py:115} INFO - [2024-05-09 09:19:24,310] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:19:25,468] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:19:25,515] {logging_mixin.py:115} INFO - [2024-05-09 09:19:25,514] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:19:25,536] {logging_mixin.py:115} INFO - [2024-05-09 09:19:25,536] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:19:25,545] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.261 seconds
+[2024-05-09 09:19:56,605] {processor.py:153} INFO - Started process (PID=290) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:19:56,609] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:19:56,611] {logging_mixin.py:115} INFO - [2024-05-09 09:19:56,611] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:20:01,236] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:20:01,375] {logging_mixin.py:115} INFO - [2024-05-09 09:20:01,372] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:20:01,462] {logging_mixin.py:115} INFO - [2024-05-09 09:20:01,462] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:20:01,503] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.935 seconds
+[2024-05-09 09:20:32,197] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:20:32,199] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:20:32,203] {logging_mixin.py:115} INFO - [2024-05-09 09:20:32,202] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:20:34,785] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:20:34,923] {logging_mixin.py:115} INFO - [2024-05-09 09:20:34,920] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:20:34,978] {logging_mixin.py:115} INFO - [2024-05-09 09:20:34,978] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:20:35,030] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.851 seconds
+[2024-05-09 09:21:05,723] {processor.py:153} INFO - Started process (PID=322) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:21:05,727] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:21:05,730] {logging_mixin.py:115} INFO - [2024-05-09 09:21:05,729] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:21:09,872] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:21:10,112] {logging_mixin.py:115} INFO - [2024-05-09 09:21:10,106] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:21:10,242] {logging_mixin.py:115} INFO - [2024-05-09 09:21:10,241] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:21:10,302] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.629 seconds
+[2024-05-09 09:21:41,363] {processor.py:153} INFO - Started process (PID=338) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:21:41,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:21:41,369] {logging_mixin.py:115} INFO - [2024-05-09 09:21:41,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:21:44,637] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:21:44,800] {logging_mixin.py:115} INFO - [2024-05-09 09:21:44,789] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:21:44,904] {logging_mixin.py:115} INFO - [2024-05-09 09:21:44,903] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:21:44,957] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 3.645 seconds
+[2024-05-09 09:22:15,673] {processor.py:153} INFO - Started process (PID=354) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:22:15,684] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:22:15,688] {logging_mixin.py:115} INFO - [2024-05-09 09:22:15,687] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:22:18,348] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:22:18,588] {logging_mixin.py:115} INFO - [2024-05-09 09:22:18,586] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:22:18,693] {logging_mixin.py:115} INFO - [2024-05-09 09:22:18,691] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:22:18,756] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 3.144 seconds
+[2024-05-09 09:22:49,202] {processor.py:153} INFO - Started process (PID=370) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:22:49,205] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:22:49,207] {logging_mixin.py:115} INFO - [2024-05-09 09:22:49,207] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:22:52,821] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:22:53,136] {logging_mixin.py:115} INFO - [2024-05-09 09:22:53,125] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:22:53,277] {logging_mixin.py:115} INFO - [2024-05-09 09:22:53,277] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:22:53,310] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.134 seconds
+[2024-05-09 09:23:23,938] {processor.py:153} INFO - Started process (PID=386) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:23:23,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:23:23,952] {logging_mixin.py:115} INFO - [2024-05-09 09:23:23,951] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:23:27,554] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:23:27,689] {logging_mixin.py:115} INFO - [2024-05-09 09:23:27,687] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:23:27,767] {logging_mixin.py:115} INFO - [2024-05-09 09:23:27,767] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:23:27,793] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 3.950 seconds
+[2024-05-09 09:23:58,455] {processor.py:153} INFO - Started process (PID=412) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:23:58,457] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:23:58,459] {logging_mixin.py:115} INFO - [2024-05-09 09:23:58,458] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:24:00,512] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:24:00,575] {logging_mixin.py:115} INFO - [2024-05-09 09:24:00,574] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:24:00,611] {logging_mixin.py:115} INFO - [2024-05-09 09:24:00,611] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:24:00,639] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.195 seconds
+[2024-05-09 09:24:31,593] {processor.py:153} INFO - Started process (PID=428) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:24:31,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:24:31,600] {logging_mixin.py:115} INFO - [2024-05-09 09:24:31,599] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:24:36,057] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:24:36,235] {logging_mixin.py:115} INFO - [2024-05-09 09:24:36,231] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:24:36,340] {logging_mixin.py:115} INFO - [2024-05-09 09:24:36,339] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:24:36,371] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.825 seconds
+[2024-05-09 09:25:06,760] {processor.py:153} INFO - Started process (PID=444) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:25:06,763] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:25:06,766] {logging_mixin.py:115} INFO - [2024-05-09 09:25:06,766] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:25:10,879] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:25:11,182] {logging_mixin.py:115} INFO - [2024-05-09 09:25:11,175] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:25:11,715] {logging_mixin.py:115} INFO - [2024-05-09 09:25:11,714] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:25:11,764] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 5.033 seconds
+[2024-05-09 09:25:43,716] {processor.py:153} INFO - Started process (PID=460) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:25:43,723] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:25:43,730] {logging_mixin.py:115} INFO - [2024-05-09 09:25:43,729] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:25:48,018] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:25:48,299] {logging_mixin.py:115} INFO - [2024-05-09 09:25:48,296] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:25:48,463] {logging_mixin.py:115} INFO - [2024-05-09 09:25:48,462] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:25:48,514] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.855 seconds
+[2024-05-09 09:26:19,065] {processor.py:153} INFO - Started process (PID=479) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:26:19,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:26:19,075] {logging_mixin.py:115} INFO - [2024-05-09 09:26:19,074] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:26:24,825] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:26:25,073] {logging_mixin.py:115} INFO - [2024-05-09 09:26:25,058] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:26:25,208] {logging_mixin.py:115} INFO - [2024-05-09 09:26:25,208] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:26:25,262] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 6.232 seconds
+[2024-05-09 09:26:56,137] {processor.py:153} INFO - Started process (PID=496) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:26:56,139] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:26:56,141] {logging_mixin.py:115} INFO - [2024-05-09 09:26:56,140] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:26:58,679] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:26:58,766] {logging_mixin.py:115} INFO - [2024-05-09 09:26:58,761] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:26:58,832] {logging_mixin.py:115} INFO - [2024-05-09 09:26:58,832] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:26:58,862] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.735 seconds
+[2024-05-09 09:27:29,642] {processor.py:153} INFO - Started process (PID=512) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:27:29,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:27:29,660] {logging_mixin.py:115} INFO - [2024-05-09 09:27:29,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:27:33,267] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:27:33,497] {logging_mixin.py:115} INFO - [2024-05-09 09:27:33,473] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:27:33,618] {logging_mixin.py:115} INFO - [2024-05-09 09:27:33,617] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:27:33,710] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.143 seconds
+[2024-05-09 09:28:05,058] {processor.py:153} INFO - Started process (PID=528) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:28:05,065] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:28:05,070] {logging_mixin.py:115} INFO - [2024-05-09 09:28:05,069] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:28:12,768] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:28:12,937] {logging_mixin.py:115} INFO - [2024-05-09 09:28:12,931] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:28:13,028] {logging_mixin.py:115} INFO - [2024-05-09 09:28:13,028] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:28:13,105] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 8.126 seconds
+[2024-05-09 09:28:43,972] {processor.py:153} INFO - Started process (PID=544) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:28:43,973] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:28:43,976] {logging_mixin.py:115} INFO - [2024-05-09 09:28:43,976] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:28:54,398] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:28:54,928] {logging_mixin.py:115} INFO - [2024-05-09 09:28:54,840] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:28:55,138] {logging_mixin.py:115} INFO - [2024-05-09 09:28:55,137] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:28:55,225] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 11.266 seconds
+[2024-05-09 09:29:25,925] {processor.py:153} INFO - Started process (PID=570) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:29:25,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:29:25,934] {logging_mixin.py:115} INFO - [2024-05-09 09:29:25,934] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:29:28,849] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:29:29,049] {logging_mixin.py:115} INFO - [2024-05-09 09:29:29,046] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:29:29,144] {logging_mixin.py:115} INFO - [2024-05-09 09:29:29,144] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:29:29,203] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 3.334 seconds
+[2024-05-09 09:30:00,040] {processor.py:153} INFO - Started process (PID=586) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:30:00,052] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:30:00,055] {logging_mixin.py:115} INFO - [2024-05-09 09:30:00,054] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:30:04,505] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:30:04,651] {logging_mixin.py:115} INFO - [2024-05-09 09:30:04,648] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:30:04,720] {logging_mixin.py:115} INFO - [2024-05-09 09:30:04,720] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:30:04,793] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.805 seconds
+[2024-05-09 09:30:35,901] {processor.py:153} INFO - Started process (PID=602) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:30:35,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:30:35,907] {logging_mixin.py:115} INFO - [2024-05-09 09:30:35,907] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:30:40,548] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:30:40,775] {logging_mixin.py:115} INFO - [2024-05-09 09:30:40,771] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:30:40,847] {logging_mixin.py:115} INFO - [2024-05-09 09:30:40,846] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:30:40,879] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 5.047 seconds
+[2024-05-09 09:31:11,146] {processor.py:153} INFO - Started process (PID=618) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:31:11,151] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:31:11,158] {logging_mixin.py:115} INFO - [2024-05-09 09:31:11,157] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:31:13,201] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:31:13,415] {logging_mixin.py:115} INFO - [2024-05-09 09:31:13,410] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:31:13,462] {logging_mixin.py:115} INFO - [2024-05-09 09:31:13,462] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:31:13,485] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.372 seconds
+[2024-05-09 09:31:43,839] {processor.py:153} INFO - Started process (PID=634) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:31:43,846] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:31:43,848] {logging_mixin.py:115} INFO - [2024-05-09 09:31:43,848] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:31:45,347] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:31:45,414] {logging_mixin.py:115} INFO - [2024-05-09 09:31:45,412] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:31:45,464] {logging_mixin.py:115} INFO - [2024-05-09 09:31:45,464] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:31:45,486] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.660 seconds
+[2024-05-09 09:32:15,582] {processor.py:153} INFO - Started process (PID=650) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:32:15,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:32:15,585] {logging_mixin.py:115} INFO - [2024-05-09 09:32:15,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:32:16,600] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:32:16,673] {logging_mixin.py:115} INFO - [2024-05-09 09:32:16,672] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:32:16,717] {logging_mixin.py:115} INFO - [2024-05-09 09:32:16,717] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:32:16,737] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.163 seconds
+[2024-05-09 09:32:47,193] {processor.py:153} INFO - Started process (PID=666) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:32:47,194] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:32:47,195] {logging_mixin.py:115} INFO - [2024-05-09 09:32:47,194] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:32:48,398] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:32:48,477] {logging_mixin.py:115} INFO - [2024-05-09 09:32:48,474] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:32:48,539] {logging_mixin.py:115} INFO - [2024-05-09 09:32:48,538] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:32:48,560] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.373 seconds
+[2024-05-09 09:33:19,319] {processor.py:153} INFO - Started process (PID=682) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:33:19,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:33:19,330] {logging_mixin.py:115} INFO - [2024-05-09 09:33:19,330] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:33:21,686] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:33:21,850] {logging_mixin.py:115} INFO - [2024-05-09 09:33:21,847] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:33:21,954] {logging_mixin.py:115} INFO - [2024-05-09 09:33:21,953] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:33:22,007] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.736 seconds
+[2024-05-09 09:33:53,061] {processor.py:153} INFO - Started process (PID=698) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:33:53,069] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:33:53,099] {logging_mixin.py:115} INFO - [2024-05-09 09:33:53,096] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:33:56,328] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:33:56,626] {logging_mixin.py:115} INFO - [2024-05-09 09:33:56,622] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:33:56,754] {logging_mixin.py:115} INFO - [2024-05-09 09:33:56,754] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:33:56,794] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 3.868 seconds
+[2024-05-09 09:34:27,571] {processor.py:153} INFO - Started process (PID=714) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:34:27,574] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:34:27,576] {logging_mixin.py:115} INFO - [2024-05-09 09:34:27,576] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:34:32,221] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:34:32,400] {logging_mixin.py:115} INFO - [2024-05-09 09:34:32,395] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:34:32,461] {logging_mixin.py:115} INFO - [2024-05-09 09:34:32,461] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:34:32,511] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.980 seconds
+[2024-05-09 09:35:02,886] {processor.py:153} INFO - Started process (PID=730) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:35:02,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:35:02,899] {logging_mixin.py:115} INFO - [2024-05-09 09:35:02,899] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:35:17,919] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:35:18,322] {logging_mixin.py:115} INFO - [2024-05-09 09:35:18,309] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:35:18,486] {logging_mixin.py:115} INFO - [2024-05-09 09:35:18,485] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:35:18,561] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 15.733 seconds
+[2024-05-09 09:35:48,973] {processor.py:153} INFO - Started process (PID=756) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:35:48,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:35:49,033] {logging_mixin.py:115} INFO - [2024-05-09 09:35:49,021] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:35:52,551] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:35:52,738] {logging_mixin.py:115} INFO - [2024-05-09 09:35:52,735] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:35:52,832] {logging_mixin.py:115} INFO - [2024-05-09 09:35:52,832] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:35:52,860] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 3.971 seconds
+[2024-05-09 09:36:23,745] {processor.py:153} INFO - Started process (PID=772) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:36:23,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:36:23,749] {logging_mixin.py:115} INFO - [2024-05-09 09:36:23,749] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:36:28,963] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:36:29,259] {logging_mixin.py:115} INFO - [2024-05-09 09:36:29,241] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:36:29,458] {logging_mixin.py:115} INFO - [2024-05-09 09:36:29,457] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:36:29,517] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 5.814 seconds
+[2024-05-09 09:37:01,964] {processor.py:153} INFO - Started process (PID=792) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:37:01,983] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:37:01,991] {logging_mixin.py:115} INFO - [2024-05-09 09:37:01,990] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:37:09,513] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:37:09,790] {logging_mixin.py:115} INFO - [2024-05-09 09:37:09,769] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:37:09,878] {logging_mixin.py:115} INFO - [2024-05-09 09:37:09,878] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:37:09,912] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 8.540 seconds
+[2024-05-09 09:37:40,360] {processor.py:153} INFO - Started process (PID=808) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:37:40,362] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:37:40,364] {logging_mixin.py:115} INFO - [2024-05-09 09:37:40,364] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:37:44,113] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:37:44,330] {logging_mixin.py:115} INFO - [2024-05-09 09:37:44,327] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:37:44,437] {logging_mixin.py:115} INFO - [2024-05-09 09:37:44,437] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:37:44,464] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 4.136 seconds
+[2024-05-09 09:38:15,066] {processor.py:153} INFO - Started process (PID=824) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:38:15,071] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:38:15,079] {logging_mixin.py:115} INFO - [2024-05-09 09:38:15,078] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:38:16,948] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:38:17,006] {logging_mixin.py:115} INFO - [2024-05-09 09:38:17,004] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:38:17,035] {logging_mixin.py:115} INFO - [2024-05-09 09:38:17,035] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:38:17,045] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 2.006 seconds
+[2024-05-09 09:38:47,492] {processor.py:153} INFO - Started process (PID=840) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:38:47,493] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:38:47,495] {logging_mixin.py:115} INFO - [2024-05-09 09:38:47,495] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:38:48,878] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:38:48,993] {logging_mixin.py:115} INFO - [2024-05-09 09:38:48,991] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:38:49,077] {logging_mixin.py:115} INFO - [2024-05-09 09:38:49,077] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:38:49,098] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.613 seconds
+[2024-05-09 09:39:19,494] {processor.py:153} INFO - Started process (PID=856) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:39:19,497] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:39:19,499] {logging_mixin.py:115} INFO - [2024-05-09 09:39:19,499] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:39:20,569] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:39:20,646] {logging_mixin.py:115} INFO - [2024-05-09 09:39:20,644] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:39:20,675] {logging_mixin.py:115} INFO - [2024-05-09 09:39:20,675] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:39:20,689] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.231 seconds
+[2024-05-09 09:39:51,116] {processor.py:153} INFO - Started process (PID=872) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:39:51,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:39:51,118] {logging_mixin.py:115} INFO - [2024-05-09 09:39:51,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:39:52,169] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:39:52,221] {logging_mixin.py:115} INFO - [2024-05-09 09:39:52,220] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:39:52,263] {logging_mixin.py:115} INFO - [2024-05-09 09:39:52,263] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:39:52,315] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.207 seconds
+[2024-05-09 09:40:22,642] {processor.py:153} INFO - Started process (PID=888) to work on /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:40:22,647] {processor.py:641} INFO - Processing file /opt/airflow/dags/ResearchScraper.py for tasks to queue
+[2024-05-09 09:40:22,649] {logging_mixin.py:115} INFO - [2024-05-09 09:40:22,649] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:40:23,850] {processor.py:651} INFO - DAG(s) dict_keys(['research_scraper']) retrieved from /opt/airflow/dags/ResearchScraper.py
+[2024-05-09 09:40:23,966] {logging_mixin.py:115} INFO - [2024-05-09 09:40:23,963] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:40:24,043] {logging_mixin.py:115} INFO - [2024-05-09 09:40:24,043] {dag.py:2919} INFO - Setting next_dagrun for research_scraper to 2024-05-06T00:00:00+00:00, run_after=2024-05-13T00:00:00+00:00
+[2024-05-09 09:40:24,069] {processor.py:161} INFO - Processing /opt/airflow/dags/ResearchScraper.py took 1.438 seconds

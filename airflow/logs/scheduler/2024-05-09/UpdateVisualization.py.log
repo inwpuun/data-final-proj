@@ -1,0 +1,750 @@
+[2024-05-09T14:30:29.832+0700] {processor.py:161} INFO - Started process (PID=69330) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:30:29.832+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:30:29.833+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:30:29.833+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:30:29.839+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:30:29.852+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:30:29.852+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:30:29.949+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:30:29.949+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:30:29.960+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.130 seconds
+[2024-05-09T14:32:31.267+0700] {processor.py:161} INFO - Started process (PID=70023) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:32:31.268+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:32:31.268+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:32:31.268+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:32:31.281+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:32:31.425+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:32:31.425+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:32:31.435+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:32:31.434+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:32:31.446+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.181 seconds
+[2024-05-09T14:33:06.335+0700] {processor.py:161} INFO - Started process (PID=70257) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:33:06.336+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:33:06.337+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:33:06.337+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:33:06.347+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:33:06.367+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:33:06.367+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:33:06.498+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:33:06.498+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:33:06.513+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.180 seconds
+[2024-05-09T14:34:18.562+0700] {processor.py:161} INFO - Started process (PID=70673) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:34:18.562+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:34:18.563+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:34:18.563+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:34:18.572+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:34:18.727+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:34:18.726+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:34:18.736+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:34:18.736+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:34:18.747+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.189 seconds
+[2024-05-09T14:36:03.118+0700] {processor.py:161} INFO - Started process (PID=71292) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:36:03.119+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:36:03.119+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:36:03.119+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:36:03.125+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:36:03.220+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:36:03.220+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:36:03.230+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:36:03.230+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:36:03.241+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.124 seconds
+[2024-05-09T14:37:29.773+0700] {processor.py:161} INFO - Started process (PID=71848) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:37:29.773+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:37:29.774+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:37:29.774+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:37:29.779+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:37:29.876+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:37:29.875+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:37:29.886+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:37:29.885+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:37:29.896+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.125 seconds
+[2024-05-09T14:39:11.932+0700] {processor.py:161} INFO - Started process (PID=72716) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:39:11.935+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:39:11.938+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:39:11.938+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:39:11.960+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:39:12.289+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:39:12.289+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:39:12.315+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:39:12.315+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:39:12.347+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.418 seconds
+[2024-05-09 07:39:58,850] {processor.py:153} INFO - Started process (PID=170) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:39:58,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:39:58,853] {logging_mixin.py:115} INFO - [2024-05-09 07:39:58,853] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:39:58,898] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:39:59,142] {logging_mixin.py:115} INFO - [2024-05-09 07:39:59,142] {manager.py:508} INFO - Created Permission View: can delete on DAG:update_visualization
+[2024-05-09 07:39:59,150] {logging_mixin.py:115} INFO - [2024-05-09 07:39:59,149] {manager.py:508} INFO - Created Permission View: can read on DAG:update_visualization
+[2024-05-09 07:39:59,156] {logging_mixin.py:115} INFO - [2024-05-09 07:39:59,155] {manager.py:508} INFO - Created Permission View: can edit on DAG:update_visualization
+[2024-05-09 07:39:59,156] {logging_mixin.py:115} INFO - [2024-05-09 07:39:59,156] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:39:59,174] {logging_mixin.py:115} INFO - [2024-05-09 07:39:59,174] {dag.py:2390} INFO - Creating ORM DAG for update_visualization
+[2024-05-09 07:39:59,191] {logging_mixin.py:115} INFO - [2024-05-09 07:39:59,191] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:39:59,212] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.378 seconds
+[2024-05-09T14:41:15.963+0700] {processor.py:161} INFO - Started process (PID=76086) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:41:15.964+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:41:15.964+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:41:15.964+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:41:15.970+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:41:16.069+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:41:16.069+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:41:16.080+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:41:16.080+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:41:16.092+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.131 seconds
+[2024-05-09T14:42:46.763+0700] {processor.py:161} INFO - Started process (PID=76812) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:42:46.764+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:42:46.764+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:42:46.764+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:42:46.773+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:42:46.793+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:42:46.793+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:42:46.938+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:42:46.938+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:42:46.973+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.212 seconds
+[2024-05-09T14:43:15.234+0700] {processor.py:161} INFO - Started process (PID=77062) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:43:15.235+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:43:15.236+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:15.236+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:43:15.247+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:43:15.279+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:15.279+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:43:15.450+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:15.450+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:43:15.468+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.240 seconds
+[2024-05-09T14:43:22.382+0700] {processor.py:161} INFO - Started process (PID=77110) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:43:22.383+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:43:22.383+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:22.383+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:43:22.388+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:43:22.401+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:22.401+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:43:22.489+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:43:22.489+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:43:22.500+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.119 seconds
+[2024-05-09 07:44:18,638] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:44:18,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:44:18,644] {logging_mixin.py:115} INFO - [2024-05-09 07:44:18,643] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:44:18,698] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:44:18,796] {logging_mixin.py:115} INFO - [2024-05-09 07:44:18,796] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:44:18,859] {logging_mixin.py:115} INFO - [2024-05-09 07:44:18,859] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:44:18,877] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.252 seconds
+[2024-05-09 07:44:48,993] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:44:48,996] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:44:48,999] {logging_mixin.py:115} INFO - [2024-05-09 07:44:48,999] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:44:49,033] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:44:49,127] {logging_mixin.py:115} INFO - [2024-05-09 07:44:49,127] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:44:49,209] {logging_mixin.py:115} INFO - [2024-05-09 07:44:49,209] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:44:49,245] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.270 seconds
+[2024-05-09T14:45:14.194+0700] {processor.py:161} INFO - Started process (PID=77813) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:45:14.195+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:45:14.195+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:45:14.195+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:45:14.201+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:45:14.356+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:45:14.356+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:45:14.366+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:45:14.366+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:45:14.376+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.184 seconds
+[2024-05-09 07:45:19,789] {processor.py:153} INFO - Started process (PID=202) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:45:19,791] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:45:19,793] {logging_mixin.py:115} INFO - [2024-05-09 07:45:19,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:45:19,827] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:45:19,914] {logging_mixin.py:115} INFO - [2024-05-09 07:45:19,914] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:45:19,983] {logging_mixin.py:115} INFO - [2024-05-09 07:45:19,983] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:45:19,994] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.215 seconds
+[2024-05-09 07:45:50,391] {processor.py:153} INFO - Started process (PID=230) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:45:50,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:45:50,396] {logging_mixin.py:115} INFO - [2024-05-09 07:45:50,396] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:45:50,422] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:45:50,526] {logging_mixin.py:115} INFO - [2024-05-09 07:45:50,526] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:45:50,595] {logging_mixin.py:115} INFO - [2024-05-09 07:45:50,594] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:45:50,624] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.257 seconds
+[2024-05-09 07:46:21,182] {processor.py:153} INFO - Started process (PID=246) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:46:21,185] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:46:21,188] {logging_mixin.py:115} INFO - [2024-05-09 07:46:21,187] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:46:21,274] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:46:21,469] {logging_mixin.py:115} INFO - [2024-05-09 07:46:21,469] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:46:21,566] {logging_mixin.py:115} INFO - [2024-05-09 07:46:21,566] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:46:21,591] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.458 seconds
+[2024-05-09 07:46:51,923] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:46:51,926] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:46:51,929] {logging_mixin.py:115} INFO - [2024-05-09 07:46:51,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:46:51,992] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:46:52,139] {logging_mixin.py:115} INFO - [2024-05-09 07:46:52,139] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:46:52,213] {logging_mixin.py:115} INFO - [2024-05-09 07:46:52,213] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:46:52,232] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.349 seconds
+[2024-05-09T14:47:03.384+0700] {processor.py:161} INFO - Started process (PID=78485) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:47:03.387+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:47:03.388+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:47:03.387+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:47:03.398+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:47:03.605+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:47:03.605+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:47:03.620+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:47:03.620+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:47:03.638+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.258 seconds
+[2024-05-09 07:47:22,647] {processor.py:153} INFO - Started process (PID=278) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:47:22,649] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:47:22,651] {logging_mixin.py:115} INFO - [2024-05-09 07:47:22,651] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:47:22,683] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:47:22,815] {logging_mixin.py:115} INFO - [2024-05-09 07:47:22,814] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:47:22,897] {logging_mixin.py:115} INFO - [2024-05-09 07:47:22,897] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:47:22,949] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.316 seconds
+[2024-05-09 07:47:53,290] {processor.py:153} INFO - Started process (PID=294) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:47:53,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:47:53,295] {logging_mixin.py:115} INFO - [2024-05-09 07:47:53,295] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:47:53,334] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:47:53,430] {logging_mixin.py:115} INFO - [2024-05-09 07:47:53,430] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:47:53,491] {logging_mixin.py:115} INFO - [2024-05-09 07:47:53,491] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:47:53,508] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.238 seconds
+[2024-05-09 07:48:23,791] {processor.py:153} INFO - Started process (PID=310) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:48:23,793] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:48:23,796] {logging_mixin.py:115} INFO - [2024-05-09 07:48:23,795] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:48:23,904] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:48:24,038] {logging_mixin.py:115} INFO - [2024-05-09 07:48:24,037] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:48:24,116] {logging_mixin.py:115} INFO - [2024-05-09 07:48:24,116] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:48:24,140] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.364 seconds
+[2024-05-09 07:48:54,285] {processor.py:153} INFO - Started process (PID=326) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:48:54,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:48:54,295] {logging_mixin.py:115} INFO - [2024-05-09 07:48:54,295] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:48:54,319] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:48:54,406] {logging_mixin.py:115} INFO - [2024-05-09 07:48:54,406] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:48:54,459] {logging_mixin.py:115} INFO - [2024-05-09 07:48:54,459] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:48:54,471] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.215 seconds
+[2024-05-09T14:48:55.802+0700] {processor.py:161} INFO - Started process (PID=79114) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:48:55.802+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:48:55.803+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:48:55.803+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:48:55.808+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:48:55.988+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:48:55.987+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:48:56.001+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:48:56.000+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:48:56.013+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.214 seconds
+[2024-05-09 07:49:24,707] {processor.py:153} INFO - Started process (PID=342) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:49:24,715] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:49:24,731] {logging_mixin.py:115} INFO - [2024-05-09 07:49:24,731] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:49:24,761] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:49:24,863] {logging_mixin.py:115} INFO - [2024-05-09 07:49:24,863] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:49:24,908] {logging_mixin.py:115} INFO - [2024-05-09 07:49:24,908] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:49:24,920] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.223 seconds
+[2024-05-09 07:49:55,259] {processor.py:153} INFO - Started process (PID=358) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:49:55,261] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:49:55,262] {logging_mixin.py:115} INFO - [2024-05-09 07:49:55,262] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:49:55,286] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:49:55,363] {logging_mixin.py:115} INFO - [2024-05-09 07:49:55,363] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:49:55,421] {logging_mixin.py:115} INFO - [2024-05-09 07:49:55,421] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:49:55,432] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.201 seconds
+[2024-05-09 07:50:25,715] {processor.py:153} INFO - Started process (PID=374) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:50:25,717] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:50:25,720] {logging_mixin.py:115} INFO - [2024-05-09 07:50:25,719] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:50:25,771] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:50:25,973] {logging_mixin.py:115} INFO - [2024-05-09 07:50:25,973] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:50:26,166] {logging_mixin.py:115} INFO - [2024-05-09 07:50:26,166] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:50:26,202] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.526 seconds
+[2024-05-09T14:50:34.999+0700] {processor.py:161} INFO - Started process (PID=79653) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:50:35.001+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:50:35.002+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:50:35.002+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:50:35.009+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:50:35.109+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:50:35.109+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:50:35.121+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:50:35.120+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:50:35.132+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.135 seconds
+[2024-05-09 07:50:56,694] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:50:56,705] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:50:56,710] {logging_mixin.py:115} INFO - [2024-05-09 07:50:56,710] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:50:56,756] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:50:56,864] {logging_mixin.py:115} INFO - [2024-05-09 07:50:56,864] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:50:56,978] {logging_mixin.py:115} INFO - [2024-05-09 07:50:56,978] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:50:57,008] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.330 seconds
+[2024-05-09T14:51:03.918+0700] {processor.py:161} INFO - Started process (PID=79847) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:51:03.919+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:51:03.920+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:51:03.919+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:51:03.931+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:51:03.963+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:51:03.962+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:51:04.213+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:51:04.213+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:51:04.239+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.324 seconds
+[2024-05-09 07:51:27,213] {processor.py:153} INFO - Started process (PID=404) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:51:27,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:51:27,258] {logging_mixin.py:115} INFO - [2024-05-09 07:51:27,257] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:51:27,331] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:51:27,684] {logging_mixin.py:115} INFO - [2024-05-09 07:51:27,684] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:51:27,813] {logging_mixin.py:115} INFO - [2024-05-09 07:51:27,813] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:51:27,882] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.705 seconds
+[2024-05-09 07:51:58,722] {processor.py:153} INFO - Started process (PID=416) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:51:58,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 07:51:58,726] {logging_mixin.py:115} INFO - [2024-05-09 07:51:58,725] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:51:58,786] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 07:51:58,906] {logging_mixin.py:115} INFO - [2024-05-09 07:51:58,906] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 07:51:58,952] {logging_mixin.py:115} INFO - [2024-05-09 07:51:58,952] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 07:51:58,980] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.270 seconds
+[2024-05-09T14:52:43.016+0700] {processor.py:161} INFO - Started process (PID=80489) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:52:43.017+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:52:43.018+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:43.018+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:52:43.027+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:52:43.049+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:43.048+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:52:43.279+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:43.279+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:52:43.303+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.290 seconds
+[2024-05-09T14:52:44.058+0700] {processor.py:161} INFO - Started process (PID=80504) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:52:44.059+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:52:44.059+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:44.059+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:52:44.066+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:52:44.081+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:44.081+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:52:44.188+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:52:44.188+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:52:44.200+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.144 seconds
+[2024-05-09T14:54:19.848+0700] {processor.py:161} INFO - Started process (PID=81083) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:54:19.849+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:54:19.849+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:54:19.849+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:54:19.874+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:54:20.381+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:54:20.381+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:54:20.419+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:54:20.418+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:54:20.461+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.621 seconds
+[2024-05-09T14:55:45.420+0700] {processor.py:161} INFO - Started process (PID=81622) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:55:45.421+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:55:45.421+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:55:45.421+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:55:45.426+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:55:45.525+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:55:45.525+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:55:45.534+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:55:45.534+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:55:45.546+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.128 seconds
+[2024-05-09T14:56:33.614+0700] {processor.py:161} INFO - Started process (PID=82017) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:56:33.616+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:56:33.617+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:56:33.616+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:56:33.635+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:56:33.668+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:56:33.668+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:56:33.842+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:56:33.842+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:56:33.863+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.254 seconds
+[2024-05-09T14:57:19.557+0700] {processor.py:161} INFO - Started process (PID=82346) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:57:19.559+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:57:19.559+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:57:19.559+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:57:19.570+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:57:19.721+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:57:19.720+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:57:19.731+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:57:19.731+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:57:19.742+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.189 seconds
+[2024-05-09T14:58:44.701+0700] {processor.py:161} INFO - Started process (PID=82843) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:58:44.702+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T14:58:44.702+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:58:44.702+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:58:44.708+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T14:58:44.803+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:58:44.802+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T14:58:44.813+0700] {logging_mixin.py:188} INFO - [2024-05-09T14:58:44.813+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T14:58:44.824+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.127 seconds
+[2024-05-09T15:00:20.519+0700] {processor.py:161} INFO - Started process (PID=83344) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:00:20.520+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:00:20.520+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:00:20.520+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:00:20.525+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:00:20.620+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:00:20.620+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:00:20.631+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:00:20.630+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:00:20.642+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.125 seconds
+[2024-05-09T15:01:53.996+0700] {processor.py:161} INFO - Started process (PID=83865) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:01:53.997+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:01:53.998+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:01:53.998+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:01:54.005+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:01:54.109+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:01:54.108+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:01:54.119+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:01:54.119+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:01:54.131+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.136 seconds
+[2024-05-09T15:03:28.876+0700] {processor.py:161} INFO - Started process (PID=84436) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:03:28.878+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:03:28.879+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:03:28.879+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:03:28.889+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:03:29.105+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:03:29.105+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:03:29.125+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:03:29.125+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:03:29.155+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.282 seconds
+[2024-05-09T15:05:06.674+0700] {processor.py:161} INFO - Started process (PID=85129) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:05:06.674+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:05:06.675+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:05:06.675+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:05:06.681+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:05:06.793+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:05:06.793+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:05:06.803+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:05:06.803+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:05:06.814+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.143 seconds
+[2024-05-09T15:08:57.923+0700] {processor.py:161} INFO - Started process (PID=86201) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:08:57.927+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:08:57.929+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:08:57.928+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:08:57.943+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:08:57.995+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:08:57.995+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:08:58.214+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:08:58.214+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:08:58.239+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.331 seconds
+[2024-05-09T15:08:59.837+0700] {processor.py:161} INFO - Started process (PID=86216) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:08:59.838+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:08:59.839+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:08:59.839+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:08:59.850+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:08:59.875+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:08:59.875+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:09:00.034+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:09:00.034+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:09:00.076+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.243 seconds
+[2024-05-09T15:11:37.699+0700] {processor.py:161} INFO - Started process (PID=87426) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:11:37.701+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:11:37.701+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:11:37.701+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:11:37.707+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:11:37.850+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:11:37.850+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:11:37.861+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:11:37.861+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:11:37.872+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.175 seconds
+[2024-05-09T15:13:36.103+0700] {processor.py:161} INFO - Started process (PID=88246) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:13:36.105+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:13:36.106+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:13:36.106+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:13:36.116+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:13:36.228+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:13:36.228+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:13:36.238+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:13:36.238+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:13:36.254+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.156 seconds
+[2024-05-09T15:15:15.354+0700] {processor.py:161} INFO - Started process (PID=88885) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:15:15.355+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:15:15.356+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:15:15.355+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:15:15.361+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:15:15.457+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:15:15.457+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:15:15.468+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:15:15.468+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:15:15.479+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.127 seconds
+[2024-05-09T15:16:50.779+0700] {processor.py:161} INFO - Started process (PID=89971) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:16:50.780+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:16:50.780+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:16:50.780+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:16:50.789+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:16:50.890+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:16:50.889+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:16:50.899+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:16:50.899+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:16:50.910+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.134 seconds
+[2024-05-09T15:18:20.406+0700] {processor.py:161} INFO - Started process (PID=90536) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:18:20.407+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:18:20.408+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:18:20.407+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:18:20.413+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:18:20.508+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:18:20.508+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:18:20.517+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:18:20.517+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:18:20.530+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.125 seconds
+[2024-05-09T15:19:59.930+0700] {processor.py:161} INFO - Started process (PID=91206) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:19:59.931+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:19:59.932+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:19:59.931+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:19:59.941+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:20:00.134+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:20:00.133+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:20:00.150+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:20:00.150+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:20:00.168+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.246 seconds
+[2024-05-09T15:21:41.637+0700] {processor.py:161} INFO - Started process (PID=92027) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:21:41.638+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:21:41.638+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:21:41.638+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:21:41.651+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:21:41.801+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:21:41.801+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:21:41.811+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:21:41.810+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:21:41.824+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.189 seconds
+[2024-05-09T15:23:13.571+0700] {processor.py:161} INFO - Started process (PID=94313) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:23:13.572+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:23:13.572+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:23:13.572+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:23:13.578+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:23:13.673+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:23:13.673+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:23:13.683+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:23:13.683+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:23:13.694+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.125 seconds
+[2024-05-09T15:25:08.567+0700] {processor.py:161} INFO - Started process (PID=94987) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:25:08.568+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:25:08.568+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:25:08.568+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:25:08.574+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:25:08.686+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:25:08.686+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:25:08.698+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:25:08.698+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:25:08.714+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.150 seconds
+[2024-05-09T15:26:47.275+0700] {processor.py:161} INFO - Started process (PID=95633) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:26:47.276+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:26:47.277+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:26:47.277+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:26:47.291+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:26:47.510+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:26:47.509+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:26:47.562+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:26:47.561+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:26:47.586+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.315 seconds
+[2024-05-09T15:28:16.338+0700] {processor.py:161} INFO - Started process (PID=96161) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:28:16.339+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:28:16.339+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:28:16.339+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:28:16.344+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:28:16.439+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:28:16.439+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:28:16.448+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:28:16.448+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:28:16.460+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.124 seconds
+[2024-05-09T15:29:53.892+0700] {processor.py:161} INFO - Started process (PID=96762) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:29:53.893+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:29:53.894+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:29:53.894+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:29:53.910+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:29:54.048+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:29:54.048+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:29:54.062+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:29:54.061+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:29:54.080+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.192 seconds
+[2024-05-09T15:32:35.210+0700] {processor.py:161} INFO - Started process (PID=97723) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:32:35.214+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:32:35.243+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:32:35.242+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:32:35.356+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:32:36.173+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:32:36.172+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:32:36.217+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:32:36.217+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:32:36.314+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 1.134 seconds
+[2024-05-09T15:34:59.507+0700] {processor.py:161} INFO - Started process (PID=98520) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:34:59.508+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:34:59.509+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:34:59.508+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:34:59.516+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:34:59.644+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:34:59.644+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:34:59.655+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:34:59.654+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:34:59.668+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.162 seconds
+[2024-05-09T15:58:46.395+0700] {processor.py:161} INFO - Started process (PID=8410) to work on /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:58:46.396+0700] {processor.py:830} INFO - Processing file /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09T15:58:46.396+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:58:46.396+0700] {dagbag.py:540} INFO - Filling up the DagBag from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:58:46.414+0700] {processor.py:840} INFO - DAG(s) 'update_visualization' retrieved from /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py
+[2024-05-09T15:58:46.439+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:58:46.439+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-09T15:58:46.590+0700] {logging_mixin.py:188} INFO - [2024-05-09T15:58:46.589+0700] {dag.py:3954} INFO - Setting next_dagrun for update_visualization to 2024-05-08 00:00:00+00:00, run_after=2024-05-08 00:15:00+00:00
+[2024-05-09T15:58:46.607+0700] {processor.py:183} INFO - Processing /Users/inwpuun/project/final_data_proj/airflow/dags/UpdateVisualization.py took 0.216 seconds
+[2024-05-09 09:16:42,154] {processor.py:153} INFO - Started process (PID=168) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:16:42,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:16:42,160] {logging_mixin.py:115} INFO - [2024-05-09 09:16:42,160] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:16:42,243] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:16:42,685] {logging_mixin.py:115} INFO - [2024-05-09 09:16:42,684] {manager.py:508} INFO - Created Permission View: can read on DAG:update_visualization
+[2024-05-09 09:16:42,708] {logging_mixin.py:115} INFO - [2024-05-09 09:16:42,708] {manager.py:508} INFO - Created Permission View: can delete on DAG:update_visualization
+[2024-05-09 09:16:42,730] {logging_mixin.py:115} INFO - [2024-05-09 09:16:42,730] {manager.py:508} INFO - Created Permission View: can edit on DAG:update_visualization
+[2024-05-09 09:16:42,731] {logging_mixin.py:115} INFO - [2024-05-09 09:16:42,731] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:16:42,799] {logging_mixin.py:115} INFO - [2024-05-09 09:16:42,798] {dag.py:2390} INFO - Creating ORM DAG for update_visualization
+[2024-05-09 09:16:42,891] {logging_mixin.py:115} INFO - [2024-05-09 09:16:42,890] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:16:43,103] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.975 seconds
+[2024-05-09 09:17:13,834] {processor.py:153} INFO - Started process (PID=185) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:17:13,835] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:17:13,836] {logging_mixin.py:115} INFO - [2024-05-09 09:17:13,836] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:17:13,859] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:17:13,932] {logging_mixin.py:115} INFO - [2024-05-09 09:17:13,932] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:17:13,970] {logging_mixin.py:115} INFO - [2024-05-09 09:17:13,970] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:17:14,004] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.184 seconds
+[2024-05-09 09:17:44,281] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:17:44,284] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:17:44,286] {logging_mixin.py:115} INFO - [2024-05-09 09:17:44,285] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:17:44,311] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:17:44,388] {logging_mixin.py:115} INFO - [2024-05-09 09:17:44,388] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:17:44,448] {logging_mixin.py:115} INFO - [2024-05-09 09:17:44,448] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:17:44,464] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.201 seconds
+[2024-05-09 09:18:14,839] {processor.py:153} INFO - Started process (PID=228) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:18:14,841] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:18:14,842] {logging_mixin.py:115} INFO - [2024-05-09 09:18:14,841] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:18:14,865] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:18:14,917] {logging_mixin.py:115} INFO - [2024-05-09 09:18:14,917] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:18:14,955] {logging_mixin.py:115} INFO - [2024-05-09 09:18:14,955] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:18:14,965] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.131 seconds
+[2024-05-09 09:18:45,153] {processor.py:153} INFO - Started process (PID=244) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:18:45,155] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:18:45,158] {logging_mixin.py:115} INFO - [2024-05-09 09:18:45,157] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:18:45,198] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:18:45,601] {logging_mixin.py:115} INFO - [2024-05-09 09:18:45,600] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:18:45,730] {logging_mixin.py:115} INFO - [2024-05-09 09:18:45,729] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:18:45,751] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.608 seconds
+[2024-05-09 09:19:16,171] {processor.py:153} INFO - Started process (PID=264) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:19:16,172] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:19:16,173] {logging_mixin.py:115} INFO - [2024-05-09 09:19:16,173] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:19:16,205] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:19:16,250] {logging_mixin.py:115} INFO - [2024-05-09 09:19:16,250] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:19:16,299] {logging_mixin.py:115} INFO - [2024-05-09 09:19:16,299] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:19:16,310] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.145 seconds
+[2024-05-09 09:19:47,297] {processor.py:153} INFO - Started process (PID=280) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:19:47,303] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:19:47,317] {logging_mixin.py:115} INFO - [2024-05-09 09:19:47,317] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:19:47,398] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:19:47,644] {logging_mixin.py:115} INFO - [2024-05-09 09:19:47,643] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:19:47,969] {logging_mixin.py:115} INFO - [2024-05-09 09:19:47,967] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:19:48,107] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.830 seconds
+[2024-05-09 09:20:19,377] {processor.py:153} INFO - Started process (PID=296) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:20:19,386] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:20:19,389] {logging_mixin.py:115} INFO - [2024-05-09 09:20:19,389] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:20:19,467] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:20:19,693] {logging_mixin.py:115} INFO - [2024-05-09 09:20:19,692] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:20:19,855] {logging_mixin.py:115} INFO - [2024-05-09 09:20:19,855] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:20:19,912] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.590 seconds
+[2024-05-09 09:20:50,802] {processor.py:153} INFO - Started process (PID=312) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:20:50,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:20:50,809] {logging_mixin.py:115} INFO - [2024-05-09 09:20:50,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:20:50,881] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:20:51,058] {logging_mixin.py:115} INFO - [2024-05-09 09:20:51,057] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:20:51,186] {logging_mixin.py:115} INFO - [2024-05-09 09:20:51,186] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:20:51,213] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.437 seconds
+[2024-05-09 09:21:21,539] {processor.py:153} INFO - Started process (PID=328) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:21:21,541] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:21:21,543] {logging_mixin.py:115} INFO - [2024-05-09 09:21:21,543] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:21:21,594] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:21:21,699] {logging_mixin.py:115} INFO - [2024-05-09 09:21:21,699] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:21:21,748] {logging_mixin.py:115} INFO - [2024-05-09 09:21:21,747] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:21:21,766] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.238 seconds
+[2024-05-09 09:21:52,190] {processor.py:153} INFO - Started process (PID=344) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:21:52,198] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:21:52,202] {logging_mixin.py:115} INFO - [2024-05-09 09:21:52,202] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:21:52,275] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:21:52,440] {logging_mixin.py:115} INFO - [2024-05-09 09:21:52,439] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:21:52,618] {logging_mixin.py:115} INFO - [2024-05-09 09:21:52,618] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:21:52,652] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.480 seconds
+[2024-05-09 09:22:23,067] {processor.py:153} INFO - Started process (PID=360) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:22:23,073] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:22:23,075] {logging_mixin.py:115} INFO - [2024-05-09 09:22:23,075] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:22:23,112] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:22:23,269] {logging_mixin.py:115} INFO - [2024-05-09 09:22:23,269] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:22:23,422] {logging_mixin.py:115} INFO - [2024-05-09 09:22:23,422] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:22:23,459] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.431 seconds
+[2024-05-09 09:22:54,387] {processor.py:153} INFO - Started process (PID=376) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:22:54,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:22:54,393] {logging_mixin.py:115} INFO - [2024-05-09 09:22:54,393] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:22:54,444] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:22:54,608] {logging_mixin.py:115} INFO - [2024-05-09 09:22:54,607] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:22:54,809] {logging_mixin.py:115} INFO - [2024-05-09 09:22:54,808] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:22:54,874] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.519 seconds
+[2024-05-09 09:23:25,280] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:23:25,284] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:23:25,288] {logging_mixin.py:115} INFO - [2024-05-09 09:23:25,288] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:23:25,360] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:23:25,592] {logging_mixin.py:115} INFO - [2024-05-09 09:23:25,591] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:23:25,768] {logging_mixin.py:115} INFO - [2024-05-09 09:23:25,767] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:23:25,820] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.582 seconds
+[2024-05-09 09:23:57,509] {processor.py:153} INFO - Started process (PID=402) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:23:57,518] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:23:57,526] {logging_mixin.py:115} INFO - [2024-05-09 09:23:57,526] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:23:57,678] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:23:58,144] {logging_mixin.py:115} INFO - [2024-05-09 09:23:58,143] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:23:58,292] {logging_mixin.py:115} INFO - [2024-05-09 09:23:58,292] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:23:58,357] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.970 seconds
+[2024-05-09 09:24:29,442] {processor.py:153} INFO - Started process (PID=418) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:24:29,451] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:24:29,456] {logging_mixin.py:115} INFO - [2024-05-09 09:24:29,456] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:24:29,591] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:24:30,016] {logging_mixin.py:115} INFO - [2024-05-09 09:24:30,016] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:24:30,296] {logging_mixin.py:115} INFO - [2024-05-09 09:24:30,296] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:24:30,405] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 1.014 seconds
+[2024-05-09 09:25:01,714] {processor.py:153} INFO - Started process (PID=434) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:25:01,745] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:25:01,763] {logging_mixin.py:115} INFO - [2024-05-09 09:25:01,762] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:25:02,188] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:25:04,341] {logging_mixin.py:115} INFO - [2024-05-09 09:25:04,335] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:25:05,144] {logging_mixin.py:115} INFO - [2024-05-09 09:25:05,144] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:25:05,290] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 3.751 seconds
+[2024-05-09 09:25:37,376] {processor.py:153} INFO - Started process (PID=450) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:25:37,396] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:25:37,445] {logging_mixin.py:115} INFO - [2024-05-09 09:25:37,443] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:25:37,992] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:25:38,986] {logging_mixin.py:115} INFO - [2024-05-09 09:25:38,985] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:25:39,390] {logging_mixin.py:115} INFO - [2024-05-09 09:25:39,390] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:25:39,531] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 2.380 seconds
+[2024-05-09 09:26:10,772] {processor.py:153} INFO - Started process (PID=468) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:26:10,777] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:26:10,784] {logging_mixin.py:115} INFO - [2024-05-09 09:26:10,784] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:26:10,908] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:26:11,248] {logging_mixin.py:115} INFO - [2024-05-09 09:26:11,248] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:26:11,500] {logging_mixin.py:115} INFO - [2024-05-09 09:26:11,498] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:26:11,606] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.885 seconds
+[2024-05-09 09:26:42,565] {processor.py:153} INFO - Started process (PID=486) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:26:42,567] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:26:42,571] {logging_mixin.py:115} INFO - [2024-05-09 09:26:42,571] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:26:42,635] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:26:42,795] {logging_mixin.py:115} INFO - [2024-05-09 09:26:42,795] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:26:42,892] {logging_mixin.py:115} INFO - [2024-05-09 09:26:42,892] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:26:42,935] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.385 seconds
+[2024-05-09 09:27:13,218] {processor.py:153} INFO - Started process (PID=502) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:27:13,220] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:27:13,222] {logging_mixin.py:115} INFO - [2024-05-09 09:27:13,222] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:27:13,282] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:27:13,452] {logging_mixin.py:115} INFO - [2024-05-09 09:27:13,452] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:27:13,544] {logging_mixin.py:115} INFO - [2024-05-09 09:27:13,544] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:27:13,568] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.368 seconds
+[2024-05-09 09:27:44,171] {processor.py:153} INFO - Started process (PID=518) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:27:44,191] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:27:44,207] {logging_mixin.py:115} INFO - [2024-05-09 09:27:44,206] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:27:44,343] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:27:44,644] {logging_mixin.py:115} INFO - [2024-05-09 09:27:44,644] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:27:44,726] {logging_mixin.py:115} INFO - [2024-05-09 09:27:44,726] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:27:44,747] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.610 seconds
+[2024-05-09 09:28:15,412] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:28:15,419] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:28:15,422] {logging_mixin.py:115} INFO - [2024-05-09 09:28:15,422] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:28:15,489] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:28:15,753] {logging_mixin.py:115} INFO - [2024-05-09 09:28:15,752] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:28:15,868] {logging_mixin.py:115} INFO - [2024-05-09 09:28:15,867] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:28:15,909] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.559 seconds
+[2024-05-09 09:28:48,551] {processor.py:153} INFO - Started process (PID=548) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:28:48,573] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:28:48,610] {logging_mixin.py:115} INFO - [2024-05-09 09:28:48,608] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:28:48,968] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:28:50,416] {logging_mixin.py:115} INFO - [2024-05-09 09:28:50,415] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:28:50,917] {logging_mixin.py:115} INFO - [2024-05-09 09:28:50,915] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:28:51,218] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 2.955 seconds
+[2024-05-09 09:29:21,886] {processor.py:153} INFO - Started process (PID=560) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:29:21,897] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:29:21,920] {logging_mixin.py:115} INFO - [2024-05-09 09:29:21,916] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:29:22,067] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:29:22,590] {logging_mixin.py:115} INFO - [2024-05-09 09:29:22,590] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:29:22,691] {logging_mixin.py:115} INFO - [2024-05-09 09:29:22,691] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:29:22,750] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.910 seconds
+[2024-05-09 09:29:54,139] {processor.py:153} INFO - Started process (PID=576) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:29:54,165] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:29:54,173] {logging_mixin.py:115} INFO - [2024-05-09 09:29:54,171] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:29:54,369] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:29:55,225] {logging_mixin.py:115} INFO - [2024-05-09 09:29:55,221] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:29:55,537] {logging_mixin.py:115} INFO - [2024-05-09 09:29:55,537] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:29:55,633] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 1.558 seconds
+[2024-05-09 09:30:26,436] {processor.py:153} INFO - Started process (PID=592) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:30:26,476] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:30:26,501] {logging_mixin.py:115} INFO - [2024-05-09 09:30:26,501] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:30:26,670] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:30:27,011] {logging_mixin.py:115} INFO - [2024-05-09 09:30:27,009] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:30:27,274] {logging_mixin.py:115} INFO - [2024-05-09 09:30:27,270] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:30:27,395] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 1.015 seconds
+[2024-05-09 09:30:58,428] {processor.py:153} INFO - Started process (PID=608) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:30:58,431] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:30:58,434] {logging_mixin.py:115} INFO - [2024-05-09 09:30:58,433] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:30:58,481] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:30:58,782] {logging_mixin.py:115} INFO - [2024-05-09 09:30:58,781] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:30:58,857] {logging_mixin.py:115} INFO - [2024-05-09 09:30:58,856] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:30:58,881] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.490 seconds
+[2024-05-09 09:31:29,785] {processor.py:153} INFO - Started process (PID=624) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:31:29,788] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:31:29,791] {logging_mixin.py:115} INFO - [2024-05-09 09:31:29,791] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:31:29,865] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:31:30,095] {logging_mixin.py:115} INFO - [2024-05-09 09:31:30,095] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:31:30,233] {logging_mixin.py:115} INFO - [2024-05-09 09:31:30,232] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:31:30,256] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.507 seconds
+[2024-05-09 09:32:00,829] {processor.py:153} INFO - Started process (PID=640) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:32:00,835] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:32:00,838] {logging_mixin.py:115} INFO - [2024-05-09 09:32:00,838] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:32:00,910] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:32:01,213] {logging_mixin.py:115} INFO - [2024-05-09 09:32:01,213] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:32:01,308] {logging_mixin.py:115} INFO - [2024-05-09 09:32:01,303] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:32:01,352] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.565 seconds
+[2024-05-09 09:32:31,745] {processor.py:153} INFO - Started process (PID=656) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:32:31,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:32:31,748] {logging_mixin.py:115} INFO - [2024-05-09 09:32:31,748] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:32:31,767] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:32:31,847] {logging_mixin.py:115} INFO - [2024-05-09 09:32:31,847] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:32:31,906] {logging_mixin.py:115} INFO - [2024-05-09 09:32:31,906] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:32:31,928] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.217 seconds
+[2024-05-09 09:33:02,315] {processor.py:153} INFO - Started process (PID=672) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:33:02,317] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:33:02,318] {logging_mixin.py:115} INFO - [2024-05-09 09:33:02,318] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:33:02,343] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:33:02,629] {logging_mixin.py:115} INFO - [2024-05-09 09:33:02,629] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:33:02,809] {logging_mixin.py:115} INFO - [2024-05-09 09:33:02,809] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:33:02,927] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.622 seconds
+[2024-05-09 09:33:33,555] {processor.py:153} INFO - Started process (PID=688) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:33:33,571] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:33:33,576] {logging_mixin.py:115} INFO - [2024-05-09 09:33:33,576] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:33:33,681] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:33:34,039] {logging_mixin.py:115} INFO - [2024-05-09 09:33:34,039] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:33:34,199] {logging_mixin.py:115} INFO - [2024-05-09 09:33:34,198] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:33:34,286] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.791 seconds
+[2024-05-09 09:34:05,196] {processor.py:153} INFO - Started process (PID=704) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:34:05,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:34:05,211] {logging_mixin.py:115} INFO - [2024-05-09 09:34:05,208] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:34:05,304] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:34:05,562] {logging_mixin.py:115} INFO - [2024-05-09 09:34:05,559] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:34:05,938] {logging_mixin.py:115} INFO - [2024-05-09 09:34:05,937] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:34:06,109] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.987 seconds
+[2024-05-09 09:34:36,954] {processor.py:153} INFO - Started process (PID=720) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:34:36,963] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:34:36,978] {logging_mixin.py:115} INFO - [2024-05-09 09:34:36,977] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:34:37,080] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:34:37,663] {logging_mixin.py:115} INFO - [2024-05-09 09:34:37,662] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:34:38,050] {logging_mixin.py:115} INFO - [2024-05-09 09:34:38,049] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:34:38,245] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 1.356 seconds
+[2024-05-09 09:35:08,935] {processor.py:153} INFO - Started process (PID=734) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:35:08,948] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:35:08,967] {logging_mixin.py:115} INFO - [2024-05-09 09:35:08,967] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:35:09,329] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:35:12,359] {logging_mixin.py:115} INFO - [2024-05-09 09:35:12,350] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:35:12,993] {logging_mixin.py:115} INFO - [2024-05-09 09:35:12,985] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:35:13,196] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 4.373 seconds
+[2024-05-09 09:35:44,422] {processor.py:153} INFO - Started process (PID=746) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:35:44,428] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:35:44,436] {logging_mixin.py:115} INFO - [2024-05-09 09:35:44,436] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:35:44,685] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:35:45,450] {logging_mixin.py:115} INFO - [2024-05-09 09:35:45,449] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:35:45,628] {logging_mixin.py:115} INFO - [2024-05-09 09:35:45,628] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:35:45,682] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 1.386 seconds
+[2024-05-09 09:36:18,579] {processor.py:153} INFO - Started process (PID=762) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:36:18,586] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:36:18,597] {logging_mixin.py:115} INFO - [2024-05-09 09:36:18,595] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:36:18,922] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:36:19,501] {logging_mixin.py:115} INFO - [2024-05-09 09:36:19,499] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:36:19,758] {logging_mixin.py:115} INFO - [2024-05-09 09:36:19,757] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:36:19,941] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 1.632 seconds
+[2024-05-09 09:36:50,721] {processor.py:153} INFO - Started process (PID=782) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:36:50,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:36:50,726] {logging_mixin.py:115} INFO - [2024-05-09 09:36:50,726] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:36:50,814] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:36:51,669] {logging_mixin.py:115} INFO - [2024-05-09 09:36:51,667] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:36:51,989] {logging_mixin.py:115} INFO - [2024-05-09 09:36:51,989] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:36:52,052] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 1.357 seconds
+[2024-05-09 09:37:23,432] {processor.py:153} INFO - Started process (PID=798) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:37:23,448] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:37:23,475] {logging_mixin.py:115} INFO - [2024-05-09 09:37:23,473] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:37:23,634] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:37:23,968] {logging_mixin.py:115} INFO - [2024-05-09 09:37:23,968] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:37:24,044] {logging_mixin.py:115} INFO - [2024-05-09 09:37:24,044] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:37:24,073] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.756 seconds
+[2024-05-09 09:37:54,635] {processor.py:153} INFO - Started process (PID=814) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:37:54,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:37:54,639] {logging_mixin.py:115} INFO - [2024-05-09 09:37:54,639] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:37:54,703] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:37:54,847] {logging_mixin.py:115} INFO - [2024-05-09 09:37:54,847] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:37:54,980] {logging_mixin.py:115} INFO - [2024-05-09 09:37:54,980] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:37:55,044] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.419 seconds
+[2024-05-09 09:38:25,208] {processor.py:153} INFO - Started process (PID=830) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:38:25,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:38:25,214] {logging_mixin.py:115} INFO - [2024-05-09 09:38:25,214] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:38:25,240] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:38:25,353] {logging_mixin.py:115} INFO - [2024-05-09 09:38:25,353] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:38:25,393] {logging_mixin.py:115} INFO - [2024-05-09 09:38:25,393] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:38:25,405] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.216 seconds
+[2024-05-09 09:38:55,750] {processor.py:153} INFO - Started process (PID=846) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:38:55,753] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:38:55,757] {logging_mixin.py:115} INFO - [2024-05-09 09:38:55,756] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:38:55,853] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:38:56,142] {logging_mixin.py:115} INFO - [2024-05-09 09:38:56,142] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:38:56,324] {logging_mixin.py:115} INFO - [2024-05-09 09:38:56,324] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:38:56,371] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.646 seconds
+[2024-05-09 09:39:26,657] {processor.py:153} INFO - Started process (PID=862) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:39:26,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:39:26,660] {logging_mixin.py:115} INFO - [2024-05-09 09:39:26,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:39:26,696] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:39:26,793] {logging_mixin.py:115} INFO - [2024-05-09 09:39:26,793] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:39:26,831] {logging_mixin.py:115} INFO - [2024-05-09 09:39:26,831] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:39:26,858] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.230 seconds
+[2024-05-09 09:39:57,335] {processor.py:153} INFO - Started process (PID=878) to work on /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:39:57,337] {processor.py:641} INFO - Processing file /opt/airflow/dags/UpdateVisualization.py for tasks to queue
+[2024-05-09 09:39:57,340] {logging_mixin.py:115} INFO - [2024-05-09 09:39:57,340] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:39:57,494] {processor.py:651} INFO - DAG(s) dict_keys(['update_visualization']) retrieved from /opt/airflow/dags/UpdateVisualization.py
+[2024-05-09 09:39:57,749] {logging_mixin.py:115} INFO - [2024-05-09 09:39:57,749] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-09 09:39:57,922] {logging_mixin.py:115} INFO - [2024-05-09 09:39:57,921] {dag.py:2919} INFO - Setting next_dagrun for update_visualization to 2024-05-08T00:00:00+00:00, run_after=2024-05-08T00:15:00+00:00
+[2024-05-09 09:39:57,974] {processor.py:161} INFO - Processing /opt/airflow/dags/UpdateVisualization.py took 0.662 seconds

@@ -17,12 +17,12 @@ services:
       - "8080:8080"
     volumes:
       - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/plugins:/opt/airflow/plugins
       - ./airflow/logs:/opt/airflow/logs
     command: webserver
     depends_on:
       postgres:
         condition: service_healthy
-
   airflow-scheduler:
     image: apache/airflow:2.3.0
     environment:
@@ -31,11 +31,11 @@ services:
       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
     volumes:
       - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/plugins:/opt/airflow/plugins
       - ./airflow/logs:/opt/airflow/logs
     command: scheduler
     depends_on:
       - airflow-webserver
-
   postgres:
     image: postgres:13
     environment:
@@ -45,13 +45,12 @@ services:
     ports:
       - "5432:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U your_postgres_user"]
+      test: ["CMD-SHELL", "pg_isready -U airflow"]
       interval: 10s
       timeout: 5s
       retries: 5
     volumes:
-      - postgres_data:/var/lib/postgresql/data
-
+      - ./postgres_data:/var/lib/postgresql/data
   zookeeper:
     image: wurstmeister/zookeeper
     container_name: zookeeper

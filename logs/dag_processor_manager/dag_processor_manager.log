@@ -1,0 +1,42 @@
+[2024-05-09 08:53:59,813] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2024-05-09 08:53:59,815] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2024-05-09 08:53:59,817] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-05-09 08:53:59,818] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 08:53:59,821] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 08:54:10,909] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-09 08:54:32,084] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2024-05-09 08:54:32,085] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2024-05-09 08:54:32,085] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-05-09 08:54:32,086] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 08:54:32,087] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 08:59:32,456] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 08:59:32,495] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 09:00:31,742] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2024-05-09 09:00:31,744] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2024-05-09 09:00:31,745] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-05-09 09:00:31,746] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 09:00:31,748] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 09:02:30,756] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2024-05-09 09:02:30,756] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2024-05-09 09:02:30,757] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-05-09 09:02:30,757] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 09:02:30,758] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 09:05:14,661] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2024-05-09 09:05:14,662] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2024-05-09 09:05:14,663] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-05-09 09:05:14,664] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 09:05:14,671] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 09:06:15,991] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2024-05-09 09:06:15,992] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2024-05-09 09:06:15,992] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-05-09 09:06:15,993] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 09:06:15,994] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 09:11:16,793] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 09:11:16,815] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 09:14:33,523] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-09 09:15:41,086] {manager.py:474} INFO - Processing files using up to 2 processes at a time 
+[2024-05-09 09:15:41,087] {manager.py:475} INFO - Process each file at most once every 30 seconds
+[2024-05-09 09:15:41,087] {manager.py:477} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-05-09 09:15:41,088] {manager.py:684} INFO - Searching for files in /opt/airflow/dags
+[2024-05-09 09:15:41,089] {manager.py:687} INFO - There are 0 files in /opt/airflow/dags
+[2024-05-09 09:16:26,252] {manager.py:455} INFO - Exiting gracefully upon receiving signal 15

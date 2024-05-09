@@ -62,7 +62,7 @@ for i in year_lists:
         extracted_data = extract_data(data)
         if extract_data is None :
             continue
-        producer.send('sample', json.dumps(extracted_data).encode('utf-8'))
+        producer.send('star', json.dumps(extracted_data).encode('utf-8'))
         # time.sleep(1)
 
 

@@ -1,6 +1,6 @@
 import findspark
 import streamlit as st
-
+from geopy.geocoders import Nominatim
 findspark.init()
 
 spark_url = 'local'
@@ -14,8 +14,9 @@ spark = SparkSession.builder\
         .getOrCreate()
 
 from pyspark.sql.functions import explode, count
-path = "scopus_data.csv"
+path = "/out/scopus_data.csv"
 df = spark.read.option("delimiter", ";").option("header", True).csv(path)
+df = df.dropDuplicates()
 
 from pyspark.sql.types import ArrayType, StringType, StructType, StructField
 from pyspark.sql.functions import col, from_json
@@ -28,12 +29,9 @@ affilSchema = ArrayType(StructType([
 
 subjectSchema = ArrayType(StringType())
 df = df.withColumn("subject_array", from_json(col("subject"), subjectSchema))
-# df.select("subject_array").show(5)
-# df.select(explode(col("subject_array")).alias("subject")).show()
 explodedDF = df.select("title", "affiliation", explode(col("subject_array")).alias("subject"), "year", "source_id", "citedby_count")
 explodedDF = explodedDF.withColumn("affiliation_array", from_json(col("affiliation"), affilSchema))
 explodedDF = explodedDF.select("title", explode(col("affiliation_array")).alias("affiliation"),"subject", "year", "source_id", "citedby_count")
-# explodedDF.select('subject').show(10)
 
 resultDF = explodedDF.select(
     "title",
@@ -108,11 +106,33 @@ def get_chula_thai_collaboration_by_subject_year_count():
 
 def get_chula_thai_collaboration_country_by_subject_year_count():
     output = resultDF.filter(~resultDF.affilname.contains("Chulalongkorn University"))
-    return output.groupBy('affiliation_country').agg(count("*").alias("count")).toPandas()
+    mapDf = output.groupBy('affiliation_country').agg(count("*").alias("count")).toPandas()
+    return mapDf
+def get_country_count_radius_lat_lon():
+    output = resultDF.filter(~resultDF.affilname.contains("Chulalongkorn University"))
+    mapDf = output.groupBy('affiliation_country').agg(count("*").alias("count")).toPandas()
+    geolocator = Nominatim(user_agent="MyApp")
+    def get_lat_long(country):
+        location = geolocator.geocode(country)
+        if location:
+            return location.latitude, location.longitude
+        else:
+            return None, None
+    mapDf['lat'], mapDf['lon'] = zip(*mapDf['affiliation_country'].apply(get_lat_long))
+    max_count = mapDf['count'].max()
+    mapDf['radius'] = mapDf['count'] / max_count 
+    return mapDf
 
+def get_network_graph_data():
+    output = resultDF.select('title','affilname')
+    return output
+
+# print(df.count())
 # print(get_all_affil())
 # print(get_all_country())
 # print(get_all_year())
+# resultDF.show()
+# resultDF.groupby('title')['affiliation'].apply(list).show()
 # get_year_count_filter_by_subject(["MATH", "COMP"]).show(40)
 # get_affil_count_filter_by_year(2022).show()
 # get_affil_count_filter_by_subject_year(["MATH", "COMP"], "2022", "affiliation_country").show()
