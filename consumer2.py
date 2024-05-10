@@ -9,7 +9,6 @@ consumer = KafkaConsumer(
     bootstrap_servers='kafka:9092',
     enable_auto_commit=True,
     value_deserializer=lambda x: x.decode('utf-8'))
-print(consumer.config())
 
 csv_file_path = '/app/out/scopus_data1.csv'
 field_names = ["Title", "Affiliation", "Subject", "Year", "Source_Id", "Citedby_Count"]

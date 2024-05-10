@@ -2543,3 +2543,591 @@
 [2024-05-10 11:01:54,129] {logging_mixin.py:115} INFO - [2024-05-10 11:01:54,129] {dag.py:2371} INFO - Sync 1 DAGs
 [2024-05-10 11:01:54,168] {logging_mixin.py:115} INFO - [2024-05-10 11:01:54,168] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
 [2024-05-10 11:01:54,185] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.192 seconds
+[2024-05-10 11:02:24,376] {processor.py:153} INFO - Started process (PID=3852) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:02:24,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:02:24,379] {logging_mixin.py:115} INFO - [2024-05-10 11:02:24,379] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:02:24,401] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:02:24,477] {logging_mixin.py:115} INFO - [2024-05-10 11:02:24,477] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:02:24,507] {logging_mixin.py:115} INFO - [2024-05-10 11:02:24,507] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:02:24,518] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.154 seconds
+[2024-05-10 11:02:55,083] {processor.py:153} INFO - Started process (PID=3863) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:02:55,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:02:55,088] {logging_mixin.py:115} INFO - [2024-05-10 11:02:55,088] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:02:55,146] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:02:55,248] {logging_mixin.py:115} INFO - [2024-05-10 11:02:55,248] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:02:55,294] {logging_mixin.py:115} INFO - [2024-05-10 11:02:55,294] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:02:55,317] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.256 seconds
+[2024-05-10 11:03:25,616] {processor.py:153} INFO - Started process (PID=3874) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:03:25,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:03:25,619] {logging_mixin.py:115} INFO - [2024-05-10 11:03:25,619] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:03:25,652] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:03:25,746] {logging_mixin.py:115} INFO - [2024-05-10 11:03:25,746] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:03:25,782] {logging_mixin.py:115} INFO - [2024-05-10 11:03:25,782] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:03:25,795] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.192 seconds
+[2024-05-10 11:03:56,008] {processor.py:153} INFO - Started process (PID=3885) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:03:56,009] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:03:56,009] {logging_mixin.py:115} INFO - [2024-05-10 11:03:56,009] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:03:56,024] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:03:56,086] {logging_mixin.py:115} INFO - [2024-05-10 11:03:56,086] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:03:56,128] {logging_mixin.py:115} INFO - [2024-05-10 11:03:56,128] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:03:56,141] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.139 seconds
+[2024-05-10 11:04:26,427] {processor.py:153} INFO - Started process (PID=3896) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:04:26,428] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:04:26,429] {logging_mixin.py:115} INFO - [2024-05-10 11:04:26,429] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:04:26,467] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:04:26,580] {logging_mixin.py:115} INFO - [2024-05-10 11:04:26,580] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:04:26,637] {logging_mixin.py:115} INFO - [2024-05-10 11:04:26,636] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:04:26,651] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.236 seconds
+[2024-05-10 11:04:56,848] {processor.py:153} INFO - Started process (PID=3907) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:04:56,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:04:56,851] {logging_mixin.py:115} INFO - [2024-05-10 11:04:56,851] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:04:56,870] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:04:56,943] {logging_mixin.py:115} INFO - [2024-05-10 11:04:56,943] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:04:56,979] {logging_mixin.py:115} INFO - [2024-05-10 11:04:56,979] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:04:56,990] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.152 seconds
+[2024-05-10 11:05:27,292] {processor.py:153} INFO - Started process (PID=3918) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:05:27,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:05:27,294] {logging_mixin.py:115} INFO - [2024-05-10 11:05:27,294] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:05:27,314] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:05:27,384] {logging_mixin.py:115} INFO - [2024-05-10 11:05:27,384] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:05:27,430] {logging_mixin.py:115} INFO - [2024-05-10 11:05:27,429] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:05:27,442] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.161 seconds
+[2024-05-10 11:05:57,639] {processor.py:153} INFO - Started process (PID=3929) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:05:57,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:05:57,644] {logging_mixin.py:115} INFO - [2024-05-10 11:05:57,643] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:05:57,669] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:05:57,723] {logging_mixin.py:115} INFO - [2024-05-10 11:05:57,723] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:05:57,755] {logging_mixin.py:115} INFO - [2024-05-10 11:05:57,755] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:05:57,766] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.140 seconds
+[2024-05-10 11:06:28,043] {processor.py:153} INFO - Started process (PID=3940) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:06:28,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:06:28,045] {logging_mixin.py:115} INFO - [2024-05-10 11:06:28,045] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:06:28,089] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:06:28,177] {logging_mixin.py:115} INFO - [2024-05-10 11:06:28,177] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:06:28,220] {logging_mixin.py:115} INFO - [2024-05-10 11:06:28,220] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:06:28,232] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.203 seconds
+[2024-05-10 11:06:58,517] {processor.py:153} INFO - Started process (PID=3951) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:06:58,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:06:58,523] {logging_mixin.py:115} INFO - [2024-05-10 11:06:58,522] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:06:58,554] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:06:58,635] {logging_mixin.py:115} INFO - [2024-05-10 11:06:58,635] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:06:58,681] {logging_mixin.py:115} INFO - [2024-05-10 11:06:58,681] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:06:58,701] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.208 seconds
+[2024-05-10 11:07:28,884] {processor.py:153} INFO - Started process (PID=3962) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:07:28,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:07:28,886] {logging_mixin.py:115} INFO - [2024-05-10 11:07:28,885] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:07:28,902] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:07:28,972] {logging_mixin.py:115} INFO - [2024-05-10 11:07:28,972] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:07:29,010] {logging_mixin.py:115} INFO - [2024-05-10 11:07:29,009] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:07:29,027] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.154 seconds
+[2024-05-10 11:07:59,266] {processor.py:153} INFO - Started process (PID=3973) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:07:59,267] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:07:59,268] {logging_mixin.py:115} INFO - [2024-05-10 11:07:59,268] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:07:59,289] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:07:59,370] {logging_mixin.py:115} INFO - [2024-05-10 11:07:59,370] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:07:59,407] {logging_mixin.py:115} INFO - [2024-05-10 11:07:59,407] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:07:59,421] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.173 seconds
+[2024-05-10 11:08:29,606] {processor.py:153} INFO - Started process (PID=3984) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:08:29,608] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:08:29,609] {logging_mixin.py:115} INFO - [2024-05-10 11:08:29,609] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:08:29,626] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:08:29,667] {logging_mixin.py:115} INFO - [2024-05-10 11:08:29,667] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:08:29,693] {logging_mixin.py:115} INFO - [2024-05-10 11:08:29,693] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:08:29,702] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.108 seconds
+[2024-05-10 11:08:59,900] {processor.py:153} INFO - Started process (PID=3995) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:08:59,901] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:08:59,902] {logging_mixin.py:115} INFO - [2024-05-10 11:08:59,902] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:08:59,916] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:08:59,962] {logging_mixin.py:115} INFO - [2024-05-10 11:08:59,962] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:08:59,993] {logging_mixin.py:115} INFO - [2024-05-10 11:08:59,992] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:09:00,003] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.113 seconds
+[2024-05-10 11:09:30,190] {processor.py:153} INFO - Started process (PID=4006) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:09:30,191] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:09:30,192] {logging_mixin.py:115} INFO - [2024-05-10 11:09:30,192] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:09:30,215] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:09:30,302] {logging_mixin.py:115} INFO - [2024-05-10 11:09:30,302] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:09:30,338] {logging_mixin.py:115} INFO - [2024-05-10 11:09:30,338] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:09:30,349] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.177 seconds
+[2024-05-10 11:10:00,582] {processor.py:153} INFO - Started process (PID=4017) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:10:00,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:10:00,585] {logging_mixin.py:115} INFO - [2024-05-10 11:10:00,585] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:10:00,602] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:10:00,679] {logging_mixin.py:115} INFO - [2024-05-10 11:10:00,679] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:10:00,714] {logging_mixin.py:115} INFO - [2024-05-10 11:10:00,714] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:10:00,727] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.160 seconds
+[2024-05-10 11:10:30,915] {processor.py:153} INFO - Started process (PID=4028) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:10:30,916] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:10:30,917] {logging_mixin.py:115} INFO - [2024-05-10 11:10:30,917] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:10:30,933] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:10:30,993] {logging_mixin.py:115} INFO - [2024-05-10 11:10:30,992] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:10:31,036] {logging_mixin.py:115} INFO - [2024-05-10 11:10:31,036] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:10:31,048] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.145 seconds
+[2024-05-10 11:11:01,262] {processor.py:153} INFO - Started process (PID=4039) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:11:01,263] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:11:01,264] {logging_mixin.py:115} INFO - [2024-05-10 11:11:01,264] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:11:01,312] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:11:01,372] {logging_mixin.py:115} INFO - [2024-05-10 11:11:01,372] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:11:01,434] {logging_mixin.py:115} INFO - [2024-05-10 11:11:01,434] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:11:01,446] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.196 seconds
+[2024-05-10 11:11:31,632] {processor.py:153} INFO - Started process (PID=4050) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:11:31,633] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:11:31,634] {logging_mixin.py:115} INFO - [2024-05-10 11:11:31,634] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:11:31,652] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:11:31,757] {logging_mixin.py:115} INFO - [2024-05-10 11:11:31,757] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:11:31,844] {logging_mixin.py:115} INFO - [2024-05-10 11:11:31,844] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:11:31,856] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.235 seconds
+[2024-05-10 11:12:02,041] {processor.py:153} INFO - Started process (PID=4061) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:12:02,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:12:02,043] {logging_mixin.py:115} INFO - [2024-05-10 11:12:02,043] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:12:02,072] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:12:02,108] {logging_mixin.py:115} INFO - [2024-05-10 11:12:02,108] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:12:02,131] {logging_mixin.py:115} INFO - [2024-05-10 11:12:02,131] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:12:02,139] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.107 seconds
+[2024-05-10 11:12:32,295] {processor.py:153} INFO - Started process (PID=4072) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:12:32,296] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:12:32,297] {logging_mixin.py:115} INFO - [2024-05-10 11:12:32,297] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:12:32,314] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:12:32,383] {logging_mixin.py:115} INFO - [2024-05-10 11:12:32,383] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:12:32,416] {logging_mixin.py:115} INFO - [2024-05-10 11:12:32,416] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:12:32,426] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.143 seconds
+[2024-05-10 11:13:02,675] {processor.py:153} INFO - Started process (PID=4083) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:13:02,676] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:13:02,677] {logging_mixin.py:115} INFO - [2024-05-10 11:13:02,676] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:13:02,693] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:13:02,771] {logging_mixin.py:115} INFO - [2024-05-10 11:13:02,770] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:13:02,803] {logging_mixin.py:115} INFO - [2024-05-10 11:13:02,803] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:13:02,814] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.153 seconds
+[2024-05-10 11:13:33,021] {processor.py:153} INFO - Started process (PID=4094) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:13:33,024] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:13:33,027] {logging_mixin.py:115} INFO - [2024-05-10 11:13:33,027] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:13:33,057] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:13:33,134] {logging_mixin.py:115} INFO - [2024-05-10 11:13:33,134] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:13:33,178] {logging_mixin.py:115} INFO - [2024-05-10 11:13:33,178] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:13:33,189] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.178 seconds
+[2024-05-10 11:14:03,386] {processor.py:153} INFO - Started process (PID=4105) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:14:03,387] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:14:03,388] {logging_mixin.py:115} INFO - [2024-05-10 11:14:03,388] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:14:03,399] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:14:03,451] {logging_mixin.py:115} INFO - [2024-05-10 11:14:03,450] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:14:03,494] {logging_mixin.py:115} INFO - [2024-05-10 11:14:03,494] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:14:03,506] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.128 seconds
+[2024-05-10 11:14:33,675] {processor.py:153} INFO - Started process (PID=4116) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:14:33,677] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:14:33,678] {logging_mixin.py:115} INFO - [2024-05-10 11:14:33,678] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:14:33,690] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:14:33,732] {logging_mixin.py:115} INFO - [2024-05-10 11:14:33,732] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:14:33,758] {logging_mixin.py:115} INFO - [2024-05-10 11:14:33,758] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:14:33,766] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.101 seconds
+[2024-05-10 11:15:03,961] {processor.py:153} INFO - Started process (PID=4127) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:15:03,963] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:15:03,964] {logging_mixin.py:115} INFO - [2024-05-10 11:15:03,964] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:15:03,974] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:15:04,006] {logging_mixin.py:115} INFO - [2024-05-10 11:15:04,006] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:15:04,026] {logging_mixin.py:115} INFO - [2024-05-10 11:15:04,026] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:15:04,034] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.079 seconds
+[2024-05-10 11:15:34,212] {processor.py:153} INFO - Started process (PID=4133) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:15:34,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:15:34,216] {logging_mixin.py:115} INFO - [2024-05-10 11:15:34,215] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:15:34,238] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:15:34,331] {logging_mixin.py:115} INFO - [2024-05-10 11:15:34,331] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:15:34,385] {logging_mixin.py:115} INFO - [2024-05-10 11:15:34,385] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:15:34,401] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.215 seconds
+[2024-05-10 11:16:04,620] {processor.py:153} INFO - Started process (PID=4143) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:16:04,622] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:16:04,624] {logging_mixin.py:115} INFO - [2024-05-10 11:16:04,623] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:16:04,641] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:16:04,699] {logging_mixin.py:115} INFO - [2024-05-10 11:16:04,699] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:16:04,745] {logging_mixin.py:115} INFO - [2024-05-10 11:16:04,745] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:16:04,756] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.144 seconds
+[2024-05-10 11:16:35,041] {processor.py:153} INFO - Started process (PID=4154) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:16:35,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:16:35,044] {logging_mixin.py:115} INFO - [2024-05-10 11:16:35,044] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:16:35,061] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:16:35,129] {logging_mixin.py:115} INFO - [2024-05-10 11:16:35,129] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:16:35,161] {logging_mixin.py:115} INFO - [2024-05-10 11:16:35,160] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:16:35,172] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.141 seconds
+[2024-05-10 11:17:05,440] {processor.py:153} INFO - Started process (PID=4165) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:17:05,442] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:17:05,443] {logging_mixin.py:115} INFO - [2024-05-10 11:17:05,443] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:17:05,488] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:17:05,557] {logging_mixin.py:115} INFO - [2024-05-10 11:17:05,556] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:17:05,590] {logging_mixin.py:115} INFO - [2024-05-10 11:17:05,590] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:17:05,601] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.172 seconds
+[2024-05-10 11:17:35,907] {processor.py:153} INFO - Started process (PID=4176) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:17:35,908] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:17:35,909] {logging_mixin.py:115} INFO - [2024-05-10 11:17:35,909] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:17:35,926] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:17:36,005] {logging_mixin.py:115} INFO - [2024-05-10 11:17:36,004] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:17:36,041] {logging_mixin.py:115} INFO - [2024-05-10 11:17:36,041] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:17:36,053] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.155 seconds
+[2024-05-10 11:18:06,323] {processor.py:153} INFO - Started process (PID=4187) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:18:06,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:18:06,327] {logging_mixin.py:115} INFO - [2024-05-10 11:18:06,327] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:18:06,352] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:18:06,443] {logging_mixin.py:115} INFO - [2024-05-10 11:18:06,443] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:18:06,477] {logging_mixin.py:115} INFO - [2024-05-10 11:18:06,477] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:18:06,488] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.187 seconds
+[2024-05-10 11:18:36,701] {processor.py:153} INFO - Started process (PID=4198) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:18:36,702] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:18:36,703] {logging_mixin.py:115} INFO - [2024-05-10 11:18:36,703] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:18:36,724] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:18:36,806] {logging_mixin.py:115} INFO - [2024-05-10 11:18:36,806] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:18:36,850] {logging_mixin.py:115} INFO - [2024-05-10 11:18:36,850] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:18:36,866] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.175 seconds
+[2024-05-10 11:19:07,011] {processor.py:153} INFO - Started process (PID=4209) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:19:07,012] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:19:07,013] {logging_mixin.py:115} INFO - [2024-05-10 11:19:07,013] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:19:07,033] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:19:07,096] {logging_mixin.py:115} INFO - [2024-05-10 11:19:07,096] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:19:07,139] {logging_mixin.py:115} INFO - [2024-05-10 11:19:07,139] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:19:07,150] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.152 seconds
+[2024-05-10 11:19:37,394] {processor.py:153} INFO - Started process (PID=4220) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:19:37,395] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:19:37,396] {logging_mixin.py:115} INFO - [2024-05-10 11:19:37,396] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:19:37,413] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:19:37,488] {logging_mixin.py:115} INFO - [2024-05-10 11:19:37,488] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:19:37,518] {logging_mixin.py:115} INFO - [2024-05-10 11:19:37,518] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:19:37,528] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.144 seconds
+[2024-05-10 11:20:07,767] {processor.py:153} INFO - Started process (PID=4231) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:20:07,768] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:20:07,770] {logging_mixin.py:115} INFO - [2024-05-10 11:20:07,770] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:20:07,788] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:20:07,839] {logging_mixin.py:115} INFO - [2024-05-10 11:20:07,839] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:20:07,896] {logging_mixin.py:115} INFO - [2024-05-10 11:20:07,895] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:20:07,910] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.152 seconds
+[2024-05-10 11:20:38,161] {processor.py:153} INFO - Started process (PID=4242) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:20:38,163] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:20:38,164] {logging_mixin.py:115} INFO - [2024-05-10 11:20:38,164] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:20:38,182] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:20:38,255] {logging_mixin.py:115} INFO - [2024-05-10 11:20:38,255] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:20:38,284] {logging_mixin.py:115} INFO - [2024-05-10 11:20:38,284] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:20:38,294] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.143 seconds
+[2024-05-10 11:21:08,506] {processor.py:153} INFO - Started process (PID=4253) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:21:08,507] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:21:08,508] {logging_mixin.py:115} INFO - [2024-05-10 11:21:08,508] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:21:08,528] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:21:08,602] {logging_mixin.py:115} INFO - [2024-05-10 11:21:08,602] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:21:08,644] {logging_mixin.py:115} INFO - [2024-05-10 11:21:08,644] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:21:08,655] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.159 seconds
+[2024-05-10 11:21:38,882] {processor.py:153} INFO - Started process (PID=4264) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:21:38,884] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:21:38,885] {logging_mixin.py:115} INFO - [2024-05-10 11:21:38,884] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:21:38,902] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:21:38,986] {logging_mixin.py:115} INFO - [2024-05-10 11:21:38,986] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:21:39,020] {logging_mixin.py:115} INFO - [2024-05-10 11:21:39,020] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:21:39,031] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.156 seconds
+[2024-05-10 11:22:09,278] {processor.py:153} INFO - Started process (PID=4275) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:22:09,279] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:22:09,280] {logging_mixin.py:115} INFO - [2024-05-10 11:22:09,280] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:22:09,312] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:22:09,385] {logging_mixin.py:115} INFO - [2024-05-10 11:22:09,385] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:22:09,416] {logging_mixin.py:115} INFO - [2024-05-10 11:22:09,416] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:22:09,427] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.160 seconds
+[2024-05-10 11:22:39,747] {processor.py:153} INFO - Started process (PID=4286) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:22:39,749] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:22:39,750] {logging_mixin.py:115} INFO - [2024-05-10 11:22:39,750] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:22:39,778] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:22:39,879] {logging_mixin.py:115} INFO - [2024-05-10 11:22:39,879] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:22:39,939] {logging_mixin.py:115} INFO - [2024-05-10 11:22:39,939] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:22:39,960] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.224 seconds
+[2024-05-10 11:23:10,219] {processor.py:153} INFO - Started process (PID=4297) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:23:10,220] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:23:10,221] {logging_mixin.py:115} INFO - [2024-05-10 11:23:10,221] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:23:10,247] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:23:10,307] {logging_mixin.py:115} INFO - [2024-05-10 11:23:10,307] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:23:10,334] {logging_mixin.py:115} INFO - [2024-05-10 11:23:10,334] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:23:10,344] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.137 seconds
+[2024-05-10 11:23:40,605] {processor.py:153} INFO - Started process (PID=4308) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:23:40,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:23:40,608] {logging_mixin.py:115} INFO - [2024-05-10 11:23:40,608] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:23:40,625] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:23:40,680] {logging_mixin.py:115} INFO - [2024-05-10 11:23:40,680] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:23:40,711] {logging_mixin.py:115} INFO - [2024-05-10 11:23:40,711] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:23:40,722] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.125 seconds
+[2024-05-10 11:24:10,926] {processor.py:153} INFO - Started process (PID=4319) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:24:10,927] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:24:10,928] {logging_mixin.py:115} INFO - [2024-05-10 11:24:10,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:24:10,944] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:24:10,985] {logging_mixin.py:115} INFO - [2024-05-10 11:24:10,985] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:24:11,011] {logging_mixin.py:115} INFO - [2024-05-10 11:24:11,011] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:24:11,020] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.103 seconds
+[2024-05-10 11:24:41,284] {processor.py:153} INFO - Started process (PID=4330) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:24:41,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:24:41,286] {logging_mixin.py:115} INFO - [2024-05-10 11:24:41,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:24:41,307] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:24:41,404] {logging_mixin.py:115} INFO - [2024-05-10 11:24:41,404] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:24:41,440] {logging_mixin.py:115} INFO - [2024-05-10 11:24:41,440] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:24:41,452] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.181 seconds
+[2024-05-10 11:25:11,576] {processor.py:153} INFO - Started process (PID=4341) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:25:11,577] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:25:11,578] {logging_mixin.py:115} INFO - [2024-05-10 11:25:11,578] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:25:11,610] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:25:11,759] {logging_mixin.py:115} INFO - [2024-05-10 11:25:11,758] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:25:11,798] {logging_mixin.py:115} INFO - [2024-05-10 11:25:11,798] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:25:11,811] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.243 seconds
+[2024-05-10 11:25:42,026] {processor.py:153} INFO - Started process (PID=4352) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:25:42,028] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:25:42,029] {logging_mixin.py:115} INFO - [2024-05-10 11:25:42,029] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:25:42,045] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:25:42,090] {logging_mixin.py:115} INFO - [2024-05-10 11:25:42,090] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:25:42,118] {logging_mixin.py:115} INFO - [2024-05-10 11:25:42,117] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:25:42,128] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.110 seconds
+[2024-05-10 11:26:12,385] {processor.py:153} INFO - Started process (PID=4363) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:26:12,387] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:26:12,388] {logging_mixin.py:115} INFO - [2024-05-10 11:26:12,388] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:26:12,406] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:26:12,460] {logging_mixin.py:115} INFO - [2024-05-10 11:26:12,460] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:26:12,493] {logging_mixin.py:115} INFO - [2024-05-10 11:26:12,493] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:26:12,504] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.130 seconds
+[2024-05-10 11:26:42,688] {processor.py:153} INFO - Started process (PID=4374) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:26:42,689] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:26:42,690] {logging_mixin.py:115} INFO - [2024-05-10 11:26:42,690] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:26:42,708] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:26:42,801] {logging_mixin.py:115} INFO - [2024-05-10 11:26:42,801] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:26:42,834] {logging_mixin.py:115} INFO - [2024-05-10 11:26:42,834] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:26:42,847] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.168 seconds
+[2024-05-10 11:27:13,050] {processor.py:153} INFO - Started process (PID=4385) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:27:13,051] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:27:13,052] {logging_mixin.py:115} INFO - [2024-05-10 11:27:13,052] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:27:13,067] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:27:13,109] {logging_mixin.py:115} INFO - [2024-05-10 11:27:13,109] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:27:13,135] {logging_mixin.py:115} INFO - [2024-05-10 11:27:13,135] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:27:13,146] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.114 seconds
+[2024-05-10 11:27:43,361] {processor.py:153} INFO - Started process (PID=4396) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:27:43,363] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:27:43,364] {logging_mixin.py:115} INFO - [2024-05-10 11:27:43,364] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:27:43,395] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:27:43,474] {logging_mixin.py:115} INFO - [2024-05-10 11:27:43,474] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:27:43,503] {logging_mixin.py:115} INFO - [2024-05-10 11:27:43,503] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:27:43,521] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.167 seconds
+[2024-05-10 11:28:13,703] {processor.py:153} INFO - Started process (PID=4407) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:28:13,704] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:28:13,705] {logging_mixin.py:115} INFO - [2024-05-10 11:28:13,704] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:28:13,713] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:28:13,746] {logging_mixin.py:115} INFO - [2024-05-10 11:28:13,746] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:28:13,765] {logging_mixin.py:115} INFO - [2024-05-10 11:28:13,765] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:28:13,773] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.077 seconds
+[2024-05-10 11:28:43,953] {processor.py:153} INFO - Started process (PID=4418) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:28:43,955] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:28:43,956] {logging_mixin.py:115} INFO - [2024-05-10 11:28:43,956] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:28:43,966] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:28:43,997] {logging_mixin.py:115} INFO - [2024-05-10 11:28:43,997] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:28:44,019] {logging_mixin.py:115} INFO - [2024-05-10 11:28:44,019] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:28:44,028] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.082 seconds
+[2024-05-10 11:29:14,245] {processor.py:153} INFO - Started process (PID=4429) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:29:14,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:29:14,247] {logging_mixin.py:115} INFO - [2024-05-10 11:29:14,247] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:29:14,254] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:29:14,284] {logging_mixin.py:115} INFO - [2024-05-10 11:29:14,284] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:29:14,315] {logging_mixin.py:115} INFO - [2024-05-10 11:29:14,315] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:29:14,324] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.084 seconds
+[2024-05-10 11:29:44,518] {processor.py:153} INFO - Started process (PID=4440) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:29:44,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:29:44,519] {logging_mixin.py:115} INFO - [2024-05-10 11:29:44,519] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:29:44,526] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:29:44,552] {logging_mixin.py:115} INFO - [2024-05-10 11:29:44,551] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:29:44,572] {logging_mixin.py:115} INFO - [2024-05-10 11:29:44,572] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:29:44,579] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.065 seconds
+[2024-05-10 11:30:14,821] {processor.py:153} INFO - Started process (PID=4446) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:30:14,824] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:30:14,826] {logging_mixin.py:115} INFO - [2024-05-10 11:30:14,826] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:30:14,848] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:30:15,067] {logging_mixin.py:115} INFO - [2024-05-10 11:30:15,067] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:30:15,134] {logging_mixin.py:115} INFO - [2024-05-10 11:30:15,134] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:30:15,153] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.355 seconds
+[2024-05-10 11:30:45,284] {processor.py:153} INFO - Started process (PID=4456) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:30:45,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:30:45,287] {logging_mixin.py:115} INFO - [2024-05-10 11:30:45,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:30:45,307] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:30:45,373] {logging_mixin.py:115} INFO - [2024-05-10 11:30:45,373] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:30:45,413] {logging_mixin.py:115} INFO - [2024-05-10 11:30:45,413] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:30:45,423] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.151 seconds
+[2024-05-10 11:31:15,699] {processor.py:153} INFO - Started process (PID=4467) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:31:15,701] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:31:15,702] {logging_mixin.py:115} INFO - [2024-05-10 11:31:15,702] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:31:15,723] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:31:15,840] {logging_mixin.py:115} INFO - [2024-05-10 11:31:15,840] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:31:15,876] {logging_mixin.py:115} INFO - [2024-05-10 11:31:15,876] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:31:15,887] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.199 seconds
+[2024-05-10 11:31:46,189] {processor.py:153} INFO - Started process (PID=4478) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:31:46,191] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:31:46,192] {logging_mixin.py:115} INFO - [2024-05-10 11:31:46,192] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:31:46,218] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:31:46,273] {logging_mixin.py:115} INFO - [2024-05-10 11:31:46,272] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:31:46,312] {logging_mixin.py:115} INFO - [2024-05-10 11:31:46,312] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:31:46,326] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.147 seconds
+[2024-05-10 11:32:16,523] {processor.py:153} INFO - Started process (PID=4489) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:32:16,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:32:16,525] {logging_mixin.py:115} INFO - [2024-05-10 11:32:16,525] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:32:16,571] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:32:16,630] {logging_mixin.py:115} INFO - [2024-05-10 11:32:16,630] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:32:16,660] {logging_mixin.py:115} INFO - [2024-05-10 11:32:16,660] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:32:16,670] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.158 seconds
+[2024-05-10 11:32:46,885] {processor.py:153} INFO - Started process (PID=4500) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:32:46,886] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:32:46,887] {logging_mixin.py:115} INFO - [2024-05-10 11:32:46,887] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:32:46,907] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:32:46,972] {logging_mixin.py:115} INFO - [2024-05-10 11:32:46,972] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:32:47,012] {logging_mixin.py:115} INFO - [2024-05-10 11:32:47,011] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:32:47,023] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.148 seconds
+[2024-05-10 11:33:17,285] {processor.py:153} INFO - Started process (PID=4511) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:33:17,288] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:33:17,290] {logging_mixin.py:115} INFO - [2024-05-10 11:33:17,290] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:33:17,324] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:33:17,383] {logging_mixin.py:115} INFO - [2024-05-10 11:33:17,383] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:33:17,439] {logging_mixin.py:115} INFO - [2024-05-10 11:33:17,439] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:33:17,451] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.177 seconds
+[2024-05-10 11:33:47,671] {processor.py:153} INFO - Started process (PID=4522) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:33:47,672] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:33:47,673] {logging_mixin.py:115} INFO - [2024-05-10 11:33:47,673] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:33:47,688] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:33:47,743] {logging_mixin.py:115} INFO - [2024-05-10 11:33:47,743] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:33:47,774] {logging_mixin.py:115} INFO - [2024-05-10 11:33:47,773] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:33:47,784] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.121 seconds
+[2024-05-10 11:34:17,996] {processor.py:153} INFO - Started process (PID=4533) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:34:17,998] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:34:17,999] {logging_mixin.py:115} INFO - [2024-05-10 11:34:17,999] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:34:18,035] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:34:18,106] {logging_mixin.py:115} INFO - [2024-05-10 11:34:18,106] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:34:18,138] {logging_mixin.py:115} INFO - [2024-05-10 11:34:18,138] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:34:18,148] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.160 seconds
+[2024-05-10 11:34:48,404] {processor.py:153} INFO - Started process (PID=4544) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:34:48,406] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:34:48,408] {logging_mixin.py:115} INFO - [2024-05-10 11:34:48,408] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:34:48,430] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:34:48,506] {logging_mixin.py:115} INFO - [2024-05-10 11:34:48,506] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:34:48,535] {logging_mixin.py:115} INFO - [2024-05-10 11:34:48,535] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:34:48,561] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.168 seconds
+[2024-05-10 11:35:18,806] {processor.py:153} INFO - Started process (PID=4555) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:35:18,808] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:35:18,810] {logging_mixin.py:115} INFO - [2024-05-10 11:35:18,810] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:35:18,830] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:35:18,900] {logging_mixin.py:115} INFO - [2024-05-10 11:35:18,900] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:35:18,930] {logging_mixin.py:115} INFO - [2024-05-10 11:35:18,930] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:35:18,939] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.143 seconds
+[2024-05-10 11:35:49,163] {processor.py:153} INFO - Started process (PID=4566) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:35:49,171] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:35:49,178] {logging_mixin.py:115} INFO - [2024-05-10 11:35:49,178] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:35:49,209] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:35:49,367] {logging_mixin.py:115} INFO - [2024-05-10 11:35:49,367] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:35:49,458] {logging_mixin.py:115} INFO - [2024-05-10 11:35:49,458] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:35:49,478] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.341 seconds
+[2024-05-10 11:36:20,359] {processor.py:153} INFO - Started process (PID=4577) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:36:20,360] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:36:20,361] {logging_mixin.py:115} INFO - [2024-05-10 11:36:20,361] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:36:20,397] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:36:20,471] {logging_mixin.py:115} INFO - [2024-05-10 11:36:20,471] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:36:20,503] {logging_mixin.py:115} INFO - [2024-05-10 11:36:20,503] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:36:20,514] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.167 seconds
+[2024-05-10 11:36:50,711] {processor.py:153} INFO - Started process (PID=4588) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:36:50,713] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:36:50,714] {logging_mixin.py:115} INFO - [2024-05-10 11:36:50,713] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:36:50,729] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:36:50,826] {logging_mixin.py:115} INFO - [2024-05-10 11:36:50,826] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:36:50,859] {logging_mixin.py:115} INFO - [2024-05-10 11:36:50,859] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:36:50,869] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.165 seconds
+[2024-05-10 11:37:21,074] {processor.py:153} INFO - Started process (PID=4599) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:37:21,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:37:21,079] {logging_mixin.py:115} INFO - [2024-05-10 11:37:21,079] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:37:21,121] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:37:21,172] {logging_mixin.py:115} INFO - [2024-05-10 11:37:21,172] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:37:21,201] {logging_mixin.py:115} INFO - [2024-05-10 11:37:21,201] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:37:21,212] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.151 seconds
+[2024-05-10 11:37:51,466] {processor.py:153} INFO - Started process (PID=4610) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:37:51,468] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:37:51,470] {logging_mixin.py:115} INFO - [2024-05-10 11:37:51,469] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:37:51,487] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:37:51,544] {logging_mixin.py:115} INFO - [2024-05-10 11:37:51,544] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:37:51,597] {logging_mixin.py:115} INFO - [2024-05-10 11:37:51,597] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:37:51,609] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.153 seconds
+[2024-05-10 11:38:21,824] {processor.py:153} INFO - Started process (PID=4621) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:38:21,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:38:21,832] {logging_mixin.py:115} INFO - [2024-05-10 11:38:21,830] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:38:21,856] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:38:21,928] {logging_mixin.py:115} INFO - [2024-05-10 11:38:21,928] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:38:21,983] {logging_mixin.py:115} INFO - [2024-05-10 11:38:21,983] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:38:21,995] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.204 seconds
+[2024-05-10 11:38:52,221] {processor.py:153} INFO - Started process (PID=4632) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:38:52,222] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:38:52,223] {logging_mixin.py:115} INFO - [2024-05-10 11:38:52,223] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:38:52,242] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:38:52,311] {logging_mixin.py:115} INFO - [2024-05-10 11:38:52,311] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:38:52,341] {logging_mixin.py:115} INFO - [2024-05-10 11:38:52,341] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:38:52,351] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.140 seconds
+[2024-05-10 11:39:22,586] {processor.py:153} INFO - Started process (PID=4643) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:39:22,588] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:39:22,589] {logging_mixin.py:115} INFO - [2024-05-10 11:39:22,589] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:39:22,619] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:39:22,687] {logging_mixin.py:115} INFO - [2024-05-10 11:39:22,687] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:39:22,718] {logging_mixin.py:115} INFO - [2024-05-10 11:39:22,718] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:39:22,728] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.151 seconds
+[2024-05-10 11:39:52,964] {processor.py:153} INFO - Started process (PID=4654) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:39:52,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:39:52,966] {logging_mixin.py:115} INFO - [2024-05-10 11:39:52,966] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:39:52,985] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:39:53,049] {logging_mixin.py:115} INFO - [2024-05-10 11:39:53,049] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:39:53,083] {logging_mixin.py:115} INFO - [2024-05-10 11:39:53,083] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:39:53,093] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.142 seconds
+[2024-05-10 11:40:23,282] {processor.py:153} INFO - Started process (PID=4665) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:40:23,284] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:40:23,285] {logging_mixin.py:115} INFO - [2024-05-10 11:40:23,285] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:40:23,304] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:40:23,354] {logging_mixin.py:115} INFO - [2024-05-10 11:40:23,353] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:40:23,384] {logging_mixin.py:115} INFO - [2024-05-10 11:40:23,384] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:40:23,394] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.123 seconds
+[2024-05-10 11:40:53,613] {processor.py:153} INFO - Started process (PID=4676) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:40:53,614] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:40:53,615] {logging_mixin.py:115} INFO - [2024-05-10 11:40:53,615] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:40:53,661] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:40:53,716] {logging_mixin.py:115} INFO - [2024-05-10 11:40:53,716] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:40:53,767] {logging_mixin.py:115} INFO - [2024-05-10 11:40:53,767] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:40:53,777] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.174 seconds
+[2024-05-10 11:41:23,989] {processor.py:153} INFO - Started process (PID=4687) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:41:23,991] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:41:23,992] {logging_mixin.py:115} INFO - [2024-05-10 11:41:23,992] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:41:24,007] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:41:24,039] {logging_mixin.py:115} INFO - [2024-05-10 11:41:24,039] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:41:24,062] {logging_mixin.py:115} INFO - [2024-05-10 11:41:24,062] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:41:24,071] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.092 seconds
+[2024-05-10 11:41:54,284] {processor.py:153} INFO - Started process (PID=4698) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:41:54,285] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:41:54,286] {logging_mixin.py:115} INFO - [2024-05-10 11:41:54,286] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:41:54,305] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:41:54,387] {logging_mixin.py:115} INFO - [2024-05-10 11:41:54,387] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:41:54,420] {logging_mixin.py:115} INFO - [2024-05-10 11:41:54,420] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:41:54,430] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.160 seconds
+[2024-05-10 11:42:24,680] {processor.py:153} INFO - Started process (PID=4709) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:42:24,682] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:42:24,684] {logging_mixin.py:115} INFO - [2024-05-10 11:42:24,683] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:42:24,703] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:42:24,773] {logging_mixin.py:115} INFO - [2024-05-10 11:42:24,773] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:42:24,807] {logging_mixin.py:115} INFO - [2024-05-10 11:42:24,807] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:42:24,818] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.149 seconds
+[2024-05-10 11:42:55,014] {processor.py:153} INFO - Started process (PID=4720) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:42:55,015] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:42:55,016] {logging_mixin.py:115} INFO - [2024-05-10 11:42:55,016] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:42:55,025] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:42:55,052] {logging_mixin.py:115} INFO - [2024-05-10 11:42:55,052] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:42:55,071] {logging_mixin.py:115} INFO - [2024-05-10 11:42:55,070] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:42:55,078] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.069 seconds
+[2024-05-10 11:43:43,358] {processor.py:153} INFO - Started process (PID=4731) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:43:43,360] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:43:43,363] {logging_mixin.py:115} INFO - [2024-05-10 11:43:43,363] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:43:43,548] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:43:44,093] {logging_mixin.py:115} INFO - [2024-05-10 11:43:44,093] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:43:44,150] {logging_mixin.py:115} INFO - [2024-05-10 11:43:44,150] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:43:44,173] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.855 seconds
+[2024-05-10 11:44:14,368] {processor.py:153} INFO - Started process (PID=4743) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:44:14,369] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:44:14,371] {logging_mixin.py:115} INFO - [2024-05-10 11:44:14,371] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:44:14,390] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:44:14,461] {logging_mixin.py:115} INFO - [2024-05-10 11:44:14,461] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:44:14,494] {logging_mixin.py:115} INFO - [2024-05-10 11:44:14,494] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:44:14,505] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.167 seconds
+[2024-05-10 11:44:44,601] {processor.py:153} INFO - Started process (PID=4754) to work on /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:44:44,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/CheckWebRunning.py for tasks to queue
+[2024-05-10 11:44:44,603] {logging_mixin.py:115} INFO - [2024-05-10 11:44:44,603] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:44:44,621] {processor.py:651} INFO - DAG(s) dict_keys(['dsde_webcheck']) retrieved from /opt/airflow/dags/CheckWebRunning.py
+[2024-05-10 11:44:44,695] {logging_mixin.py:115} INFO - [2024-05-10 11:44:44,695] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-10 11:44:44,737] {logging_mixin.py:115} INFO - [2024-05-10 11:44:44,737] {dag.py:2919} INFO - Setting next_dagrun for dsde_webcheck to 2024-05-09T00:00:00+00:00, run_after=2024-05-10T00:00:00+00:00
+[2024-05-10 11:44:44,748] {processor.py:161} INFO - Processing /opt/airflow/dags/CheckWebRunning.py took 0.170 seconds
