@@ -1,50 +1,43 @@
-from pyspark.sql.functions import collect_list,  explode_outer,col
-import networkx as nx
-import matplotlib.pyplot as plt
+from pyspark.sql.functions import col
 from spark import get_network_graph_data
+import pandas as pd
+import math
 
 # Example DataFrame
 
+df1 = get_network_graph_data() 
+df2 = get_network_graph_data()
 
-df = get_network_graph_data() #title, affilname
-# df.show()# df.show()
-# df.write.csv("network_graph")
+df2 = df2.withColumnRenamed("affilname", "targetAffilname")
+# df2.show()
+joined_df = df1.join(df2, "Title")
 
-joined_df = df.alias("df1").join(df.alias("df2"), "Title")
 # Filter out the rows where the affiliation names are the same
-filtered_df = joined_df.filter(col("df1.affilname") != col("df2.affilname"))
+filtered_df = joined_df.filter(col("affilname") != col("targetAffilname"))
 
 # Select the necessary columnss
-edge_df = filtered_df.select("df1.affilname", "df2.affilname")
+edge_df = filtered_df.select("affilname", "targetAffilname")
+edge_df = edge_df.withColumnRenamed("affilname",'Source')
+edge_df = edge_df.withColumnRenamed("targetAffilname",'Target')
 
-df = df.withColumnRenamed("affilname", "Source").withColumnRenamed("affilname", "Target")
+edge_df = edge_df.distinct()
 
-edge_df.show()
+edge_df.sort('Source').show()
 
-
+# edge_df.explain()
+# edge_df.toDF('Source','Target').show()
 # Write the resulting DataFrame to a CSV file
-# edge_df.write.csv("affiliation_edges.csv", header=True)
+# edge_df.toJSON().first()
+# result_df = edge_df.toPandas()
+# result_df.head(10)
+# result_df.to_csv('file_name.csv')
 
 
 
+edge_df.write.option("header", True).option("encoding", "ISO-8859-1").mode("overwrite").csv("result")
 
-# grouped = df.groupBy('title').agg(collect_list('affilname').alias('affiliations'))
-# grouped = grouped.select('affiliations')
-# grouped.head(1)
-# # Add nodes and edges
-# pairs = grouped.select('affiliations').withColumn('pair', explode_outer('affiliations')) \
-#     .select('pair', 'affiliations').withColumn('affiliation', explode_outer('affiliations')) \
-#     .where('pair != affiliation').groupBy('pair', 'affiliation').count()
-# print('done')
 
-# # Create graph
-# edges = [(row['pair'], row['affiliation']) for row in pairs.collect()]
-# G = nx.Graph(edges)
 
-# # Draw the graph
-# pos = nx.spring_layout(G)  # Positions for all nodes
-# nx.draw(G, pos, with_labels=True, node_size=700, node_color="skyblue", font_size=10, font_weight="bold")
-# plt.title("Affiliation Graph")
-# plt.show()
+# edge_df.to_excel("graph.xlsx", sheet_name='sheet')
+# edge_df.write.csv("edges2", header=True,sep=',')
 
-# print('done')

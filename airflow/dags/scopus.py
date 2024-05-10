@@ -5,7 +5,7 @@ import json
 import csv
 import os
 
-SCOPUSPOINTER = "scopusPointer1.csv"
+SCOPUSPOINTER = "scopusPointer2.csv"
 
 def start_kafka_producer():
     producer = KafkaProducer(bootstrap_servers='kafka:9092')

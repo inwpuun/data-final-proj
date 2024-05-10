@@ -6,7 +6,7 @@ import json
 kafka_broker = 'localhost:9092'
 
 consumer = KafkaConsumer(
-    'star',
+    'sample',
     bootstrap_servers=[kafka_broker],
     enable_auto_commit=True,
     value_deserializer=lambda x: x.decode('utf-8'))
@@ -16,11 +16,11 @@ print('Running Consumer')
 csv_file_path = 'scopus_data.csv'
 field_names = ["Title", "Affiliation", "Subject", "Year", "Source_Id", "Citedby_Count"]
 
-with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
+with open(csv_file_path, 'a', newline='', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=field_names, delimiter=';')
     writer.writeheader()
     for message in consumer:
-        print(message.offset, type(message.value))
+        print(message.value)
         if message.value != 'null' :
             writer.writerow(json.loads(message.value))
     

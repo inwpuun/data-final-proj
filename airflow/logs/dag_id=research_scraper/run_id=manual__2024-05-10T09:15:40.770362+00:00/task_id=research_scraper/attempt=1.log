@@ -1,0 +1,204 @@
+[2024-05-10 09:15:50,941] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: research_scraper.research_scraper manual__2024-05-10T09:15:40.770362+00:00 [queued]>
+[2024-05-10 09:15:50,985] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: research_scraper.research_scraper manual__2024-05-10T09:15:40.770362+00:00 [queued]>
+[2024-05-10 09:15:50,986] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-10 09:15:50,987] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-05-10 09:15:50,987] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-05-10 09:15:51,166] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): research_scraper> on 2024-05-10 09:15:40.770362+00:00
+[2024-05-10 09:15:51,303] {standard_task_runner.py:52} INFO - Started process 579 to run task
+[2024-05-10 09:15:51,370] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'research_scraper', 'research_scraper', 'manual__2024-05-10T09:15:40.770362+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/ResearchScraper.py', '--cfg-path', '/tmp/tmp9obul9du', '--error-file', '/tmp/tmpjpy5lo_s']
+[2024-05-10 09:15:51,376] {standard_task_runner.py:80} INFO - Job 10: Subtask research_scraper
+[2024-05-10 09:15:52,223] {task_command.py:369} INFO - Running <TaskInstance: research_scraper.research_scraper manual__2024-05-10T09:15:40.770362+00:00 [running]> on host 6ebf4711d80c
+[2024-05-10 09:15:53,437] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=research_scraper
+AIRFLOW_CTX_TASK_ID=research_scraper
+AIRFLOW_CTX_EXECUTION_DATE=2024-05-10T09:15:40.770362+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-05-10T09:15:40.770362+00:00
+[2024-05-10 09:15:53,537] {conn.py:381} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('192.168.207.5', 9092)]>: connecting to kafka:9092 [('192.168.207.5', 9092) IPv4]
+[2024-05-10 09:15:53,550] {conn.py:1205} INFO - Probing node bootstrap-0 broker version
+[2024-05-10 09:15:53,571] {conn.py:410} INFO - <BrokerConnection node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('192.168.207.5', 9092)]>: Connection complete.
+[2024-05-10 09:15:53,741] {conn.py:1267} INFO - Broker version identified as 2.5.0
+[2024-05-10 09:15:53,742] {conn.py:1269} INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+[2024-05-10 09:15:53,769] {logging_mixin.py:115} INFO - isExist False
+[2024-05-10 09:15:53,781] {logging_mixin.py:115} INFO - year 2018 subject GENE
+[2024-05-10 09:15:55,050] {logging_mixin.py:115} INFO - year 2018 subject AGRI
+[2024-05-10 09:15:55,568] {logging_mixin.py:115} INFO - year 2018 subject ARTS
+[2024-05-10 09:15:55,967] {logging_mixin.py:115} INFO - year 2018 subject BIOC
+[2024-05-10 09:15:56,370] {logging_mixin.py:115} INFO - year 2018 subject BUSI
+[2024-05-10 09:15:56,756] {logging_mixin.py:115} INFO - year 2018 subject CENG
+[2024-05-10 09:15:57,189] {logging_mixin.py:115} INFO - year 2018 subject CHEM
+[2024-05-10 09:15:57,649] {logging_mixin.py:115} INFO - year 2018 subject COMP
+[2024-05-10 09:15:58,101] {logging_mixin.py:115} INFO - year 2018 subject DECI
+[2024-05-10 09:15:58,517] {logging_mixin.py:115} INFO - year 2018 subject EART
+[2024-05-10 09:15:59,051] {logging_mixin.py:115} INFO - year 2018 subject ECON
+[2024-05-10 09:15:59,569] {logging_mixin.py:115} INFO - year 2018 subject ENER
+[2024-05-10 09:16:00,583] {logging_mixin.py:115} INFO - year 2018 subject ENGI
+[2024-05-10 09:16:01,268] {logging_mixin.py:115} INFO - year 2018 subject ENVI
+[2024-05-10 09:16:01,774] {logging_mixin.py:115} INFO - year 2018 subject IMMU
+[2024-05-10 09:16:02,440] {logging_mixin.py:115} INFO - year 2018 subject MATE
+[2024-05-10 09:16:02,907] {logging_mixin.py:115} INFO - year 2018 subject MATH
+[2024-05-10 09:16:03,448] {logging_mixin.py:115} INFO - year 2018 subject MEDI
+[2024-05-10 09:16:03,874] {logging_mixin.py:115} INFO - year 2018 subject NEUR
+[2024-05-10 09:16:04,287] {logging_mixin.py:115} INFO - year 2018 subject NURS
+[2024-05-10 09:16:04,719] {logging_mixin.py:115} INFO - year 2018 subject PHAR
+[2024-05-10 09:16:05,146] {logging_mixin.py:115} INFO - year 2018 subject PHYS
+[2024-05-10 09:16:05,615] {logging_mixin.py:115} INFO - year 2018 subject PSYC
+[2024-05-10 09:16:06,069] {logging_mixin.py:115} INFO - year 2018 subject SOCI
+[2024-05-10 09:16:06,526] {logging_mixin.py:115} INFO - year 2018 subject VETE
+[2024-05-10 09:16:06,966] {logging_mixin.py:115} INFO - year 2018 subject DENT
+[2024-05-10 09:16:07,426] {logging_mixin.py:115} INFO - year 2018 subject HEAL
+[2024-05-10 09:16:07,794] {logging_mixin.py:115} INFO - year 2019 subject GENE
+[2024-05-10 09:16:08,219] {logging_mixin.py:115} INFO - year 2019 subject AGRI
+[2024-05-10 09:16:08,642] {logging_mixin.py:115} INFO - year 2019 subject ARTS
+[2024-05-10 09:16:09,101] {logging_mixin.py:115} INFO - year 2019 subject BIOC
+[2024-05-10 09:16:09,483] {logging_mixin.py:115} INFO - year 2019 subject BUSI
+[2024-05-10 09:16:09,882] {logging_mixin.py:115} INFO - year 2019 subject CENG
+[2024-05-10 09:16:10,310] {logging_mixin.py:115} INFO - year 2019 subject CHEM
+[2024-05-10 09:16:10,699] {logging_mixin.py:115} INFO - year 2019 subject COMP
+[2024-05-10 09:16:11,118] {logging_mixin.py:115} INFO - year 2019 subject DECI
+[2024-05-10 09:16:11,519] {logging_mixin.py:115} INFO - year 2019 subject EART
+[2024-05-10 09:16:11,899] {logging_mixin.py:115} INFO - year 2019 subject ECON
+[2024-05-10 09:16:12,348] {logging_mixin.py:115} INFO - year 2019 subject ENER
+[2024-05-10 09:16:12,715] {logging_mixin.py:115} INFO - year 2019 subject ENGI
+[2024-05-10 09:16:13,147] {logging_mixin.py:115} INFO - year 2019 subject ENVI
+[2024-05-10 09:16:13,530] {logging_mixin.py:115} INFO - year 2019 subject IMMU
+[2024-05-10 09:16:13,942] {logging_mixin.py:115} INFO - year 2019 subject MATE
+[2024-05-10 09:16:14,310] {logging_mixin.py:115} INFO - year 2019 subject MATH
+[2024-05-10 09:16:14,687] {logging_mixin.py:115} INFO - year 2019 subject MEDI
+[2024-05-10 09:16:15,157] {logging_mixin.py:115} INFO - year 2019 subject NEUR
+[2024-05-10 09:16:15,559] {logging_mixin.py:115} INFO - year 2019 subject NURS
+[2024-05-10 09:16:15,937] {logging_mixin.py:115} INFO - year 2019 subject PHAR
+[2024-05-10 09:16:16,308] {logging_mixin.py:115} INFO - year 2019 subject PHYS
+[2024-05-10 09:16:16,728] {logging_mixin.py:115} INFO - year 2019 subject PSYC
+[2024-05-10 09:16:17,130] {logging_mixin.py:115} INFO - year 2019 subject SOCI
+[2024-05-10 09:16:17,574] {logging_mixin.py:115} INFO - year 2019 subject VETE
+[2024-05-10 09:16:17,942] {logging_mixin.py:115} INFO - year 2019 subject DENT
+[2024-05-10 09:16:18,347] {logging_mixin.py:115} INFO - year 2019 subject HEAL
+[2024-05-10 09:16:18,732] {logging_mixin.py:115} INFO - year 2020 subject GENE
+[2024-05-10 09:16:19,149] {logging_mixin.py:115} INFO - year 2020 subject AGRI
+[2024-05-10 09:16:19,522] {logging_mixin.py:115} INFO - year 2020 subject ARTS
+[2024-05-10 09:16:19,937] {logging_mixin.py:115} INFO - year 2020 subject BIOC
+[2024-05-10 09:16:20,400] {logging_mixin.py:115} INFO - year 2020 subject BUSI
+[2024-05-10 09:16:20,800] {logging_mixin.py:115} INFO - year 2020 subject CENG
+[2024-05-10 09:16:21,454] {logging_mixin.py:115} INFO - year 2020 subject CHEM
+[2024-05-10 09:16:21,977] {logging_mixin.py:115} INFO - year 2020 subject COMP
+[2024-05-10 09:16:23,351] {logging_mixin.py:115} INFO - year 2020 subject DECI
+[2024-05-10 09:16:24,711] {logging_mixin.py:115} INFO - year 2020 subject EART
+[2024-05-10 09:16:26,082] {logging_mixin.py:115} INFO - year 2020 subject ECON
+[2024-05-10 09:16:27,041] {logging_mixin.py:115} INFO - year 2020 subject ENER
+[2024-05-10 09:16:27,762] {logging_mixin.py:115} INFO - year 2020 subject ENGI
+[2024-05-10 09:16:28,256] {logging_mixin.py:115} INFO - year 2020 subject ENVI
+[2024-05-10 09:16:28,751] {logging_mixin.py:115} INFO - year 2020 subject IMMU
+[2024-05-10 09:16:29,248] {logging_mixin.py:115} INFO - year 2020 subject MATE
+[2024-05-10 09:16:29,674] {logging_mixin.py:115} INFO - year 2020 subject MATH
+[2024-05-10 09:16:30,183] {logging_mixin.py:115} INFO - year 2020 subject MEDI
+[2024-05-10 09:16:30,712] {logging_mixin.py:115} INFO - year 2020 subject NEUR
+[2024-05-10 09:16:32,226] {logging_mixin.py:115} INFO - year 2020 subject NURS
+[2024-05-10 09:16:32,675] {logging_mixin.py:115} INFO - year 2020 subject PHAR
+[2024-05-10 09:16:33,169] {logging_mixin.py:115} INFO - year 2020 subject PHYS
+[2024-05-10 09:16:33,540] {logging_mixin.py:115} INFO - year 2020 subject PSYC
+[2024-05-10 09:16:34,019] {logging_mixin.py:115} INFO - year 2020 subject SOCI
+[2024-05-10 09:16:34,529] {logging_mixin.py:115} INFO - year 2020 subject VETE
+[2024-05-10 09:16:35,020] {logging_mixin.py:115} INFO - year 2020 subject DENT
+[2024-05-10 09:16:35,477] {logging_mixin.py:115} INFO - year 2020 subject HEAL
+[2024-05-10 09:16:36,176] {logging_mixin.py:115} INFO - year 2021 subject GENE
+[2024-05-10 09:16:36,814] {logging_mixin.py:115} INFO - year 2021 subject AGRI
+[2024-05-10 09:16:37,344] {logging_mixin.py:115} INFO - year 2021 subject ARTS
+[2024-05-10 09:16:37,953] {logging_mixin.py:115} INFO - year 2021 subject BIOC
+[2024-05-10 09:16:38,419] {logging_mixin.py:115} INFO - year 2021 subject BUSI
+[2024-05-10 09:16:38,936] {logging_mixin.py:115} INFO - year 2021 subject CENG
+[2024-05-10 09:16:39,419] {logging_mixin.py:115} INFO - year 2021 subject CHEM
+[2024-05-10 09:16:39,830] {logging_mixin.py:115} INFO - year 2021 subject COMP
+[2024-05-10 09:16:40,315] {logging_mixin.py:115} INFO - year 2021 subject DECI
+[2024-05-10 09:16:40,826] {logging_mixin.py:115} INFO - year 2021 subject EART
+[2024-05-10 09:16:41,368] {logging_mixin.py:115} INFO - year 2021 subject ECON
+[2024-05-10 09:16:41,726] {logging_mixin.py:115} INFO - year 2021 subject ENER
+[2024-05-10 09:16:42,125] {logging_mixin.py:115} INFO - year 2021 subject ENGI
+[2024-05-10 09:16:42,609] {logging_mixin.py:115} INFO - year 2021 subject ENVI
+[2024-05-10 09:16:43,290] {logging_mixin.py:115} INFO - year 2021 subject IMMU
+[2024-05-10 09:16:43,714] {logging_mixin.py:115} INFO - year 2021 subject MATE
+[2024-05-10 09:16:44,160] {logging_mixin.py:115} INFO - year 2021 subject MATH
+[2024-05-10 09:16:44,541] {logging_mixin.py:115} INFO - year 2021 subject MEDI
+[2024-05-10 09:16:45,022] {logging_mixin.py:115} INFO - year 2021 subject NEUR
+[2024-05-10 09:16:45,396] {logging_mixin.py:115} INFO - year 2021 subject NURS
+[2024-05-10 09:16:45,798] {logging_mixin.py:115} INFO - year 2021 subject PHAR
+[2024-05-10 09:16:46,263] {logging_mixin.py:115} INFO - year 2021 subject PHYS
+[2024-05-10 09:16:46,782] {logging_mixin.py:115} INFO - year 2021 subject PSYC
+[2024-05-10 09:16:47,347] {logging_mixin.py:115} INFO - year 2021 subject SOCI
+[2024-05-10 09:16:47,910] {logging_mixin.py:115} INFO - year 2021 subject VETE
+[2024-05-10 09:16:48,546] {logging_mixin.py:115} INFO - year 2021 subject DENT
+[2024-05-10 09:16:49,071] {logging_mixin.py:115} INFO - year 2021 subject HEAL
+[2024-05-10 09:16:49,493] {logging_mixin.py:115} INFO - year 2022 subject GENE
+[2024-05-10 09:16:49,949] {logging_mixin.py:115} INFO - year 2022 subject AGRI
+[2024-05-10 09:16:50,529] {logging_mixin.py:115} INFO - year 2022 subject ARTS
+[2024-05-10 09:16:51,003] {logging_mixin.py:115} INFO - year 2022 subject BIOC
+[2024-05-10 09:16:51,563] {logging_mixin.py:115} INFO - year 2022 subject BUSI
+[2024-05-10 09:16:52,117] {logging_mixin.py:115} INFO - year 2022 subject CENG
+[2024-05-10 09:16:52,577] {logging_mixin.py:115} INFO - year 2022 subject CHEM
+[2024-05-10 09:16:53,063] {logging_mixin.py:115} INFO - year 2022 subject COMP
+[2024-05-10 09:16:53,579] {logging_mixin.py:115} INFO - year 2022 subject DECI
+[2024-05-10 09:16:53,970] {logging_mixin.py:115} INFO - year 2022 subject EART
+[2024-05-10 09:16:54,522] {logging_mixin.py:115} INFO - year 2022 subject ECON
+[2024-05-10 09:16:55,013] {logging_mixin.py:115} INFO - year 2022 subject ENER
+[2024-05-10 09:16:55,526] {logging_mixin.py:115} INFO - year 2022 subject ENGI
+[2024-05-10 09:16:56,103] {logging_mixin.py:115} INFO - year 2022 subject ENVI
+[2024-05-10 09:16:56,610] {logging_mixin.py:115} INFO - year 2022 subject IMMU
+[2024-05-10 09:16:57,181] {logging_mixin.py:115} INFO - year 2022 subject MATE
+[2024-05-10 09:16:57,980] {logging_mixin.py:115} INFO - year 2022 subject MATH
+[2024-05-10 09:16:58,499] {logging_mixin.py:115} INFO - year 2022 subject MEDI
+[2024-05-10 09:16:58,887] {logging_mixin.py:115} INFO - year 2022 subject NEUR
+[2024-05-10 09:16:59,560] {logging_mixin.py:115} INFO - year 2022 subject NURS
+[2024-05-10 09:16:59,941] {logging_mixin.py:115} INFO - year 2022 subject PHAR
+[2024-05-10 09:17:00,614] {logging_mixin.py:115} INFO - year 2022 subject PHYS
+[2024-05-10 09:17:01,176] {logging_mixin.py:115} INFO - year 2022 subject PSYC
+[2024-05-10 09:17:01,989] {logging_mixin.py:115} INFO - year 2022 subject SOCI
+[2024-05-10 09:17:02,631] {logging_mixin.py:115} INFO - year 2022 subject VETE
+[2024-05-10 09:17:03,246] {logging_mixin.py:115} INFO - year 2022 subject DENT
+[2024-05-10 09:17:03,780] {logging_mixin.py:115} INFO - year 2022 subject HEAL
+[2024-05-10 09:17:04,288] {logging_mixin.py:115} INFO - year 2023 subject GENE
+[2024-05-10 09:17:04,806] {logging_mixin.py:115} INFO - year 2023 subject AGRI
+[2024-05-10 09:17:05,345] {logging_mixin.py:115} INFO - year 2023 subject ARTS
+[2024-05-10 09:17:05,907] {logging_mixin.py:115} INFO - year 2023 subject BIOC
+[2024-05-10 09:17:06,387] {logging_mixin.py:115} INFO - year 2023 subject BUSI
+[2024-05-10 09:17:06,880] {logging_mixin.py:115} INFO - year 2023 subject CENG
+[2024-05-10 09:17:07,408] {logging_mixin.py:115} INFO - year 2023 subject CHEM
+[2024-05-10 09:17:07,799] {logging_mixin.py:115} INFO - year 2023 subject COMP
+[2024-05-10 09:17:08,464] {logging_mixin.py:115} INFO - year 2023 subject DECI
+[2024-05-10 09:17:09,015] {logging_mixin.py:115} INFO - year 2023 subject EART
+[2024-05-10 09:17:09,508] {logging_mixin.py:115} INFO - year 2023 subject ECON
+[2024-05-10 09:17:10,030] {logging_mixin.py:115} INFO - year 2023 subject ENER
+[2024-05-10 09:17:10,553] {logging_mixin.py:115} INFO - year 2023 subject ENGI
+[2024-05-10 09:17:10,944] {logging_mixin.py:115} INFO - year 2023 subject ENVI
+[2024-05-10 09:17:11,475] {logging_mixin.py:115} INFO - year 2023 subject IMMU
+[2024-05-10 09:17:11,944] {logging_mixin.py:115} INFO - year 2023 subject MATE
+[2024-05-10 09:17:12,455] {logging_mixin.py:115} INFO - year 2023 subject MATH
+[2024-05-10 09:17:12,976] {logging_mixin.py:115} INFO - year 2023 subject MEDI
+[2024-05-10 09:17:13,366] {logging_mixin.py:115} INFO - year 2023 subject NEUR
+[2024-05-10 09:17:13,834] {logging_mixin.py:115} INFO - year 2023 subject NURS
+[2024-05-10 09:17:14,255] {logging_mixin.py:115} INFO - year 2023 subject PHAR
+[2024-05-10 09:17:14,744] {logging_mixin.py:115} INFO - year 2023 subject PHYS
+[2024-05-10 09:17:15,268] {logging_mixin.py:115} INFO - year 2023 subject PSYC
+[2024-05-10 09:17:15,660] {logging_mixin.py:115} INFO - year 2023 subject SOCI
+[2024-05-10 09:17:16,173] {logging_mixin.py:115} INFO - year 2023 subject VETE
+[2024-05-10 09:17:16,648] {logging_mixin.py:115} INFO - year 2023 subject DENT
+[2024-05-10 09:17:17,006] {logging_mixin.py:115} INFO - year 2023 subject HEAL
+[2024-05-10 09:17:17,414] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ResearchScraper.py", line 30, in call_scopus
+    get_scopus_data()
+  File "/opt/airflow/dags/scopus.py", line 99, in get_scopus_data
+    write_start_pointer(start_pointer)
+  File "/opt/airflow/dags/scopus.py", line 34, in write_start_pointer
+    csv_writer.writerows([pointer[0], pointer[1], result[pointer]])
+_csv.Error: iterable expected, not int
+[2024-05-10 09:17:17,556] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=research_scraper, task_id=research_scraper, execution_date=20240510T091540, start_date=20240510T091550, end_date=20240510T091717
+[2024-05-10 09:17:17,656] {standard_task_runner.py:97} ERROR - Failed to execute job 10 for task research_scraper (iterable expected, not int; 579)
+[2024-05-10 09:17:17,730] {local_task_job.py:156} INFO - Task exited with return code 1
+[2024-05-10 09:17:17,896] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

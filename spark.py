@@ -1,25 +1,25 @@
 import findspark
 import streamlit as st
 from geopy.geocoders import Nominatim
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import explode, count
+from pyspark.sql.types import ArrayType, StringType, StructType, StructField
+from pyspark.sql.functions import col, from_json
+
 findspark.init()
 
 spark_url = 'local'
 
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import explode, count
 
 spark = SparkSession.builder\
         .master(spark_url)\
         .appName('Spark SQL')\
         .getOrCreate()
 
-from pyspark.sql.functions import explode, count
-path = "/out/scopus_data.csv"
+path = "./out/scopus_data1.csv"
 df = spark.read.option("delimiter", ";").option("header", True).csv(path)
 df = df.dropDuplicates()
 
-from pyspark.sql.types import ArrayType, StringType, StructType, StructField
-from pyspark.sql.functions import col, from_json
 
 affilSchema = ArrayType(StructType([
     StructField("affilname", StringType()),
@@ -43,6 +43,9 @@ resultDF = explodedDF.select(
     "source_id",
     "citedby_count"
 )
+
+def get_number_of_row() :
+    return df.count()
 
 
 def get_all_affil():
@@ -114,13 +117,16 @@ def get_country_count_radius_lat_lon():
     geolocator = Nominatim(user_agent="MyApp")
     def get_lat_long(country):
         location = geolocator.geocode(country)
+        if(country == "Thailand"):
+            return 13.736717, 100.523186
         if location:
             return location.latitude, location.longitude
         else:
             return None, None
     mapDf['lat'], mapDf['lon'] = zip(*mapDf['affiliation_country'].apply(get_lat_long))
     max_count = mapDf['count'].max()
-    mapDf['radius'] = mapDf['count'] / max_count 
+    lower_bound_threshold = 500
+    mapDf['radius'] = mapDf['count'].apply(lambda x: x / max_count if x > lower_bound_threshold else lower_bound_threshold / max_count)
     return mapDf
 
 def get_network_graph_data():
